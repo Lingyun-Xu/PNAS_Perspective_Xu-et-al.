@@ -1,0 +1,64 @@
+panel	unit	group	value
+2a	UniProtKB entries, 2 July 2026	Bacteria	74117227
+2a	UniProtKB entries, 2 July 2026	Fungi	17581490
+2a	UniProtKB entries, 2 July 2026	Viridiplantae	17344395
+2a	UniProtKB entries, 2 July 2026	Other Vertebrata	14959291
+2a	UniProtKB entries, 2 July 2026	Other	12374573
+2a	UniProtKB entries, 2 July 2026	Mammalia	5844956
+2a	UniProtKB entries, 2 July 2026	Insecta	4715693
+2a	UniProtKB entries, 2 July 2026	Archaea	1767834
+2a	UniProtKB entries, 2 July 2026	Viruses	1104680
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Bacteria	51715
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Homo	48574
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Viruses	15825
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Other Mammalia	15703
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	hand-assigned, mapping not saved	9451
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Others	8199
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Viridiplantae	8000
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Fungi	6159
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Archaea	4651
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Synthetic	2628
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Other Vertebrata	2512
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Insecta	2198
+2b	PDB unique sequences with organism, automatic + hand-curated file (unassigned rows kept as NA)	Nematoda	707
+2c	thermostability measurements (rows)	Bacteria	306035
+2c	thermostability measurements (rows)	Synthetic	291862
+2c	thermostability measurements (rows)	Homo	209100
+2c	thermostability measurements (rows)	Other Vertebrata	99147
+2c	thermostability measurements (rows)	Archaea	56972
+2c	thermostability measurements (rows)	Viridiplantae	49073
+2c	thermostability measurements (rows)	Other Mammalia	36170
+2c	thermostability measurements (rows)	Others	30452
+2c	thermostability measurements (rows)	Viruses	29609
+2c	thermostability measurements (rows)	Fungi	24953
+2c	thermostability measurements (rows)	Insecta	9028
+2d	MaveDB score sets (August 2024 export)	Homo	1090
+2d	MaveDB score sets (August 2024 export)	Synthetic	611
+2d	MaveDB score sets (August 2024 export)	Bacteria	432
+2d	MaveDB score sets (August 2024 export)	Other Vertebrata	180
+2d	MaveDB score sets (August 2024 export)	Viruses	71
+2d	MaveDB score sets (August 2024 export)	Fungi	60
+2d	MaveDB score sets (August 2024 export)	Archaea	48
+2d	MaveDB score sets (August 2024 export)	Other Mammalia	42
+2d	MaveDB score sets (August 2024 export)	Others	36
+2d	MaveDB score sets (August 2024 export)	Viridiplantae	18
+2e	mdCATH PDB entities (rows)	Bacteria	2558
+2e	mdCATH PDB entities (rows)	Homo	1135
+2e	mdCATH PDB entities (rows)	Fungi	613
+2e	mdCATH PDB entities (rows)	Other Mammalia	612
+2e	mdCATH PDB entities (rows)	Archaea	379
+2e	mdCATH PDB entities (rows)	Viruses	358
+2e	mdCATH PDB entities (rows)	Viridiplantae	248
+2e	mdCATH PDB entities (rows)	Insecta	100
+2e	mdCATH PDB entities (rows)	Other Vertebrata	100
+2e	mdCATH PDB entities (rows)	Others (incl. Nematoda 36)	258
+2b	percentage printed on the published pie (of 176,322 sequences)	Bacteria	29.6
+2b	percentage printed on the published pie (of 176,322 sequences)	H. sapiens	27.6
+2b	percentage printed on the published pie (of 176,322 sequences)	Other Mammalia	10.3
+2b	percentage printed on the published pie (of 176,322 sequences)	Viruses	9.1
+2b	percentage printed on the published pie (of 176,322 sequences)	Others	6.9
+2b	percentage printed on the published pie (of 176,322 sequences)	Fungi	6.4
+2b	percentage printed on the published pie (of 176,322 sequences)	Viridiplantae	4.6
+2b	percentage printed on the published pie (of 176,322 sequences)	Archaea	2.7
+2b	percentage printed on the published pie (of 176,322 sequences)	Other Vertebrata	1.6
+2b	percentage printed on the published pie (of 176,322 sequences)	Insecta	1.3

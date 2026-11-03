@@ -1,0 +1,55 @@
+measure	subset	n	rho	ci_low	ci_high	p	statistic	p_holm
+global pLDDT vs d_template_min (no own PDB structure)	Archaea	17953.0	-0.20032840453402448	-0.2151658697727808	-0.18539847410386354	6.518731158733592e-162		
+global pLDDT vs d_template_min (no own PDB structure)	Bacteria	356264.0	-0.33572638918489345	-0.3388112340764047	-0.3326343260311246	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	Protist	48167.0	-0.6092606805735417	-0.6151790706912081	-0.6032736252876559	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	Fungi	89711.0	-0.5804322984058602	-0.5850134250823624	-0.5758141339176303	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	Animalia	147332.0	-0.5077326297627565	-0.5117389629657852	-0.5037042154506389	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	Parasitic worms	76104.0	-0.5666681099730929	-0.5717591525767636	-0.5615334277031796	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	Viridiplantae	170982.0	-0.6833138469376802	-0.6859831173497977	-0.6806261847652636	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	plant: Arabidopsis	24530.0	-0.572808353598193	-0.581653913425243	-0.5638273398868445	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	plant: soybean	52618.0	-0.6028599425318232	-0.6085941003515907	-0.5970628211646907	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	plant: rice	40029.0	-0.7214317570201378	-0.7263743544853013	-0.7164145453524536	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	plant: maize	35977.0	-0.6647778970057411	-0.6708464933204058	-0.6586202742635876	0.0		
+global pLDDT vs d_template_min (no own PDB structure)	Viridiplantae vs Archaea (Fisher z)					0.0	-76.01918758408641	0.0
+global pLDDT vs d_template_min (no own PDB structure)	Viridiplantae vs Bacteria (Fisher z)					0.0	-155.85255793146405	0.0
+global pLDDT vs d_template_min (no own PDB structure)	Viridiplantae vs Protist (Fisher z)					2.3105049760114007e-120	-23.32790065053757	2.3105049760114007e-120
+global pLDDT vs d_template_min (no own PDB structure)	Viridiplantae vs Fungi (Fisher z)					0.0	-39.40296315223417	0.0
+global pLDDT vs d_template_min (no own PDB structure)	Viridiplantae vs Animalia (Fisher z)					0.0	-73.15075451125985	0.0
+global pLDDT vs d_template_min (no own PDB structure)	Viridiplantae vs Parasitic worms (Fisher z)					0.0	-41.718655618724306	0.0
+global pLDDT vs d_template_min (no own PDB structure)	heterogeneity among plant proteomes (Cochran Q)					1.1550455907367367e-278	1286.6588060380316	
+global pLDDT vs d_nearest_asof (no own PDB structure)	Archaea	18038.0	-0.18795122605363376	-0.20283075146038482	-0.1729849249738579	4.4110552251575e-143		
+global pLDDT vs d_nearest_asof (no own PDB structure)	Bacteria	358738.0	-0.32676371547517336	-0.32985858569517484	-0.32366182145546785	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	Protist	56479.0	-0.49999063538133065	-0.5065188049908362	-0.4934051459720112	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	Fungi	98186.0	-0.40434379768199863	-0.40987530854668797	-0.39878254771475363	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	Animalia	156532.0	-0.4546831697533712	-0.4588388502571223	-0.4505075971903378	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	Parasitic worms	81156.0	-0.3870962381980303	-0.39327891456500313	-0.38087855480779137	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	Viridiplantae	182501.0	-0.5496304899035758	-0.5530155568963152	-0.5462272777858002	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	plant: Arabidopsis	26047.0	-0.4395263552974834	-0.4498541731651492	-0.4290810011772055	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	plant: soybean	55751.0	-0.4455093998055192	-0.45253449247762406	-0.43842901277613777	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	plant: rice	43495.0	-0.5108735220461823	-0.5181981829332074	-0.5034739253015572	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	plant: maize	39069.0	-0.5033614381067135	-0.5111679779055888	-0.49547185227767065	0.0		
+global pLDDT vs d_nearest_asof (no own PDB structure)	Viridiplantae vs Archaea (Fisher z)					0.0	-51.68515586862167	0.0
+global pLDDT vs d_nearest_asof (no own PDB structure)	Viridiplantae vs Bacteria (Fisher z)					0.0	-91.42782479604146	0.0
+global pLDDT vs d_nearest_asof (no own PDB structure)	Viridiplantae vs Protist (Fisher z)					3.9305929530168483e-41	-13.431925021089413	3.9305929530168483e-41
+global pLDDT vs d_nearest_asof (no own PDB structure)	Viridiplantae vs Fungi (Fisher z)					0.0	-45.055153818225584	0.0
+global pLDDT vs d_nearest_asof (no own PDB structure)	Viridiplantae vs Animalia (Fisher z)					4.204571292144297e-266	-34.85035970904032	8.409142584288594e-266
+global pLDDT vs d_nearest_asof (no own PDB structure)	Viridiplantae vs Parasitic worms (Fisher z)					0.0	-46.83669724820177	0.0
+global pLDDT vs d_nearest_asof (no own PDB structure)	heterogeneity among plant proteomes (Cochran Q)					3.792214137971492e-54	251.09545846385953	
+global pLDDT vs d_nearest_now (no own PDB structure)	Archaea	18038.0	-0.13816515268442672	-0.15330673705726966	-0.1229587051263938	1.3982329067280335e-77		
+global pLDDT vs d_nearest_now (no own PDB structure)	Bacteria	358738.0	-0.286743266116226	-0.28992364858985764	-0.28355655066317714	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	Protist	56479.0	-0.3217479284007884	-0.32956310539443623	-0.3138886627598826	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	Fungi	98186.0	-0.3563879535025933	-0.3621625346960553	-0.35058601720505433	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	Animalia	156532.0	-0.43693285265844745	-0.4411718377032968	-0.4326743707513299	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	Parasitic worms	81156.0	-0.34508498562737905	-0.35149331775533815	-0.33864431667438155	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	Viridiplantae	182501.0	-0.5239735047836067	-0.5274926138376396	-0.5204364149051137	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	plant: Arabidopsis	26047.0	-0.41440581985577973	-0.4250116389620125	-0.40368623613729226	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	plant: soybean	55751.0	-0.40938913976610275	-0.4166871893638017	-0.40203832146019114	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	plant: rice	43495.0	-0.48497919777311144	-0.49256139115155234	-0.47732338467753643	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	plant: maize	39069.0	-0.46566875306823813	-0.4738604207681001	-0.457396499881008	0.0		
+global pLDDT vs d_nearest_now (no own PDB structure)	Viridiplantae vs Archaea (Fisher z)					0.0	-53.51109644111513	0.0
+global pLDDT vs d_nearest_now (no own PDB structure)	Viridiplantae vs Bacteria (Fisher z)					0.0	-94.09744186694023	0.0
+global pLDDT vs d_nearest_now (no own PDB structure)	Viridiplantae vs Protist (Fisher z)					0.0	-48.62859010390648	0.0
+global pLDDT vs d_nearest_now (no own PDB structure)	Viridiplantae vs Fungi (Fisher z)					0.0	-49.83152242448231	0.0
+global pLDDT vs d_nearest_now (no own PDB structure)	Viridiplantae vs Animalia (Fisher z)					1.3283999297976535e-211	-31.045103064511643	1.3283999297976535e-211
+global pLDDT vs d_nearest_now (no own PDB structure)	Viridiplantae vs Parasitic worms (Fisher z)					0.0	-49.62629405824828	0.0
+global pLDDT vs d_nearest_now (no own PDB structure)	heterogeneity among plant proteomes (Cochran Q)					3.764008114532981e-54	251.1104490453653	

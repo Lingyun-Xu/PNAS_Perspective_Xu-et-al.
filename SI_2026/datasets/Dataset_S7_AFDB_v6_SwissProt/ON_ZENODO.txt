@@ -1,0 +1,1 @@
+AF2_swissprot_v6.parquet (376.1 MB, MD5 0638a7d54bd4ac6f17d221d7cb73dee8) is too large for GitHub and is in the Zenodo record https://doi.org/10.5281/zenodo.23925266 as Dataset_S7_AFDB_v6_SwissProt__AF2_swissprot_v6.parquet. Put it back in this folder under its own name.

@@ -1,0 +1,19 @@
+measure	subset	n	rho	ci_low	ci_high	p	statistic	p_holm
+pLDDT vs disordered fraction	Archaea	1773.0	-0.4296039120002101	-0.46900469659362465	-0.38849653178589083	1.5187187817916676e-80		
+pLDDT vs disordered fraction	Bacteria	52255.0	-0.5195823819174606	-0.5261862084344693	-0.5129158890633532	0.0		
+pLDDT vs disordered fraction	Protist	53231.0	-0.6346920100039712	-0.6400388865136375	-0.6292836635851812	0.0		
+pLDDT vs disordered fraction	Fungi	77109.0	-0.7378319328099682	-0.741221985463507	-0.734404243785953	0.0		
+pLDDT vs disordered fraction	Animalia	123390.0	-0.744711843975331	-0.7473346600406263	-0.7420658205682802	0.0		
+pLDDT vs disordered fraction	Parasitic worms	81203.0	-0.611940190319561	-0.6164805525493772	-0.6073591324705129	0.0		
+pLDDT vs disordered fraction	Viridiplantae	165982.0	-0.7127841028619819	-0.7152836823551055	-0.7102662857541509	0.0		
+pLDDT vs disordered fraction	plant: Arabidopsis	27402.0	-0.7008090969439689	-0.7071400996305452	-0.6943657344899788	0.0		
+pLDDT vs disordered fraction	plant: soybean	55796.0	-0.6590935347018964	-0.6640395633334165	-0.6540898268328139	0.0		
+pLDDT vs disordered fraction	plant: rice	43645.0	-0.7237123520977986	-0.728414616724613	-0.7189419108718675	0.0		
+pLDDT vs disordered fraction	plant: maize	39139.0	-0.7112074974928175	-0.7163587722140511	-0.7059786954744294	0.0		
+pLDDT vs disordered fraction	Viridiplantae vs Archaea (Fisher z)					1.228140015309073e-65	-17.11102737725249	3.684420045927219e-65
+pLDDT vs disordered fraction	Viridiplantae vs Bacteria (Fisher z)					0.0	-59.62741073714283	0.0
+pLDDT vs disordered fraction	Viridiplantae vs Protist (Fisher z)					7.606792289648621e-163	-27.19419739341655	3.0427169158594484e-162
+pLDDT vs disordered fraction	Viridiplantae vs Fungi (Fisher z)					2.4250924066192248e-30	11.447326743032027	2.4250924066192248e-30
+pLDDT vs disordered fraction	Viridiplantae vs Animalia (Fisher z)					1.3547977180462876e-65	17.105309678587037	3.684420045927219e-65
+pLDDT vs disordered fraction	Viridiplantae vs Parasitic worms (Fisher z)					0.0	-39.829025335606524	0.0
+pLDDT vs disordered fraction	heterogeneity among plant proteomes (Cochran Q)					1.7133211951748523e-83	386.6633823609008	

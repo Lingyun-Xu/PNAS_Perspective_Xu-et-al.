@@ -1,0 +1,100 @@
+Organism Name	Species	Associated Score Sets	group_listed	pie_group
+Homo sapiens	Homo Sapiens	1090	Homo	Homo
+artificial sequences	synthesis	611	Synthetic	Synthetic
+Gallus gallus	(chicken), species, birds	99	Other Vertebrata	Other Vertebrata
+Streptococcus sp. 'group G'	species, firmicutes	75	Bacteria	Bacteria
+Saccharomyces cerevisiae S288C	strain, budding yeasts	60	Fungi	Fungi
+Zoarces americanus	(ocean pout), species, bony fishes	54	Other Vertebrata	Other Vertebrata
+Escherichia coli K-12	strain, enterobacteria	37	Bacteria	Bacteria
+Geobacillus stearothermophilus	species, firmicutes	35	Bacteria	Bacteria
+Mus musculus	(house mouse), species, rodents	32	Other Mammalia	Other Mammalia
+Escherichia coli	(E. coli), species, enterobacteria	24	Bacteria	Bacteria
+Severe acute respiratory syndrome coronavirus 2	isolate, viruses	24	Viruses	Viruses
+Staphylococcus aureus	species, firmicutes	24	Bacteria	Bacteria
+Pyrococcus horikoshii OT3	strain, euryarchaeotes	18	Archaea	Archaea
+Clostridium perfringens str. 13	strain, firmicutes	18	Bacteria	Bacteria
+Bacillus subtilis subsp. subtilis str. 168	strain, firmicutes	16	Bacteria	Bacteria
+Enterococcus faecalis	species, firmicutes	15	Bacteria	Bacteria
+Finegoldia magna	species, firmicutes	15	Bacteria	Bacteria
+Zoarces elongatus	species, bony fishes	12	Other Vertebrata	Other Vertebrata
+Pseudomonas aeruginosa	species, g-proteobacteria	12	Bacteria	Bacteria
+Arabidopsis thaliana	(thale cress), species, eudicots	12	Viridiplantae	Viridiplantae
+Rickettsia rickettsii str. 'Sheila Smith'	strain, a-proteobacteria	9	Bacteria	Bacteria
+Phytophthora capsici	species, downy mildews	9	Others	Others
+Drosophila melanogaster	(fruit fly), species, flies	9	Insecta	Others
+Methanocaldococcus jannaschii DSM 2661	strain, euryarchaeotes	9	Archaea	Archaea
+Xenorhabdus stockiae	species, g-proteobacteria	9	Bacteria	Bacteria
+Enterococcus faecalis V583	strain, firmicutes	9	Bacteria	Bacteria
+Clostridium perfringens ATCC 13124	strain, firmicutes	9	Bacteria	Bacteria
+Listeria monocytogenes EGD-e	strain, firmicutes	9	Bacteria	Bacteria
+Saccharolobus solfataricus P2	strain, crenarchaeotes	9	Archaea	Archaea
+Methanothermobacter thermautotrophicus str. Delta H	strain, euryarchaeotes	9	Archaea	Archaea
+Streptococcus pneumoniae TIGR4	strain, firmicutes	6	Bacteria	Bacteria
+Aquifex aeolicus VF5	strain, aquificales	6	Bacteria	Bacteria
+Lycodichthys dearborni	(Antarctic eel pout), species, bony fishes	6	Other Vertebrata	Other Vertebrata
+Shewanella oneidensis MR-1	strain, g-proteobacteria	6	Bacteria	Bacteria
+Murine norovirus 1	isolate, viruses	6	Viruses	Viruses
+Staphylococcus aureus subsp. aureus MW2	strain, firmicutes	6	Bacteria	Bacteria
+Synechocystis sp. PCC 6803 substr. Kazusa	cyanobacteria	6	Bacteria	Bacteria
+Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	strain, enterobacteria	6	Bacteria	Bacteria
+Rhodopseudomonas palustris CGA009	strain, a-proteobacteria	6	Bacteria	Bacteria
+Rattus norvegicus	(Norway rat), species, rodents	5	Other Mammalia	Other Mammalia
+Escherichia phage Lambda	isolate, viruses	4	Viruses	Viruses
+Salmonella enterica subsp. enterica serovar Typhimurium	enterobacteria	3	Bacteria	Bacteria
+Chlorobaculum tepidum TLS	strain, green sulfur bacteria	3	Bacteria	Bacteria
+Lethocerus indicus	species, bugs	3	Insecta	Others
+Streptomyces virginiae	species, high G+C Gram-positive bacteria	3	Bacteria	Bacteria
+Murine norovirus GV/CR6/2005/USA	isolate, viruses	3	Viruses	Viruses
+Pyrococcus furiosus COM1	strain, euryarchaeotes	3	Archaea	Archaea
+Aequorea victoria	species, hydrozoans	3	Others	Others
+Geobacter metallireducens GS-15	strain, bacteria	3	Bacteria	Bacteria
+Thermus thermophilus	species, bacteria	3	Bacteria	Bacteria
+Pectobacterium atrosepticum SCRI1043	strain, g-proteobacteria	3	Bacteria	Bacteria
+Chlamydomonas reinhardtii	species, green algae	3	Viridiplantae	Viridiplantae
+Escherichia phage T7	isolate, viruses	3	Viruses	Viruses
+Xenopus laevis	(African clawed frog), species, frogs & toads	3	Other Vertebrata	Other Vertebrata
+Influenza A virus (A/Aichi/2/1968(H3N2))	viruses	3	Viruses	Viruses
+Burkholderia pseudomallei K96243	strain, b-proteobacteria	3	Bacteria	Bacteria
+Mycobacterium tuberculosis H37Rv	strain, high G+C Gram-positive bacteria	3	Bacteria	Bacteria
+Lambdavirus lambda	species, viruses	3	Viruses	Viruses
+Staphylococcus aureus subsp. aureus MRSA252	strain, firmicutes	3	Bacteria	Bacteria
+Zoarces viviparus	(viviparous blenny), species, bony fishes	3	Other Vertebrata	Other Vertebrata
+Sus scrofa	(pig), species, even-toed ungulates & whales	3	Other Mammalia	Other Mammalia
+Staphylococcus aureus subsp. aureus NCTC 8325	strain, firmicutes	3	Bacteria	Bacteria
+Lactococcus virus P2	species, viruses	3	Viruses	Viruses
+Helicobacter pylori 26695	strain, e-proteobacteria	3	Bacteria	Bacteria
+Saprolegnia monoica	species, oomycetes	3	Others	Others
+Small ruminant morbillivirus	species, viruses	3	Viruses	Viruses
+Porcine enteric sapovirus swine/Cowden/1980/US	isolate, viruses	3	Viruses	Viruses
+Phage 434	isolate, viruses	3	Viruses	Viruses
+Nostoc sp. PCC 7120 = FACHB-418	species, cyanobacteria	3	Bacteria	Bacteria
+Dictyostelium discoideum	species, cellular slime molds	3	Others	Others
+Myxococcus xanthus	species, bacteria	3	Bacteria	Bacteria
+Ruegeria pomeroyi DSS-3	strain, a-proteobacteria	3	Bacteria	Bacteria
+Lederbergvirus P22	species, viruses	3	Viruses	Viruses
+Nostoc sp. PCC 8009	species, cyanobacteria	3	Bacteria	Bacteria
+Caenorhabditis elegans	species, nematodes	3	Nematoda	Others
+Salmonella enterica subsp. enterica serovar Typhimurium str. DT2	strain, enterobacteria	3	Bacteria	Bacteria
+Xipdecavirus Xp10	species, viruses	3	Viruses	Viruses
+Thermus thermophilus HB27	strain, bacteria	3	Bacteria	Bacteria
+Acetivibrio thermocellus ATCC 27405	strain, firmicutes	3	Bacteria	Bacteria
+Synechococcus sp. PCC 7002	species, cyanobacteria	3	Bacteria	Bacteria
+Mola mola	(ocean sunfish), species, bony fishes	3	Other Vertebrata	Other Vertebrata
+Burkholderia thailandensis E264	strain, b-proteobacteria	3	Bacteria	Bacteria
+Klebsiella pneumoniae subsp. pneumoniae MGH 78578	strain, enterobacteria	3	Bacteria	Bacteria
+Bruynoghevirus LUZ24	species, viruses	3	Viruses	Viruses
+Entamoeba histolytica HM-1:IMSS	isolate, eukaryotes	3	Others	Others
+Streptococcus pyogenes	species, firmicutes	2	Bacteria	Bacteria
+Acetivibrio thermocellus	species, firmicutes	2	Bacteria	Bacteria
+Bos taurus	(cattle), species, even-toed ungulates & whales	2	Other Mammalia	Other Mammalia
+Ruminiclostridium cellulolyticum	species, firmicutes	2	Bacteria	Bacteria
+Escherichia coli BL21(DE3)	strain, enterobacteria	2	Bacteria	Bacteria
+Escherichia coli str. K-12 substr. DH10B	enterobacteria	2	Bacteria	Bacteria
+Cucurbita maxima	(winter squash), species, eudicots	1	Viridiplantae	Viridiplantae
+[Bacillus] caldolyticus	species, firmicutes	1	Bacteria	Bacteria
+Influenza A virus (A/Puerto Rico/8/1934(H1N1))	Report div not found.	1	Viruses	Viruses
+H1N1 subtype	serotype, viruses	1	Viruses	Viruses
+Atropa belladonna	(belladonna), species, eudicots	1	Viridiplantae	Viridiplantae
+Zika virus	isolate, viruses	1	Viruses	Viruses
+Hordeum vulgare	(barley), species, monocots	1	Viridiplantae	Viridiplantae
+Dengue virus 2 Thailand/16681/84	isolate, viruses	1	Viruses	Viruses

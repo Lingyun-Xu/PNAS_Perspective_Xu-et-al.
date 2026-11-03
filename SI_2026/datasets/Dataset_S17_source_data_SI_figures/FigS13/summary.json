@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "round0_min_max_abs_diff": 0.006765823345631361,
+    "round0_avg_max_rel_diff": 3.4072549997255464e-07,
+    "repro_sel3800": {
+      "rounds_identical": 38,
+      "rounds": 38,
+      "overlap": 3800,
+      "n_saved": 3800
+    },
+    "repro_sel690": {
+      "rounds_identical": 69,
+      "rounds": 69,
+      "overlap": 690,
+      "n_saved": 690
+    }
+  },
+  "overlaps": {
+    "cf3800_vs_orig3800": 3554,
+    "cf690_vs_orig690": 688,
+    "cf690_in_cf3800": 668
+  },
+  "n_eval": 175537,
+  "near_identical_lt_0.05": {
+    "base_3800": 94,
+    "real_3800": 155,
+    "ai_3800": 94,
+    "base_690": 142,
+    "ai_690": 142
+  },
+  "pdb3825_first_release": [
+    "2021-02-10",
+    "2026-09-30"
+  ],
+  "recent690_first_release": [
+    "2025-11-12",
+    "2026-09-30"
+  ]
+}

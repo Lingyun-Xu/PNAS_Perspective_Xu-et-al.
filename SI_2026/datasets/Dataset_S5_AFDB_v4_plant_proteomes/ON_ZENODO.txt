@@ -1,0 +1,1 @@
+AF2_Plants.csv (77.6 MB, MD5 e216d6a4e78b77ec6a62166c54df60c5) is too large for GitHub and is in the Zenodo record https://doi.org/10.5281/zenodo.23925266 as Dataset_S5_AFDB_v4_plant_proteomes__AF2_Plants.csv. Put it back in this folder under its own name.

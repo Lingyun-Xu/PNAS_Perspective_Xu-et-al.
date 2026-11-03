@@ -1,4 +1,4 @@
-#/home/soumajit/sda/LYX/EXTRACT_AF2_Info/extract_AF2_model_organisms/extract_AF2_48_model_organisms.py
+#/path/to/server_data/work/EXTRACT_AF2_Info/extract_AF2_model_organisms/extract_AF2_48_model_organisms.py
 #564,446 entries were extracted from 48 model organisms. Same as summarized in https://academic.oup.com/nar/article/52/D1/D368/7337620
 
 import tarfile

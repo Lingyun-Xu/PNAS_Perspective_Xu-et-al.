@@ -1,0 +1,23 @@
+model	effect	value	lo	hi
+model 1: closest template used	MSA depth (25th to 75th percentile)	5.610263351893971	5.400014064332194	5.83289909562153
+model 1: closest template used	template distance (25th to 75th percentile)	-5.643410996565037	-5.758474341346508	-5.517742260564191
+model 1: closest template used	disorder (25th to 75th percentile)	-9.273808179924092	-9.447382648372635	-9.109222497534999
+model 1: closest template used	length (25th to 75th percentile)	-6.282228586779261	-6.4117617073364235	-6.1581902365089585
+model 1: closest template used	age: eukaryotes vs all life	-0.5953498252100488	-0.7903007768485272	-0.41656511117287076
+model 1: closest template used	age: kingdom vs all life	-1.7709608494639841	-1.9230776805651673	-1.6189987202801854
+model 1: closest template used	age: family or genus vs all life	-3.1653438850578657	-3.5168563252231575	-2.79982157661064
+model 1: closest template used	age: species vs all life	-4.105851676386605	-4.485455091733067	-3.6685807806300854
+model 1: closest template used	species: rice vs Arabidopsis	-1.0434092789049365	-1.1887465691895671	-0.9104060939844211
+model 1: closest template used	species: soybean vs Arabidopsis	-1.1071694150972597	-1.2235146500814928	-1.0086933291326454
+model 1: closest template used	linear R2	0.614754215328484	0.6109000660170654	0.6179869557364128
+model 2: nearest PDB sequence at model building	MSA depth (25th to 75th percentile)	8.098292695229224	7.877535202761717	8.30350686317358
+model 2: nearest PDB sequence at model building	template distance (25th to 75th percentile)	-3.1876042103597095	-3.2581889200399976	-3.117371461609005
+model 2: nearest PDB sequence at model building	disorder (25th to 75th percentile)	-10.384434711585438	-10.555005457940922	-10.223191597458797
+model 2: nearest PDB sequence at model building	length (25th to 75th percentile)	-6.697417057198098	-6.8032331401967	-6.561738036889149
+model 2: nearest PDB sequence at model building	age: eukaryotes vs all life	-0.49030114122557417	-0.6691963047449729	-0.31597039273727356
+model 2: nearest PDB sequence at model building	age: kingdom vs all life	-1.6661766066690171	-1.8217592770839939	-1.48156696882557
+model 2: nearest PDB sequence at model building	age: family or genus vs all life	-3.217027837480665	-3.6133505741118	-2.9153307121268814
+model 2: nearest PDB sequence at model building	age: species vs all life	-4.8265273287395125	-5.198670965347896	-4.385493718279676
+model 2: nearest PDB sequence at model building	species: rice vs Arabidopsis	-0.9029903039207045	-1.0321388608086552	-0.7595284668594823
+model 2: nearest PDB sequence at model building	species: soybean vs Arabidopsis	-1.3537463832860213	-1.4851326083161183	-1.221913099108014
+model 2: nearest PDB sequence at model building	linear R2	0.6100710315422258	0.6063189074323367	0.6139060497431301

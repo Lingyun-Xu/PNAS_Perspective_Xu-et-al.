@@ -1,5 +1,5 @@
 #This file contains code for more statistics analysis of pLDDT ditributions.
-#Local file path: /home/lingyuncoding23/AF2_fasta/redo_PDB/extracted_AF2_model_organisms
+#Local file path: /path/to/home/AF2_fasta/redo_PDB/extracted_AF2_model_organisms
 import pandas as pd
 import scipy.stats as stats
 import seaborn as sns

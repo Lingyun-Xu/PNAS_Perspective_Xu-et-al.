@@ -1,0 +1,691 @@
+species,genus,db_accession,organism,tax_group7,phylostratum,rank,taxonomic_representativeness,age_bin,plddt_global,neff,frac_disordered
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1I9LQF6,Arabidopsis thaliana,Viridiplantae,Embryophyta,3.0,100.0,kingdom_only,40.5,132.5389,0.28899083
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1I9LSQ8,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,33.0,family_or_genus,38.2,1.0,0.9904762
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1I9LTT2,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,41.79,9.0393,0.9888268
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8ANE6,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,38.6,3.0,0.09166667
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8ANT8,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,29.0,1.0,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8AQG9,Arabidopsis thaliana,Viridiplantae,cellular organisms,1.0,68.0,all_life,38.21,7.0019,0.9419918
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8AR38,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,41.12,17.7641,0.97126436
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8AWW1,Arabidopsis thaliana,Viridiplantae,Possible contamination or HGT,,16.0,flagged,31.08,4.0,0.7183099
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8AWZ6,Arabidopsis thaliana,Viridiplantae,Magnoliopsida,7.0,100.0,kingdom_only,46.1,69.5264,0.46963564
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8AX67,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,32.16,10.0,0.5133333
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8B664,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,32.4,1.0,0.29268292
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8B684,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,43.81,22.6464,0.827957
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8BDT1,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,36.04,2.0,0.9948454
+Arabidopsis_thaliana_3702,Arabidopsis,A0A1P8BEL9,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,35.68,1.0,0.043062203
+Arabidopsis_thaliana_3702,Arabidopsis,F4HT07,Arabidopsis thaliana,Viridiplantae,Possible contamination or HGT,,12.0,flagged,25.7,2.0,0.11764706
+Arabidopsis_thaliana_3702,Arabidopsis,F4I0F1,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,53.2,40.1794,0.52272725
+Arabidopsis_thaliana_3702,Arabidopsis,F4I3I2,Arabidopsis thaliana,Viridiplantae,Camelineae,15.0,100.0,kingdom_only,36.02,57.7381,0.6978417
+Arabidopsis_thaliana_3702,Arabidopsis,F4I8M5,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,31.02,1.0,0.43930635
+Arabidopsis_thaliana_3702,Arabidopsis,F4ICS1,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,39.94,799.5516,0.27125505
+Arabidopsis_thaliana_3702,Arabidopsis,F4IEM6,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,34.46,1.0,0.6124031
+Arabidopsis_thaliana_3702,Arabidopsis,F4IHD4,Arabidopsis thaliana,Viridiplantae,Camelineae,15.0,100.0,kingdom_only,31.96,7.0,0.012698413
+Arabidopsis_thaliana_3702,Arabidopsis,F4IK97,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,31.56,4.0,0.64081633
+Arabidopsis_thaliana_3702,Arabidopsis,F4IMB6,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,31.52,2.0,0.36238533
+Arabidopsis_thaliana_3702,Arabidopsis,F4ING5,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,35.14,258.9794,0.104575165
+Arabidopsis_thaliana_3702,Arabidopsis,F4IPF7,Arabidopsis thaliana,Viridiplantae,Camelineae,15.0,100.0,kingdom_only,30.21,8.0,0.18045112
+Arabidopsis_thaliana_3702,Arabidopsis,F4J0E6,Arabidopsis thaliana,Viridiplantae,Brassicales,13.0,100.0,kingdom_only,44.75,2.0,0.7759644
+Arabidopsis_thaliana_3702,Arabidopsis,F4J0H5,Arabidopsis thaliana,Viridiplantae,Camelineae,15.0,100.0,kingdom_only,31.28,8.0,0.22566372
+Arabidopsis_thaliana_3702,Arabidopsis,F4J135,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,39.7,1366.937,0.0
+Arabidopsis_thaliana_3702,Arabidopsis,F4J1Q8,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,36.59,1014.8705,0.20571429
+Arabidopsis_thaliana_3702,Arabidopsis,F4J1R8,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,26.54,2.0,0.9041916
+Arabidopsis_thaliana_3702,Arabidopsis,F4J1S7,Arabidopsis thaliana,Viridiplantae,Camelineae,15.0,50.0,kingdom_only,26.43,1.0,0.4247191
+Arabidopsis_thaliana_3702,Arabidopsis,F4J2J7,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,40.46,173.8031,0.0
+Arabidopsis_thaliana_3702,Arabidopsis,F4J349,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,46.41,379.1889,0.09039548
+Arabidopsis_thaliana_3702,Arabidopsis,F4J6S0,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,28.6,11.0,0.899729
+Arabidopsis_thaliana_3702,Arabidopsis,F4J7V3,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,40.87,75.4813,0.41975307
+Arabidopsis_thaliana_3702,Arabidopsis,F4JDQ4,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,33.6,6.0,0.14925373
+Arabidopsis_thaliana_3702,Arabidopsis,F4JGI3,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,28.13,1.0,0.24573378
+Arabidopsis_thaliana_3702,Arabidopsis,F4JKW7,Arabidopsis thaliana,Viridiplantae,cellular organisms,1.0,100.0,all_life,33.23,21.7864,0.59586054
+Arabidopsis_thaliana_3702,Arabidopsis,F4K2U6,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,37.24,1.0,0.93203884
+Arabidopsis_thaliana_3702,Arabidopsis,F4K553,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,31.87,15.7897,0.8233216
+Arabidopsis_thaliana_3702,Arabidopsis,F4KCY0,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,33.27,1.0,0.0
+Arabidopsis_thaliana_3702,Arabidopsis,F4KDR9,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,29.78,4.8015,0.36021507
+Arabidopsis_thaliana_3702,Arabidopsis,O04586,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,66.0,family_or_genus,34.85,7.0,0.84659094
+Arabidopsis_thaliana_3702,Arabidopsis,O49466,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,34.42,4.0,0.625
+Arabidopsis_thaliana_3702,Arabidopsis,O80614,Arabidopsis thaliana,Viridiplantae,Eukaryota,2.0,100.0,eukaryotes,40.15,52.3708,0.6878505
+Arabidopsis_thaliana_3702,Arabidopsis,P92555,Arabidopsis thaliana,,cellular organisms,1.0,87.0,all_life,,1211.0,
+Arabidopsis_thaliana_3702,Arabidopsis,P93277,Arabidopsis thaliana,Viridiplantae,Pentapetalae,10.0,57.0,kingdom_only,31.75,3.0,0.16030534
+Arabidopsis_thaliana_3702,Arabidopsis,Q3EAC9,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,66.0,family_or_genus,38.79,5.0,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q3EBP1,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,42.95,1806.6377,0.026666667
+Arabidopsis_thaliana_3702,Arabidopsis,Q3EC62,Arabidopsis thaliana,Viridiplantae,Camelineae,15.0,100.0,kingdom_only,29.77,464.1237,0.068627454
+Arabidopsis_thaliana_3702,Arabidopsis,Q3EDB7,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,33.56,9.0,0.942029
+Arabidopsis_thaliana_3702,Arabidopsis,Q6E238,Arabidopsis thaliana,Viridiplantae,Pentapetalae,10.0,57.0,kingdom_only,37.33,1771.1097,0.3618421
+Arabidopsis_thaliana_3702,Arabidopsis,Q84W21,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,36.56,6.5791,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q8L9R7,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,66.0,family_or_genus,40.09,14.3333,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q93VS6,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,39.36,10.0,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q949S2,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,43.09,10.0357,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q9C555,Arabidopsis thaliana,Viridiplantae,Camelineae,15.0,100.0,kingdom_only,32.64,8.0,0.0867052
+Arabidopsis_thaliana_3702,Arabidopsis,Q9C8N8,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,32.95,2.0,0.24793388
+Arabidopsis_thaliana_3702,Arabidopsis,Q9C9N4,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,49.64,59.8284,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q9FGE2,Arabidopsis thaliana,Viridiplantae,Camelineae,15.0,100.0,kingdom_only,29.85,35.0925,0.24857143
+Arabidopsis_thaliana_3702,Arabidopsis,Q9FGW2,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,30.75,1.0,0.32413793
+Arabidopsis_thaliana_3702,Arabidopsis,Q9FJS3,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,42.64,10.1028,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q9FKB1,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,34.51,1.0,0.46285716
+Arabidopsis_thaliana_3702,Arabidopsis,Q9FML9,Arabidopsis thaliana,Viridiplantae,rosids,11.0,66.0,kingdom_only,39.22,6.0,0.53900707
+Arabidopsis_thaliana_3702,Arabidopsis,Q9LD84,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,41.63,27.4114,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q9LDP7,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,34.64,11.3333,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q9LPG4,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,26.0,3.0,0.11398964
+Arabidopsis_thaliana_3702,Arabidopsis,Q9LPH9,Arabidopsis thaliana,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,49.07,45.5488,0.9550562
+Arabidopsis_thaliana_3702,Arabidopsis,Q9LXL8,Arabidopsis thaliana,Viridiplantae,Possible contamination or HGT,,12.0,flagged,36.67,5.0,0.42711863
+Arabidopsis_thaliana_3702,Arabidopsis,Q9LXZ9,Arabidopsis thaliana,Viridiplantae,Mesangiospermae,8.0,100.0,kingdom_only,34.86,11.5607,0.92964166
+Arabidopsis_thaliana_3702,Arabidopsis,Q9LY06,Arabidopsis thaliana,Viridiplantae,Arabidopsis thaliana,17.0,100.0,family_or_genus,36.1,22.1694,0.9055851
+Arabidopsis_thaliana_3702,Arabidopsis,Q9LY09,Arabidopsis thaliana,Viridiplantae,Mesangiospermae,8.0,100.0,kingdom_only,45.92,5.0,0.8416206
+Arabidopsis_thaliana_3702,Arabidopsis,Q9M2N6,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,32.02,1162.1506,0.5620915
+Arabidopsis_thaliana_3702,Arabidopsis,Q9MAS9,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,40.32,21.7566,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q9SIN8,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,66.0,family_or_genus,28.97,1.0,0.5114504
+Arabidopsis_thaliana_3702,Arabidopsis,Q9STN1,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,36.69,49.1176,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q9ZPW6,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,66.0,family_or_genus,45.17,614.9352,0.64912283
+Arabidopsis_thaliana_3702,Arabidopsis,Q9ZQI0,Arabidopsis thaliana,Viridiplantae,Brassicaceae,14.0,100.0,family_or_genus,37.71,15.694,1.0
+Arabidopsis_thaliana_3702,Arabidopsis,Q9ZT89,Arabidopsis thaliana,Viridiplantae,Arabidopsis,16.0,100.0,family_or_genus,37.62,1905.1833,0.1984127
+Arabidopsis_thaliana_3702,Arabidopsis,Q9ZV81,Arabidopsis thaliana,Viridiplantae,Euphyllophyta,5.0,100.0,kingdom_only,42.83,1057.0,0.006666667
+Arachis_hypogaea_3818,Arachis,P04149,Arachis hypogaea,,Arachis hypogaea,1.0,100.0,family_or_genus,,1.0,
+Arachis_hypogaea_3818,Arachis,P20780,Arachis hypogaea,,Arachis hypogaea,1.0,100.0,family_or_genus,,1.0,
+Avena_sativa_4498,Avena,Q7M290,Avena sativa,,cellular organisms,1.0,100.0,all_life,,1602.0,
+Euphorbia_nivulia_334690,Euphorbia,P86837,Euphorbia nivulia,,Eukaryota,1.0,100.0,eukaryotes,,316.3139,
+Glycine_max_3847,Glycine,A0A0R0E9C6,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,38.83,1.0,0.8648649
+Glycine_max_3847,Glycine,A0A0R0EBR1,Glycine max,Viridiplantae,50 kb inversion clade,16.0,60.0,kingdom_only,44.39,64.0444,0.39449543
+Glycine_max_3847,Glycine,A0A0R0ECK4,Glycine max,Viridiplantae,Eukaryota,1.0,100.0,eukaryotes,43.35,36.9009,0.5935214
+Glycine_max_3847,Glycine,A0A0R0EF30,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,29.38,1.0,0.95625
+Glycine_max_3847,Glycine,A0A0R0EHF2,Glycine max,Viridiplantae,Pentapetalae,11.0,50.0,kingdom_only,45.96,889.5407,0.07377049
+Glycine_max_3847,Glycine,A0A0R0ER47,Glycine max,Viridiplantae,Phaseoleae,19.0,100.0,kingdom_only,38.46,5.0,1.0
+Glycine_max_3847,Glycine,A0A0R0ESB2,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,33.61,1.0,0.37719297
+Glycine_max_3847,Glycine,A0A0R0ETY9,Glycine max,Viridiplantae,Glycine max,21.0,100.0,family_or_genus,36.21,1.0,0.23364486
+Glycine_max_3847,Glycine,A0A0R0EVQ4,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,35.23,229.0265,0.0
+Glycine_max_3847,Glycine,A0A0R0F7I2,Glycine max,Viridiplantae,Phaseoleae,19.0,100.0,kingdom_only,38.61,1112.0,0.4385965
+Glycine_max_3847,Glycine,A0A0R0F7P7,Glycine max,Viridiplantae,Mesangiospermae,9.0,91.0,kingdom_only,42.19,1537.199,0.48082596
+Glycine_max_3847,Glycine,A0A0R0FWG3,Glycine max,Viridiplantae,Possible contamination or HGT,,30.0,flagged,45.75,1337.0,0.72839504
+Glycine_max_3847,Glycine,A0A0R0G083,Glycine max,Viridiplantae,Pentapetalae,11.0,70.0,kingdom_only,44.37,662.9587,0.004385965
+Glycine_max_3847,Glycine,A0A0R0G0M0,Glycine max,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,30.73,1.0,1.0
+Glycine_max_3847,Glycine,A0A0R0G477,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,43.29,67.7937,1.0
+Glycine_max_3847,Glycine,A0A0R0GCK5,Glycine max,Viridiplantae,Eukaryota,1.0,80.0,eukaryotes,42.79,1235.5486,0.09633028
+Glycine_max_3847,Glycine,A0A0R0GDG9,Glycine max,Viridiplantae,Eukaryota,1.0,100.0,eukaryotes,43.31,950.6355,0.057268724
+Glycine_max_3847,Glycine,A0A0R0GDZ7,Glycine max,Viridiplantae,Phaseoleae,19.0,50.0,kingdom_only,38.1,282.3269,0.29885057
+Glycine_max_3847,Glycine,A0A0R0GH74,Glycine max,Viridiplantae,Eukaryota,1.0,90.0,eukaryotes,30.86,65.6875,0.52557755
+Glycine_max_3847,Glycine,A0A0R0GIS8,Glycine max,Viridiplantae,Phaseoleae,19.0,100.0,kingdom_only,47.48,49.2974,0.9727891
+Glycine_max_3847,Glycine,A0A0R0GJ93,Glycine max,Viridiplantae,Phaseoleae,19.0,100.0,kingdom_only,32.56,2.0,0.018072288
+Glycine_max_3847,Glycine,A0A0R0GK94,Glycine max,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,32.86,9.0,1.0
+Glycine_max_3847,Glycine,A0A0R0GRT5,Glycine max,Viridiplantae,Eukaryota,1.0,90.0,eukaryotes,32.59,34.7237,0.66299105
+Glycine_max_3847,Glycine,A0A0R0GSL6,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,27.97,1.0,0.6851852
+Glycine_max_3847,Glycine,A0A0R0H1X9,Glycine max,Viridiplantae,Streptophytina,3.0,94.0,kingdom_only,46.4,1877.0,0.029850746
+Glycine_max_3847,Glycine,A0A0R0H4J2,Glycine max,Viridiplantae,Phaseoleae,19.0,100.0,kingdom_only,31.65,8.1456,0.5579196
+Glycine_max_3847,Glycine,A0A0R0H6L4,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,33.21,8.0,0.7307692
+Glycine_max_3847,Glycine,A0A0R0HCD1,Glycine max,Viridiplantae,NPAAA clade,17.0,75.0,kingdom_only,42.57,406.2341,0.7246377
+Glycine_max_3847,Glycine,A0A0R0HEH8,Glycine max,Viridiplantae,Phaseoleae,19.0,100.0,kingdom_only,36.62,4.0,0.9699647
+Glycine_max_3847,Glycine,A0A0R0HFD5,Glycine max,Viridiplantae,Viridiplantae,2.0,100.0,kingdom_only,50.36,32.846,0.20588236
+Glycine_max_3847,Glycine,A0A0R0HGL3,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,39.87,3.75,0.89855075
+Glycine_max_3847,Glycine,A0A0R0HHV1,Glycine max,Viridiplantae,Streptophytina,3.0,100.0,kingdom_only,47.63,988.4167,0.21333334
+Glycine_max_3847,Glycine,A0A0R0HR50,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,33.87,188.65,0.3090129
+Glycine_max_3847,Glycine,A0A0R0HZD8,Glycine max,Viridiplantae,Eukaryota,1.0,70.0,eukaryotes,51.44,1255.3334,0.0
+Glycine_max_3847,Glycine,A0A0R0I624,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,55.04,14.0,0.02955665
+Glycine_max_3847,Glycine,A0A0R0IDQ1,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,33.48,2.0,0.13740458
+Glycine_max_3847,Glycine,A0A0R0IEI0,Glycine max,Viridiplantae,Fabaceae,15.0,100.0,family_or_genus,42.9,310.8992,0.038961038
+Glycine_max_3847,Glycine,A0A0R0IFT0,Glycine max,Viridiplantae,Mesangiospermae,9.0,91.0,kingdom_only,46.76,1082.3334,0.071428575
+Glycine_max_3847,Glycine,A0A0R0IH06,Glycine max,Viridiplantae,Glycine max,21.0,100.0,family_or_genus,30.01,1.0,0.39361703
+Glycine_max_3847,Glycine,A0A0R0J2P1,Glycine max,Viridiplantae,Eukaryota,1.0,75.0,eukaryotes,41.69,1203.0688,0.0
+Glycine_max_3847,Glycine,A0A0R0JJZ1,Glycine max,Viridiplantae,Mesangiospermae,9.0,66.0,kingdom_only,38.45,1050.3477,0.063197024
+Glycine_max_3847,Glycine,A0A0R0JPF5,Glycine max,Viridiplantae,Glycine max,21.0,100.0,family_or_genus,31.97,2.0,0.84126985
+Glycine_max_3847,Glycine,A0A0R0JX23,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,32.15,1.0,0.94160587
+Glycine_max_3847,Glycine,A0A0R0K127,Glycine max,Viridiplantae,Glycine max,21.0,100.0,family_or_genus,38.01,4.0,0.8926554
+Glycine_max_3847,Glycine,A0A0R0K355,Glycine max,Viridiplantae,Streptophytina,3.0,100.0,kingdom_only,37.07,192.1974,0.06122449
+Glycine_max_3847,Glycine,A0A0R0K5N3,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,35.91,227.4773,0.0
+Glycine_max_3847,Glycine,A0A0R0KD34,Glycine max,Viridiplantae,Magnoliopsida,8.0,100.0,kingdom_only,43.64,86.5707,0.971604
+Glycine_max_3847,Glycine,A0A0R0KET0,Glycine max,Viridiplantae,indigoferoid/millettioid clade,18.0,100.0,kingdom_only,50.6,32.8926,0.99245286
+Glycine_max_3847,Glycine,A0A0R0KG12,Glycine max,Viridiplantae,Mesangiospermae,9.0,75.0,kingdom_only,52.15,1023.0834,0.0
+Glycine_max_3847,Glycine,A0A0R0KGF8,Glycine max,Viridiplantae,fabids,13.0,62.0,kingdom_only,45.89,1515.7563,0.0
+Glycine_max_3847,Glycine,A0A0R0KHC8,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,41.61,3.0,1.0
+Glycine_max_3847,Glycine,A0A0R0KRB6,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,33.45,1.0,0.059210528
+Glycine_max_3847,Glycine,A0A0R0KU73,Glycine max,Viridiplantae,Glycine max,21.0,100.0,family_or_genus,34.23,1.0,0.19594595
+Glycine_max_3847,Glycine,A0A0R0KVQ0,Glycine max,Viridiplantae,Mesangiospermae,9.0,58.0,kingdom_only,32.36,5.0,0.59887004
+Glycine_max_3847,Glycine,A0A0R0KVV4,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,39.4,1062.0,0.17857143
+Glycine_max_3847,Glycine,A0A0R0KW75,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,39.21,1329.0,0.16176471
+Glycine_max_3847,Glycine,A0A0R0KY39,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,44.18,357.9764,0.2767857
+Glycine_max_3847,Glycine,A0A0R0KYF4,Glycine max,Viridiplantae,NPAAA clade,17.0,75.0,kingdom_only,43.9,1127.0,0.12
+Glycine_max_3847,Glycine,A0A0R0L548,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,35.63,1.0,0.64166665
+Glycine_max_3847,Glycine,A0A0R0L7U8,Glycine max,Viridiplantae,Glycine max,21.0,100.0,family_or_genus,33.19,1.0,0.8378378
+Glycine_max_3847,Glycine,A0A0R0L9D7,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,36.27,5.0,0.28025478
+Glycine_max_3847,Glycine,A0A0R0LMP0,Glycine max,Viridiplantae,Spermatophyta,7.0,100.0,kingdom_only,53.93,588.495,0.57528955
+Glycine_max_3847,Glycine,A0A368UHU3,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,33.2,2.0,0.9739583
+Glycine_max_3847,Glycine,A0A368UJP9,Glycine max,Viridiplantae,Viridiplantae,2.0,100.0,kingdom_only,42.03,122.9192,0.6973865
+Glycine_max_3847,Glycine,C6SWU9,Glycine max,Viridiplantae,NPAAA clade,17.0,75.0,kingdom_only,38.2,26.0,1.0
+Glycine_max_3847,Glycine,C6T1W3,Glycine max,Viridiplantae,Mesangiospermae,9.0,75.0,kingdom_only,53.04,65.9877,1.0
+Glycine_max_3847,Glycine,I1JKI5,Glycine max,Viridiplantae,Eukaryota,1.0,100.0,eukaryotes,42.42,1270.0,0.14973262
+Glycine_max_3847,Glycine,I1JRJ2,Glycine max,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,53.82,42.1919,0.98245615
+Glycine_max_3847,Glycine,I1KIP3,Glycine max,Viridiplantae,Eukaryota,1.0,95.0,eukaryotes,51.45,60.968,1.0
+Glycine_max_3847,Glycine,I1KXS0,Glycine max,Viridiplantae,Mesangiospermae,9.0,100.0,kingdom_only,41.2,467.7473,0.10695187
+Glycine_max_3847,Glycine,I1L6B5,Glycine max,Viridiplantae,Phaseoleae,19.0,100.0,kingdom_only,36.33,22.1179,0.80803573
+Glycine_max_3847,Glycine,I1LD50,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,51.8,41.0704,0.9800995
+Glycine_max_3847,Glycine,I1LF37,Glycine max,Viridiplantae,Embryophyta,4.0,88.0,kingdom_only,41.87,472.528,0.18257262
+Glycine_max_3847,Glycine,I1LMJ6,Glycine max,Viridiplantae,Spermatophyta,7.0,100.0,kingdom_only,45.44,1058.0,0.23913044
+Glycine_max_3847,Glycine,I1MVG7,Glycine max,Viridiplantae,Magnoliopsida,8.0,100.0,kingdom_only,47.0,29.9002,1.0
+Glycine_max_3847,Glycine,I1NHV0,Glycine max,Viridiplantae,Embryophyta,4.0,100.0,kingdom_only,41.9,108.6162,0.9569303
+Glycine_max_3847,Glycine,K7K1U5,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,41.64,1.0,0.57281554
+Glycine_max_3847,Glycine,K7K681,Glycine max,Viridiplantae,Embryophyta,4.0,94.0,kingdom_only,39.99,2215.9268,0.14473684
+Glycine_max_3847,Glycine,K7K8X6,Glycine max,Viridiplantae,Pentapetalae,11.0,50.0,kingdom_only,32.58,2.0,0.12060302
+Glycine_max_3847,Glycine,K7KD53,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,42.18,1.0,0.6766467
+Glycine_max_3847,Glycine,K7KM71,Glycine max,Viridiplantae,Euphyllophyta,6.0,100.0,kingdom_only,44.24,256.5128,0.15503876
+Glycine_max_3847,Glycine,K7KQU7,Glycine max,Viridiplantae,Glycine max,21.0,100.0,family_or_genus,38.17,3.0,1.0
+Glycine_max_3847,Glycine,K7KV51,Glycine max,Viridiplantae,fabids,13.0,50.0,kingdom_only,46.19,1061.3334,0.4827586
+Glycine_max_3847,Glycine,K7KZS4,Glycine max,Viridiplantae,Mesangiospermae,9.0,100.0,kingdom_only,48.13,26.2533,0.84599155
+Glycine_max_3847,Glycine,K7L1K4,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,38.65,2.0,1.0
+Glycine_max_3847,Glycine,K7L4N9,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,33.88,1.0,0.0
+Glycine_max_3847,Glycine,K7L9C7,Glycine max,Viridiplantae,Mesangiospermae,9.0,41.0,kingdom_only,36.19,3.0,0.66923076
+Glycine_max_3847,Glycine,K7LB47,Glycine max,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,38.46,53.3165,1.0
+Glycine_max_3847,Glycine,K7LBW6,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,37.06,4.0,1.0
+Glycine_max_3847,Glycine,K7LDZ5,Glycine max,Viridiplantae,Mesangiospermae,9.0,75.0,kingdom_only,51.14,1126.0,0.125
+Glycine_max_3847,Glycine,K7LIS0,Glycine max,Viridiplantae,Eukaryota,1.0,85.0,eukaryotes,38.58,458.2233,0.0
+Glycine_max_3847,Glycine,K7LJ40,Glycine max,Viridiplantae,Glycine max,21.0,100.0,family_or_genus,36.52,1.0,0.4189189
+Glycine_max_3847,Glycine,K7LJI2,Glycine max,Viridiplantae,Eukaryota,1.0,100.0,eukaryotes,43.91,1612.3452,0.34571427
+Glycine_max_3847,Glycine,K7M527,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,39.8,10.1392,1.0
+Glycine_max_3847,Glycine,K7M7E9,Glycine max,Viridiplantae,Phaseoleae,19.0,100.0,kingdom_only,50.69,2.0,0.60194176
+Glycine_max_3847,Glycine,K7M9W2,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,52.13,33.7118,0.84375
+Glycine_max_3847,Glycine,K7MCU1,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,30.88,1.0,1.0
+Glycine_max_3847,Glycine,K7MDA5,Glycine max,Viridiplantae,Mesangiospermae,9.0,100.0,kingdom_only,43.72,71.0057,0.5103627
+Glycine_max_3847,Glycine,K7MF66,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,28.89,1.0,0.79041916
+Glycine_max_3847,Glycine,K7MFP2,Glycine max,Viridiplantae,Eukaryota,1.0,50.0,eukaryotes,50.35,1727.0732,0.13833992
+Glycine_max_3847,Glycine,K7MSN3,Glycine max,Viridiplantae,Embryophyta,4.0,100.0,kingdom_only,47.16,1088.3334,0.75490195
+Glycine_max_3847,Glycine,K7MWX4,Glycine max,Viridiplantae,Glycine subgen. Soja,20.0,100.0,kingdom_only,49.7,1165.0,0.5
+Glycine_max_3847,Glycine,K7MXV2,Glycine max,Viridiplantae,rosids,12.0,88.0,kingdom_only,52.61,7.0,1.0
+Glycine_max_3847,Glycine,Q42447,Glycine max,Viridiplantae,indigoferoid/millettioid clade,18.0,100.0,kingdom_only,45.3,26.4103,1.0
+Lilium_henryi_4689,Lilium,Q40189,Lilium henryi,,cellular organisms,1.0,100.0,all_life,,296.0205,
+Mesostigma_viride_41882,Mesostigma,Q9MUL6,Mesostigma viride,,Mesostigma viride,1.0,100.0,family_or_genus,,1.0,
+Moringa_oleifera_3735,Moringa,C0HKC5,Moringa oleifera,,Moringa oleifera,1.0,100.0,family_or_genus,,83.1567,
+Nicotiana_tabacum_4097,Nicotiana,P24804,Nicotiana tabacum,,Solanaceae,1.0,100.0,family_or_genus,,8.3333,
+Oenothera_picensis_3946,Oenothera,P31568,Oenothera picensis,,cellular organisms,1.0,100.0,all_life,,60.1919,
+Oryza_sativa_subsp_indica_39946,Oryza,A2WPU3,Oryza sativa subsp. indica,,cellular organisms,1.0,100.0,all_life,,2071.0718,
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KCA2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.69,29.6867,0.078125
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KCN9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,39.43,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KD72,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.49,9.0,0.78142077
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KD83,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.8,2.0,0.9010989
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KD84,Oryza sativa subsp. japonica,Viridiplantae,Viridiplantae,3.0,100.0,kingdom_only,43.71,1918.6396,0.2195122
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KDR6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.88,3.0,0.5323383
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KEE4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,34.88,2.0,0.9724771
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KFP6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,33.08,7.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KG35,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.96,1.0,0.9655172
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KGE9,Oryza sativa subsp. japonica,Viridiplantae,Viridiplantae,3.0,88.0,kingdom_only,41.25,1374.2001,0.2936508
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KHB0,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,38.44,3.0,0.7311321
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KHL1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,27.74,3.0,0.5105263
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KIC7,Oryza sativa subsp. japonica,Viridiplantae,Spermatophyta,8.0,75.0,kingdom_only,45.84,1069.2095,0.516129
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KID9,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,31.75,1424.0,0.054263566
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KII4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.91,1.0,0.9919355
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KIJ7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.87,2.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KIP3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.71,1.0,0.61538464
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KJ24,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,34.23,1117.4333,0.6771653
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KJV3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,33.79,3.0,0.9166667
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KK58,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,83.0,kingdom_only,47.82,829.1656,0.71103895
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KKD1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,34.69,2.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KKF8,Oryza sativa subsp. japonica,Viridiplantae,Embryophyta,5.0,73.0,kingdom_only,52.39,1162.0,0.44210526
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KL86,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,34.34,38.9833,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KLT0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,31.16,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KLW0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,33.3,2.0,0.51428574
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KLX3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,33.1,10.0,0.023076924
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KM04,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.3,5.0,0.4401914
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KM91,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,29.39,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KNA4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,33.21,4.0,0.95384616
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KNE2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,34.44,6.2203,0.70666665
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KNY7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,25.93,1.0,0.9281768
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KPF2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.32,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KPY9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.68,2.0,0.46969697
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KQC0,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,40.32,199.1833,0.67951316
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KT41,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.33,1.0,0.9802632
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KT74,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.25,1.0,0.06185567
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0N7KTN2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,34.6,1.0,0.99553573
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0UXM8,Oryza sativa subsp. japonica,Viridiplantae,BOP clade,16.0,50.0,kingdom_only,32.61,6.0,0.75757575
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0UZA8,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,48.32,705.7335,0.29288703
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V0H7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.61,1.0,0.59090906
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V0P9,Oryza sativa subsp. japonica,Viridiplantae,Oryzeae,17.0,100.0,kingdom_only,39.1,3432.4709,0.23766816
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V1E1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,28.66,2.0,0.8700565
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V2B0,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,100.0,family_or_genus,42.44,2228.7053,0.033783782
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V3B9,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,90.0,kingdom_only,37.47,338.7188,0.78014183
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V4B5,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,30.75,11.0,0.452
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V4Q3,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,60.0,family_or_genus,37.01,6.0,0.45411766
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V5B8,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,35.35,1.0,0.9895833
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V5D2,Oryza sativa subsp. japonica,Viridiplantae,cellular organisms,1.0,78.0,all_life,39.1,2327.0322,0.17560975
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V5P7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.27,5.0,0.15584415
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V6Q5,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,60.0,family_or_genus,29.81,4.0,0.9756098
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V6R9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,36.13,1.0,0.9727273
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V7Z0,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,83.0,kingdom_only,39.73,312.7827,0.993865
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V803,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.26,1.0,0.14736842
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V831,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,43.47,28.25,0.7647059
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V8L5,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,38.61,1874.6367,0.5301205
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0V9T6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.43,3.0,0.9658703
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VAL2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,31.97,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VBT2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,34.86,1.0,0.6203704
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VBT3,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,35.09,5.0,0.3489933
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VCD7,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,30.0,flagged,29.32,11.0333,0.9390863
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VCE9,Oryza sativa subsp. japonica,Viridiplantae,Spermatophyta,8.0,100.0,kingdom_only,47.62,490.0728,0.30487806
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VCV5,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,50.0,kingdom_only,33.51,3.0,0.53424656
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VD71,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.25,1.0,0.12244898
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VEA7,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,30.0,flagged,25.91,5.0,0.99607843
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VHN0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,36.32,15.3333,0.92897725
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VHS4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.2,1.0,0.80099505
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VHS8,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,80.0,kingdom_only,50.04,614.03,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VI45,Oryza sativa subsp. japonica,Viridiplantae,Embryophyta,5.0,100.0,kingdom_only,41.12,2000.3511,0.42222223
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VIW4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,29.59,2.0,0.83196723
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VJ79,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,25.03,605.4531,0.83011585
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VJN1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,39.45,9.6253,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VK12,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,27.93,1.0,0.82587063
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VK87,Oryza sativa subsp. japonica,Viridiplantae,commelinids,13.0,100.0,kingdom_only,34.69,26.2308,0.7305389
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VKZ9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.45,4.0,0.75
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VL13,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,28.81,1.0,0.81935483
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VL42,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,33.25,1.8667,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VL62,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,47.29,45.9521,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VLD0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.58,2.0,0.33529413
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VLY4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.06,1.0,0.2112069
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VM69,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,34.97,4.0077,0.90434784
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VRL5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.29,3120.4326,0.4920635
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VU80,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,30.0,flagged,27.48,3.0,0.80851066
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VV83,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,37.78,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VW63,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,83.0,kingdom_only,37.25,12.9924,0.21167883
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VX37,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,35.14,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VXF3,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,35.01,1882.2758,0.15789473
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VXK0,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,60.0,kingdom_only,42.62,1416.3333,0.9874214
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VXQ6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.81,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VY23,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.76,1.0,0.84713376
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VYF7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.77,4.4957,0.5461255
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VYG7,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,20.0,flagged,30.79,1.0,0.9846154
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VYQ1,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,40.0,family_or_genus,39.3,12.454,0.12844037
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VZC5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,31.15,1.0,0.9285714
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0VZK9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.53,5.0,0.547486
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W042,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.05,98.4737,0.49285713
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W0K2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,29.76,1.0,0.53246754
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W146,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,39.9,5.0,0.42975205
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W2B9,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,35.69,500.7336,0.6647399
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W2H7,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,35.51,49.4667,0.5337838
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W2K0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,27.82,1.0,0.9256757
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W2U1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.8,1.0,0.85714287
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W3F2,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,50.0,family_or_genus,28.71,9.0,0.8253164
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W3R4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,27.95,1.0,0.40425533
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W3U5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,28.04,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W4D4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,43.97,25.9026,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W4K1,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,100.0,family_or_genus,34.19,5.3658,0.5855263
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W4K6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,31.42,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W4U1,Oryza sativa subsp. japonica,Viridiplantae,commelinids,13.0,42.0,kingdom_only,36.5,4.0,0.6946108
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W5T8,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,31.55,1.0,0.87134504
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W5W1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.66,19.521,0.7161572
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W6F6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,28.07,1.0,0.72571427
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W6J9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,41.35,2.1667,0.68
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W7K5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.03,1.0,0.9513889
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W7M9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.06,2.4517,0.75342464
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W809,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,20.0,flagged,29.23,4.5976,0.6047619
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W9A4,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,32.27,1270.71,0.9930556
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W9N7,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,100.0,family_or_genus,45.0,674.1649,0.65158373
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0W9Y6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.95,4.0,0.31967214
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WA06,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,29.46,1.0,0.70866144
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WAI3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,38.94,2.0,0.8108108
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WCT7,Oryza sativa subsp. japonica,Viridiplantae,Embryophyta,5.0,100.0,kingdom_only,50.14,1902.4231,0.4097561
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WDL5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.22,4.0,0.9264069
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WJ77,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,35.18,1064.6667,0.7699115
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WJI3,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,42.62,98.4591,0.7040359
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WJR7,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,34.54,413.0024,0.2638037
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WKA9,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,100.0,kingdom_only,48.71,353.5806,0.6069652
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WKL0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,29.06,1.0,0.7155172
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WKQ8,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.6,6.0,0.8829268
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WKZ1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,31.57,2.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WLD2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.72,1.0,0.8503401
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WLS5,Oryza sativa subsp. japonica,Viridiplantae,Streptophytina,4.0,100.0,kingdom_only,49.14,78.6937,0.8668407
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WMH9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.45,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WN85,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,31.66,5.5192,0.89908254
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WNV1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,37.36,1.0,0.9787234
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WPX6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.91,6.8424,0.5604396
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WR07,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.94,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WRX0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,33.29,2.0,0.99512196
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WS46,Oryza sativa subsp. japonica,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,32.04,1.0,0.974359
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WTH7,Oryza sativa subsp. japonica,Viridiplantae,cellular organisms,1.0,100.0,all_life,43.64,977.7,0.03529412
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WTK9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.92,3.0,0.8909091
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WVG3,Oryza sativa subsp. japonica,Viridiplantae,Tracheophyta,6.0,85.0,kingdom_only,45.44,1116.6667,0.29166666
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WVJ3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,31.12,2.0,0.7677419
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WVM6,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,27.93,11.3333,0.1904762
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WW11,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,33.88,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WW60,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,36.82,8.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WWD1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,33.96,4.0,0.70394737
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WWV4,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,70.0,kingdom_only,42.28,250.905,0.25384617
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WXU5,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,40.0,kingdom_only,31.92,9.0,0.6666667
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WY58,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,36.62,3.0329,0.63257575
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WZ83,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,43.98,9.0317,0.5882353
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0WZR3,Oryza sativa subsp. japonica,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,34.41,8.3391,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X006,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,34.61,1.0,0.82832617
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X1J4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.09,2.0,0.9025974
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X267,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.84,2.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X2B7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,34.52,8.0,0.83116883
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X362,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,33.84,1255.0,0.5980392
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X3C4,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,60.0,family_or_genus,27.64,2.0,0.05905512
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X3L8,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.59,15.4167,0.6171875
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X3P3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.73,5.0333,0.3897436
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X3X2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.79,3.0,0.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X421,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.31,150.4258,0.46783626
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X437,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,33.43,1.0,0.9777778
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X5K7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,36.57,2.0,0.47953215
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X5S4,Oryza sativa subsp. japonica,Viridiplantae,Streptophytina,4.0,100.0,kingdom_only,49.57,82.5766,0.7582418
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X5T1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.47,1.0,0.2074074
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X641,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,30.0,flagged,30.68,2.0,0.15748031
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X6E7,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,44.29,837.5615,0.110091746
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X6K3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,47.55,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X6R0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,33.68,1.0,0.98058254
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X7H1,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,40.0,family_or_genus,43.46,1022.4167,0.7058824
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X7M2,Oryza sativa subsp. japonica,Viridiplantae,BOP clade,16.0,75.0,kingdom_only,30.53,8.4167,0.519337
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0X9S6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,31.9,5.0,0.07096774
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XB86,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.5,2.0,0.11594203
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XB94,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.7,2.0,0.5736842
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XBF2,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,60.0,family_or_genus,29.17,1.0,0.9699248
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XD66,Oryza sativa subsp. japonica,Viridiplantae,Embryophyta,5.0,100.0,kingdom_only,51.98,75.616,0.74025977
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XD81,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,36.46,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XD87,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.0,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XDJ2,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,10.0,flagged,32.34,1.0,0.85294116
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XEM0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,38.26,2.0,0.3611111
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XFK1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.62,2.0,0.59782606
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XFK7,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,32.65,7.95,0.32061067
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XFP3,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,60.0,family_or_genus,33.57,4.0,0.75443786
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XFS4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,31.56,2.0,0.28
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XGH6,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,40.0,family_or_genus,34.16,352.1165,0.20125785
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XGM0,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,90.0,kingdom_only,39.72,46.2794,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XGY3,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,36.99,2.0,0.9313725
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XH10,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.89,3.3333,0.986911
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XIA8,Oryza sativa subsp. japonica,Viridiplantae,cellular organisms,1.0,31.0,all_life,49.56,1.0,0.06655844
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XIE8,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,100.0,family_or_genus,39.07,1056.1251,0.13227513
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XIW3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.26,4.0,0.511811
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XJ05,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.72,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XKV5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,36.45,4.0,0.8055556
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XLF0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.01,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XLJ3,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,50.0,family_or_genus,33.57,1.0,0.37878788
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XMH6,Oryza sativa subsp. japonica,Viridiplantae,cellular organisms,1.0,89.0,all_life,36.98,1292.238,0.530086
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XNJ2,Oryza sativa subsp. japonica,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,35.89,11.3199,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XP92,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,27.74,2.0,0.93
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XPW8,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.67,668.2795,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XQK1,Oryza sativa subsp. japonica,Viridiplantae,cellular organisms,1.0,100.0,all_life,34.09,20.7795,0.90884405
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XQT0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.24,1.3333,0.9921875
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XR11,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,28.78,57.675,0.8776978
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XR82,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,35.23,2449.6782,0.70394737
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XRJ1,Oryza sativa subsp. japonica,Viridiplantae,Oryzeae,17.0,100.0,kingdom_only,36.51,143.8737,0.2918919
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XRJ7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,31.45,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XRM6,Oryza sativa subsp. japonica,Viridiplantae,BOP clade,16.0,50.0,kingdom_only,29.0,3.0,0.44680852
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XRX6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,35.55,69.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XSA7,Oryza sativa subsp. japonica,Viridiplantae,Viridiplantae,3.0,100.0,kingdom_only,50.87,21.0998,0.43939394
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XSQ0,Oryza sativa subsp. japonica,Viridiplantae,commelinids,13.0,85.0,kingdom_only,48.31,222.5901,0.6174377
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XSU1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,35.67,6.0,0.27710843
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XTR7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,39.63,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XU02,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,28.24,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XU74,Oryza sativa subsp. japonica,Viridiplantae,cellular organisms,1.0,100.0,all_life,38.3,828.2076,0.09146342
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XUA1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,34.83,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XUR5,Oryza sativa subsp. japonica,Viridiplantae,Eukaryota,2.0,100.0,eukaryotes,42.36,73.1553,0.14974183
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XUS5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.0,32.0,0.37323943
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XV22,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,34.23,2.0,0.72839504
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XV91,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.26,5.0,0.36363637
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XWZ4,Oryza sativa subsp. japonica,Viridiplantae,Embryophyta,5.0,80.0,kingdom_only,35.91,583.2633,0.60544217
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XY64,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,27.13,3.0,0.8783784
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XYE6,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,10.0,flagged,36.27,75.0,0.2259887
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XYJ1,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,29.87,925.7194,0.83856505
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XZ47,Oryza sativa subsp. japonica,Viridiplantae,cellular organisms,1.0,94.0,all_life,51.28,913.2535,0.72727275
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0XZG9,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,100.0,kingdom_only,39.21,1728.3435,0.023255814
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y1C7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.16,5.0,0.69868994
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y1G2,Oryza sativa subsp. japonica,Viridiplantae,Euphyllophyta,7.0,92.0,kingdom_only,37.96,722.0672,0.1324201
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y291,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.08,1.0,0.8875
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y2F3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.75,1.0,0.70481926
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y2U1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.08,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y448,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.29,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y4M2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,29.73,2.0,0.54460096
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y5Q0,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,43.54,1021.0487,0.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y692,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,20.0,flagged,29.95,3.0,0.5811966
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y7H0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,31.48,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y8G6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.26,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y941,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,60.0,kingdom_only,43.28,150.5,0.75238097
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y9J2,Oryza sativa subsp. japonica,Viridiplantae,Possible contamination or HGT,,20.0,flagged,33.87,6.0,0.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0Y9J4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,36.37,2.0,0.32515338
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0YAX6,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,40.0,family_or_genus,32.83,2.0,0.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0YC42,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,40.06,750.8093,0.23076923
+Oryza_sativa_subsp_japonica_39947,Oryza,A0A0P0YE43,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.95,1.0,0.65806454
+Oryza_sativa_subsp_japonica_39947,Oryza,A2ZSD0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.75,4.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A3A0S7,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,38.32,18.9494,0.997549
+Oryza_sativa_subsp_japonica_39947,Oryza,A3A6Z6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.23,13.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A3AR20,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,35.4,1.0,0.8173077
+Oryza_sativa_subsp_japonica_39947,Oryza,A3AT58,Oryza sativa subsp. japonica,Viridiplantae,Oryzeae,17.0,100.0,kingdom_only,43.14,206.47,0.48333332
+Oryza_sativa_subsp_japonica_39947,Oryza,A3BBA0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,27.41,2.0,0.74025977
+Oryza_sativa_subsp_japonica_39947,Oryza,A3BBV0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.54,1.0,0.9230769
+Oryza_sativa_subsp_japonica_39947,Oryza,A3BWG4,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,38.8,20.325,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,A3BWP1,Oryza sativa subsp. japonica,Viridiplantae,BOP clade,16.0,50.0,kingdom_only,44.62,1041.0,0.025974026
+Oryza_sativa_subsp_japonica_39947,Oryza,A3C7W6,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,100.0,kingdom_only,31.13,6.0741,0.5313531
+Oryza_sativa_subsp_japonica_39947,Oryza,A3CC19,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,36.96,5.0,0.47435898
+Oryza_sativa_subsp_japonica_39947,Oryza,B7ETY1,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,50.62,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,B9F7V7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,31.11,6.0,0.45147678
+Oryza_sativa_subsp_japonica_39947,Oryza,B9F9B2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.8,3.0,0.97572815
+Oryza_sativa_subsp_japonica_39947,Oryza,B9FBK5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.75,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,B9FTC7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.27,1.0,0.7741935
+Oryza_sativa_subsp_japonica_39947,Oryza,B9FVZ4,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,60.0,family_or_genus,39.73,888.205,0.31756756
+Oryza_sativa_subsp_japonica_39947,Oryza,B9G2Z3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,28.71,1.0,0.9947644
+Oryza_sativa_subsp_japonica_39947,Oryza,B9G9U3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.83,5.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,B9GA41,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.69,5.1667,0.9388889
+Oryza_sativa_subsp_japonica_39947,Oryza,C7IXW5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.13,1.0,0.9583333
+Oryza_sativa_subsp_japonica_39947,Oryza,C7IZH2,Oryza sativa subsp. japonica,Viridiplantae,Eukaryota,2.0,100.0,eukaryotes,37.96,13.0597,0.5958904
+Oryza_sativa_subsp_japonica_39947,Oryza,I7HB57,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,32.77,2.0,0.89361703
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0D427,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.03,1.0,0.725
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0D6N3,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,80.0,kingdom_only,33.4,82.3854,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0DBC4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,31.96,1.0,0.9469697
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0DBP1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,29.1,1.0,0.8423423
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0DKC6,Oryza sativa subsp. japonica,Viridiplantae,cellular organisms,1.0,100.0,all_life,45.59,986.0,0.36633664
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0DMW0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.95,1.0,0.56666666
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0E413,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,83.0,kingdom_only,50.57,1169.3334,0.30496454
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0IM04,Oryza sativa subsp. japonica,Viridiplantae,BOP clade,16.0,100.0,kingdom_only,28.94,2.0,0.98165137
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0IR89,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,34.56,4.0,0.45398772
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0IRL8,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,33.44,4.0,0.3045822
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0IS47,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,35.25,1.0,0.6076923
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0ISX8,Oryza sativa subsp. japonica,Viridiplantae,BOP clade,16.0,50.0,kingdom_only,30.2,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0ITW3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.96,2.0,0.47368422
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0IWG9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,27.39,2.4889,0.6956522
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0J4A3,Oryza sativa subsp. japonica,Viridiplantae,Embryophyta,5.0,100.0,kingdom_only,54.32,152.6233,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0J8W6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.62,2.0,0.35915494
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0JAT9,Oryza sativa subsp. japonica,Viridiplantae,commelinids,13.0,42.0,kingdom_only,32.84,8.119,0.8655914
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0JEU4,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,34.59,2.0,0.19354838
+Oryza_sativa_subsp_japonica_39947,Oryza,Q0JIJ4,Oryza sativa subsp. japonica,Viridiplantae,Euphyllophyta,7.0,92.0,kingdom_only,40.93,1128.4418,0.7355372
+Oryza_sativa_subsp_japonica_39947,Oryza,Q10GF7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,31.88,5.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q10M58,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.85,6.2,0.90677965
+Oryza_sativa_subsp_japonica_39947,Oryza,Q2QLJ4,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,48.34,822.2573,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q2QN35,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.21,3.3333,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q2R1A3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,39.42,3.0667,0.9008499
+Oryza_sativa_subsp_japonica_39947,Oryza,Q2R1D9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.6,3.0,0.30232558
+Oryza_sativa_subsp_japonica_39947,Oryza,Q2R214,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,30.55,3.0,0.80861247
+Oryza_sativa_subsp_japonica_39947,Oryza,Q2RAB6,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,33.16,5.0,0.5794392
+Oryza_sativa_subsp_japonica_39947,Oryza,Q337Q0,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,38.48,35.2422,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q5JMM0,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,100.0,kingdom_only,41.61,15.4281,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q5VNR2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,36.04,3.0,0.994012
+Oryza_sativa_subsp_japonica_39947,Oryza,Q5W6X3,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,31.88,1.0,0.62371135
+Oryza_sativa_subsp_japonica_39947,Oryza,Q5Z8Z5,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.73,2.0,0.10810811
+Oryza_sativa_subsp_japonica_39947,Oryza,Q5ZAR6,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,43.02,3100.3142,0.67391306
+Oryza_sativa_subsp_japonica_39947,Oryza,Q5ZC08,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,36.16,1.0,0.66871166
+Oryza_sativa_subsp_japonica_39947,Oryza,Q5ZCC1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,37.55,3.0,0.71428573
+Oryza_sativa_subsp_japonica_39947,Oryza,Q60DX5,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,35.23,4.4167,0.7914692
+Oryza_sativa_subsp_japonica_39947,Oryza,Q60E69,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,50.0,kingdom_only,29.98,6.6667,0.027027028
+Oryza_sativa_subsp_japonica_39947,Oryza,Q67V25,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,39.16,16.0,0.75980395
+Oryza_sativa_subsp_japonica_39947,Oryza,Q688L7,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,80.0,family_or_genus,41.31,21.0587,0.9641791
+Oryza_sativa_subsp_japonica_39947,Oryza,Q69LC6,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.17,1.0,0.9076923
+Oryza_sativa_subsp_japonica_39947,Oryza,Q69V26,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,29.6,4.0,0.36144578
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6AUD7,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,100.0,kingdom_only,43.06,79.517,0.9318463
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6ET11,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,28.76,3.0,0.993266
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6H3Y0,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,44.92,16.1197,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6K4P6,Oryza sativa subsp. japonica,Viridiplantae,Poales,14.0,33.0,kingdom_only,30.41,5.0,0.76
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6YS89,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,33.73,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6YY53,Oryza sativa subsp. japonica,Viridiplantae,Oryzeae,17.0,100.0,kingdom_only,38.9,42.6829,0.6814815
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6Z075,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,30.6,26.1421,0.16607773
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6Z2K1,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,40.28,147.5469,0.566879
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6Z2L9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,36.38,2.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6Z2M1,Oryza sativa subsp. japonica,Viridiplantae,Mesangiospermae,10.0,60.0,kingdom_only,39.56,21.8476,0.8995816
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6Z334,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,26.62,2.0,0.40860215
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6Z842,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,26.14,9.693,0.6437247
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6ZAB9,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,32.6,1.0,0.31658292
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6ZBH7,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,26.9,1.0,0.94512194
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6ZBP4,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,43.15,7.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q6ZJC6,Oryza sativa subsp. japonica,Viridiplantae,BOP clade,16.0,50.0,kingdom_only,37.9,7.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q7G5T3,Oryza sativa subsp. japonica,Viridiplantae,Oryzeae,17.0,100.0,kingdom_only,35.84,4.0,0.11888112
+Oryza_sativa_subsp_japonica_39947,Oryza,Q7XRB2,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,35.18,200.6296,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q7Y159,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,32.64,1.0,0.8913044
+Oryza_sativa_subsp_japonica_39947,Oryza,Q84MS9,Oryza sativa subsp. japonica,Viridiplantae,Tracheophyta,6.0,78.0,kingdom_only,54.44,185.8833,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q84Z12,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,100.0,family_or_genus,42.21,115.0961,0.5092025
+Oryza_sativa_subsp_japonica_39947,Oryza,Q851Z4,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,27.6,2.0,0.27
+Oryza_sativa_subsp_japonica_39947,Oryza,Q852K7,Oryza sativa subsp. japonica,Viridiplantae,Poaceae,15.0,100.0,family_or_genus,36.6,11.9387,0.76865673
+Oryza_sativa_subsp_japonica_39947,Oryza,Q8H2P1,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa,19.0,100.0,family_or_genus,29.64,19.9429,0.3127572
+Oryza_sativa_subsp_japonica_39947,Oryza,Q8H5D9,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,34.48,3.0,0.5477528
+Oryza_sativa_subsp_japonica_39947,Oryza,Q8H899,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,35.85,26.4833,0.7610921
+Oryza_sativa_subsp_japonica_39947,Oryza,Q8HCP1,Oryza sativa subsp. japonica,Viridiplantae,Oryza,18.0,100.0,family_or_genus,27.51,1.0,1.0
+Oryza_sativa_subsp_japonica_39947,Oryza,Q8S152,Oryza sativa subsp. japonica,Viridiplantae,Oryza sativa Japonica Group,20.0,100.0,kingdom_only,28.12,1.0,1.0
+Petunia_hybrida_4102,Petunia,P09789,Petunia hybrida,,Pentapetalae,1.0,100.0,kingdom_only,,10.6321,
+Triticum_aestivum_4565,Triticum,P04721,Triticum aestivum,,cellular organisms,1.0,100.0,all_life,,78.0648,
+Triticum_aestivum_4565,Triticum,P08489,Triticum aestivum,,cellular organisms,1.0,100.0,all_life,,33.75,
+Triticum_aestivum_4565,Triticum,P10388,Triticum aestivum,,cellular organisms,1.0,100.0,all_life,,33.75,
+Zea_mays_4577,Zea,A0A1D6DUU8,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,51.59,110.6573,0.64254063
+Zea_mays_4577,Zea,A0A1D6E7I6,Zea mays,Viridiplantae,Andropogoneae,20.0,100.0,kingdom_only,42.45,16.3,1.0
+Zea_mays_4577,Zea,A0A1D6HS14,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,38.99,2.0,0.807971
+Zea_mays_4577,Zea,A0A1D6KBA5,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,28.0,2.0,0.9647059
+Zea_mays_4577,Zea,A0A1D6M7H8,Zea mays,Viridiplantae,PACMAD clade,17.0,75.0,kingdom_only,53.33,12.0,0.9917355
+Zea_mays_4577,Zea,A0A1D6N1Z4,Zea mays,Viridiplantae,PACMAD clade,17.0,100.0,kingdom_only,36.65,13.0198,0.98657715
+Zea_mays_4577,Zea,A0A1D6N712,Zea mays,Viridiplantae,Spermatophyta,9.0,100.0,kingdom_only,48.59,116.4982,0.9543379
+Zea_mays_4577,Zea,A0A1D6QCB8,Zea mays,Viridiplantae,cellular organisms,1.0,90.0,all_life,43.39,32.6253,0.8552632
+Zea_mays_4577,Zea,A0A317YF49,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,34.45,,0.5923077
+Zea_mays_4577,Zea,A0A804LIJ5,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,32.4,,1.0
+Zea_mays_4577,Zea,A0A804LKY8,Zea mays,Viridiplantae,cellular organisms,1.0,85.0,all_life,44.25,1924.7332,0.74013156
+Zea_mays_4577,Zea,A0A804LL56,Zea mays,Viridiplantae,Eukaryota,2.0,100.0,eukaryotes,46.69,1387.1014,0.65868264
+Zea_mays_4577,Zea,A0A804LLR7,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,30.1,2.0,0.8312102
+Zea_mays_4577,Zea,A0A804LN20,Zea mays,Viridiplantae,cellular organisms,1.0,70.0,all_life,52.86,376.9553,0.74
+Zea_mays_4577,Zea,A0A804LN86,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,45.89,2486.864,0.07250755
+Zea_mays_4577,Zea,A0A804LRV7,Zea mays,Viridiplantae,Mesangiospermae,11.0,90.0,kingdom_only,35.86,1531.9771,0.5416667
+Zea_mays_4577,Zea,A0A804LRZ6,Zea mays,Viridiplantae,Poaceae,16.0,100.0,family_or_genus,37.09,12.6298,0.37883008
+Zea_mays_4577,Zea,A0A804LSI9,Zea mays,Viridiplantae,Andropogoneae,20.0,100.0,kingdom_only,27.18,1.0,0.3876652
+Zea_mays_4577,Zea,A0A804LSL4,Zea mays,Viridiplantae,Possible contamination or HGT,,20.0,flagged,31.21,3.0,0.9308176
+Zea_mays_4577,Zea,A0A804LSS9,Zea mays,Viridiplantae,Streptophyta,4.0,100.0,kingdom_only,36.31,27.132,0.09170306
+Zea_mays_4577,Zea,A0A804LTH0,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,28.76,1.0,0.6256983
+Zea_mays_4577,Zea,A0A804LTH3,Zea mays,Viridiplantae,Eukaryota,2.0,100.0,eukaryotes,45.72,171.3903,0.31447965
+Zea_mays_4577,Zea,A0A804LVK1,Zea mays,Viridiplantae,Poaceae,16.0,60.0,family_or_genus,42.71,66.9058,0.44385028
+Zea_mays_4577,Zea,A0A804LW07,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,40.78,2990.7678,0.6756757
+Zea_mays_4577,Zea,A0A804LYB3,Zea mays,Viridiplantae,Eukaryota,2.0,73.0,eukaryotes,43.38,1641.8334,0.625
+Zea_mays_4577,Zea,A0A804LYU1,Zea mays,Viridiplantae,Viridiplantae,3.0,94.0,kingdom_only,44.44,1641.0616,0.1609589
+Zea_mays_4577,Zea,A0A804LZU9,Zea mays,Viridiplantae,Mesangiospermae,11.0,70.0,kingdom_only,42.02,1441.0,0.44036698
+Zea_mays_4577,Zea,A0A804M1Z0,Zea mays,Viridiplantae,Embryophyta,6.0,100.0,kingdom_only,37.83,2357.95,0.3564815
+Zea_mays_4577,Zea,A0A804M5S0,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,32.68,1121.5,0.53174603
+Zea_mays_4577,Zea,A0A804M772,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,32.08,1137.3213,1.0
+Zea_mays_4577,Zea,A0A804M8N5,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,28.13,,0.69822484
+Zea_mays_4577,Zea,A0A804M9Z5,Zea mays,Viridiplantae,Possible contamination or HGT,,10.0,flagged,29.7,,0.98636365
+Zea_mays_4577,Zea,A0A804MHW0,Zea mays,Viridiplantae,Panicoideae,18.0,66.0,kingdom_only,30.25,3.0,0.96595746
+Zea_mays_4577,Zea,A0A804MIL2,Zea mays,Viridiplantae,Poaceae,16.0,40.0,family_or_genus,40.28,1398.498,0.53488374
+Zea_mays_4577,Zea,A0A804MIM3,Zea mays,Viridiplantae,Poaceae,16.0,60.0,family_or_genus,33.93,2120.6772,0.33529413
+Zea_mays_4577,Zea,A0A804MJ00,Zea mays,Viridiplantae,cellular organisms,1.0,95.0,all_life,44.58,1830.5479,0.13235295
+Zea_mays_4577,Zea,A0A804MJK6,Zea mays,Viridiplantae,Andropogoneae,20.0,100.0,kingdom_only,38.35,1.0,1.0
+Zea_mays_4577,Zea,A0A804ML36,Zea mays,Viridiplantae,Possible contamination or HGT,,20.0,flagged,30.52,1.0,1.0
+Zea_mays_4577,Zea,A0A804MMS8,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,27.03,1.0,0.67957747
+Zea_mays_4577,Zea,A0A804MN86,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,31.41,877.0764,1.0
+Zea_mays_4577,Zea,A0A804MNE0,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,26.2,29.1469,0.33802816
+Zea_mays_4577,Zea,A0A804MP84,Zea mays,Viridiplantae,Poaceae,16.0,100.0,family_or_genus,38.05,545.4331,0.57843137
+Zea_mays_4577,Zea,A0A804MRE1,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,33.54,411.0767,0.5280899
+Zea_mays_4577,Zea,A0A804MSD2,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,26.4,,0.8434505
+Zea_mays_4577,Zea,A0A804MT81,Zea mays,Viridiplantae,Tracheophyta,7.0,100.0,kingdom_only,41.43,990.9802,0.06338028
+Zea_mays_4577,Zea,A0A804MV65,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,43.66,245.1815,0.15972222
+Zea_mays_4577,Zea,A0A804MXB8,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,29.43,,0.3004926
+Zea_mays_4577,Zea,A0A804N0N7,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,42.32,475.0192,0.75514406
+Zea_mays_4577,Zea,A0A804N201,Zea mays,Viridiplantae,Poaceae,16.0,80.0,family_or_genus,39.73,194.9095,0.962963
+Zea_mays_4577,Zea,A0A804N5T1,Zea mays,Viridiplantae,Andropogoneae,20.0,100.0,kingdom_only,39.24,2498.0,0.5833333
+Zea_mays_4577,Zea,A0A804N648,Zea mays,Viridiplantae,Mesangiospermae,11.0,100.0,kingdom_only,48.87,5.1419,0.9885057
+Zea_mays_4577,Zea,A0A804N6V4,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,32.78,,0.9716981
+Zea_mays_4577,Zea,A0A804N7F4,Zea mays,Viridiplantae,Poales,15.0,100.0,kingdom_only,40.38,1534.0,0.030534351
+Zea_mays_4577,Zea,A0A804N8I6,Zea mays,Viridiplantae,Possible contamination or HGT,,20.0,flagged,29.69,,0.19607843
+Zea_mays_4577,Zea,A0A804NAL9,Zea mays,Viridiplantae,Poales,15.0,100.0,kingdom_only,29.13,402.8124,0.06666667
+Zea_mays_4577,Zea,A0A804NBF6,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,30.36,,0.23511904
+Zea_mays_4577,Zea,A0A804NBK0,Zea mays,Viridiplantae,Possible contamination or HGT,,10.0,flagged,29.58,,0.572
+Zea_mays_4577,Zea,A0A804NCE2,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,27.27,2.0,0.4566474
+Zea_mays_4577,Zea,A0A804NKJ6,Zea mays,Viridiplantae,Poaceae,16.0,100.0,family_or_genus,36.26,73.0224,0.7531915
+Zea_mays_4577,Zea,A0A804NL97,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,30.78,,0.5923567
+Zea_mays_4577,Zea,A0A804NP98,Zea mays,Viridiplantae,Embryophyta,6.0,100.0,kingdom_only,37.25,1154.177,0.83902436
+Zea_mays_4577,Zea,A0A804NQM0,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,38.83,4.0,0.656
+Zea_mays_4577,Zea,A0A804NR15,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,41.98,1.0,0.47863248
+Zea_mays_4577,Zea,A0A804NUI6,Zea mays,Viridiplantae,Possible contamination or HGT,,6.0,flagged,28.57,,0.8095238
+Zea_mays_4577,Zea,A0A804NVF5,Zea mays,Viridiplantae,cellular organisms,1.0,75.0,all_life,39.72,103.075,0.38222224
+Zea_mays_4577,Zea,A0A804NWI7,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,33.27,,0.16825397
+Zea_mays_4577,Zea,A0A804P1I8,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,38.05,,0.8557692
+Zea_mays_4577,Zea,A0A804P498,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,31.42,1.0,0.97692305
+Zea_mays_4577,Zea,A0A804P580,Zea mays,Viridiplantae,Embryophyta,6.0,100.0,kingdom_only,48.89,112.9291,0.6702997
+Zea_mays_4577,Zea,A0A804PA68,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,32.51,877.0764,1.0
+Zea_mays_4577,Zea,A0A804PBW6,Zea mays,Viridiplantae,Poaceae,16.0,100.0,family_or_genus,41.38,214.8807,0.5102041
+Zea_mays_4577,Zea,A0A804PFM0,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,25.09,1.0,0.75617284
+Zea_mays_4577,Zea,A0A804PFW6,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,52.33,97.2191,0.9752066
+Zea_mays_4577,Zea,A0A804PH18,Zea mays,Viridiplantae,Poaceae,16.0,100.0,family_or_genus,41.27,38.2798,0.9966887
+Zea_mays_4577,Zea,A0A804PMI3,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,30.15,,0.95394737
+Zea_mays_4577,Zea,A0A804PQJ7,Zea mays,Viridiplantae,Eukaryota,2.0,94.0,eukaryotes,50.9,2822.6804,0.5010352
+Zea_mays_4577,Zea,A0A804PQW1,Zea mays,Viridiplantae,Poales,15.0,100.0,kingdom_only,47.89,152.459,0.24184261
+Zea_mays_4577,Zea,A0A804PRM9,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,27.57,1.0,1.0
+Zea_mays_4577,Zea,A0A804PTX5,Zea mays,Viridiplantae,cellular organisms,1.0,90.0,all_life,37.75,28.9057,0.4319853
+Zea_mays_4577,Zea,A0A804PYP3,Zea mays,Viridiplantae,Panicoideae,18.0,66.0,kingdom_only,32.34,2.0,0.14802632
+Zea_mays_4577,Zea,A0A804PYT2,Zea mays,Viridiplantae,Mesangiospermae,11.0,40.0,kingdom_only,30.91,3.0,0.30813953
+Zea_mays_4577,Zea,A0A804PZD6,Zea mays,Viridiplantae,Poaceae,16.0,80.0,family_or_genus,46.43,1134.0,0.3736842
+Zea_mays_4577,Zea,A0A804PZG0,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,47.66,1698.5618,0.25714287
+Zea_mays_4577,Zea,A0A804Q061,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,30.3,,0.5494506
+Zea_mays_4577,Zea,A0A804Q157,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,36.97,1.0,0.53731346
+Zea_mays_4577,Zea,A0A804Q2E3,Zea mays,Viridiplantae,Mesangiospermae,11.0,90.0,kingdom_only,36.79,111.463,0.9969512
+Zea_mays_4577,Zea,A0A804Q5R1,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,28.36,1.0,0.96484375
+Zea_mays_4577,Zea,A0A804Q8F8,Zea mays,Viridiplantae,Mesangiospermae,11.0,90.0,kingdom_only,36.9,1901.2434,0.22222222
+Zea_mays_4577,Zea,A0A804Q9Q5,Zea mays,Viridiplantae,Embryophyta,6.0,100.0,kingdom_only,39.41,27.0524,0.6458333
+Zea_mays_4577,Zea,A0A804QBV7,Zea mays,Viridiplantae,cellular organisms,1.0,85.0,all_life,38.47,1200.0439,0.5492537
+Zea_mays_4577,Zea,A0A804QBY3,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,31.21,6.6047,0.53642386
+Zea_mays_4577,Zea,A0A804QBY7,Zea mays,Viridiplantae,Possible contamination or HGT,,20.0,flagged,29.9,1.0,0.5364583
+Zea_mays_4577,Zea,A0A804QCG7,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,28.72,1.0,0.5497076
+Zea_mays_4577,Zea,A0A804QHF2,Zea mays,Viridiplantae,Poaceae,16.0,100.0,family_or_genus,44.31,1151.824,1.0
+Zea_mays_4577,Zea,A0A804QHU9,Zea mays,Viridiplantae,Mesangiospermae,11.0,80.0,kingdom_only,36.65,1385.5542,0.4620253
+Zea_mays_4577,Zea,A0A804QIL4,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,28.26,,0.965
+Zea_mays_4577,Zea,A0A804QJH8,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,26.77,,1.0
+Zea_mays_4577,Zea,A0A804QLG3,Zea mays,Viridiplantae,Eukaryota,2.0,84.0,eukaryotes,45.08,2542.6094,0.14179105
+Zea_mays_4577,Zea,A0A804QLT5,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,28.69,,0.7288136
+Zea_mays_4577,Zea,A0A804QNW7,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,40.2,2100.3335,0.38020834
+Zea_mays_4577,Zea,A0A804QPC5,Zea mays,Viridiplantae,Embryophyta,6.0,100.0,kingdom_only,29.8,55.714,0.10227273
+Zea_mays_4577,Zea,A0A804QQ27,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,36.49,,0.9948186
+Zea_mays_4577,Zea,A0A804QQW7,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,30.4,2.0,0.80444443
+Zea_mays_4577,Zea,A0A804QRX8,Zea mays,Viridiplantae,Streptophyta,4.0,100.0,kingdom_only,38.44,235.062,0.49865952
+Zea_mays_4577,Zea,A0A804QTB5,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,27.82,1.0,0.53038675
+Zea_mays_4577,Zea,A0A804QTN3,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,30.73,236.5625,0.13829787
+Zea_mays_4577,Zea,A0A804QTR5,Zea mays,Viridiplantae,Embryophyta,6.0,100.0,kingdom_only,41.53,454.4824,0.23316061
+Zea_mays_4577,Zea,A0A804QWV2,Zea mays,Viridiplantae,Magnoliopsida,10.0,100.0,kingdom_only,41.61,235.8143,0.6610879
+Zea_mays_4577,Zea,A0A804QWY5,Zea mays,Viridiplantae,Magnoliopsida,10.0,90.0,kingdom_only,40.95,16.0374,0.2991453
+Zea_mays_4577,Zea,A0A804QXT9,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,33.16,877.0764,0.9122807
+Zea_mays_4577,Zea,A0A804QY60,Zea mays,Viridiplantae,Poaceae,16.0,100.0,family_or_genus,31.95,43.5188,0.70564514
+Zea_mays_4577,Zea,A0A804QZD0,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,31.2,877.0764,1.0
+Zea_mays_4577,Zea,A0A804R1R3,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,44.72,713.5779,0.22649573
+Zea_mays_4577,Zea,A0A804R2U5,Zea mays,Viridiplantae,Streptophyta,4.0,100.0,kingdom_only,37.31,222.5828,0.034042552
+Zea_mays_4577,Zea,A0A804R4L9,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,31.22,,0.4715447
+Zea_mays_4577,Zea,A0A804R4N1,Zea mays,Viridiplantae,Panicoideae,18.0,66.0,kingdom_only,40.38,,0.23387097
+Zea_mays_4577,Zea,A0A804R4T6,Zea mays,Viridiplantae,Possible contamination or HGT,,20.0,flagged,27.95,2.841,0.42
+Zea_mays_4577,Zea,A0A804R828,Zea mays,Viridiplantae,PACMAD clade,17.0,50.0,kingdom_only,36.94,553.6428,0.0
+Zea_mays_4577,Zea,A0A804R903,Zea mays,Viridiplantae,Embryophyta,6.0,93.0,kingdom_only,45.83,1013.9119,0.3692946
+Zea_mays_4577,Zea,A0A804RAS0,Zea mays,Viridiplantae,Poales,15.0,100.0,kingdom_only,46.09,2781.7002,0.5350877
+Zea_mays_4577,Zea,A0A804RB23,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,36.33,1390.1028,0.6827586
+Zea_mays_4577,Zea,A0A804RCJ5,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,38.65,,1.0
+Zea_mays_4577,Zea,A0A804RE10,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,27.38,74.0176,0.95734596
+Zea_mays_4577,Zea,A0A804REB9,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,38.58,,0.7761194
+Zea_mays_4577,Zea,A0A804RFE3,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,49.97,566.6299,0.23387097
+Zea_mays_4577,Zea,A0A804RFX5,Zea mays,Viridiplantae,Magnoliopsida,10.0,100.0,kingdom_only,40.74,1534.0,0.46835443
+Zea_mays_4577,Zea,A0A804RG55,Zea mays,Viridiplantae,Magnoliopsida,10.0,100.0,kingdom_only,33.51,1585.3334,0.095
+Zea_mays_4577,Zea,A0A804RJ44,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,32.12,,1.0
+Zea_mays_4577,Zea,A0A804RL49,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,38.42,,0.76086956
+Zea_mays_4577,Zea,A0A804RL86,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,33.36,,1.0
+Zea_mays_4577,Zea,A0A804RLS3,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,39.01,1432.8298,0.6527778
+Zea_mays_4577,Zea,A0A804RMB3,Zea mays,Viridiplantae,cellular organisms,1.0,95.0,all_life,44.35,1350.9961,0.09815951
+Zea_mays_4577,Zea,A0A804U6Q6,Zea mays,Viridiplantae,Mesangiospermae,11.0,90.0,kingdom_only,41.93,374.9313,0.06849315
+Zea_mays_4577,Zea,A0A804U829,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,36.83,,0.9632107
+Zea_mays_4577,Zea,A0A804U8K3,Zea mays,Viridiplantae,Mesangiospermae,11.0,80.0,kingdom_only,34.49,910.2534,0.51778656
+Zea_mays_4577,Zea,A0A804UA59,Zea mays,Viridiplantae,PACMAD clade,17.0,75.0,kingdom_only,36.88,214.4213,0.73221755
+Zea_mays_4577,Zea,A0A804UDS5,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,28.64,,0.3265306
+Zea_mays_4577,Zea,A0A804UEK3,Zea mays,Viridiplantae,Absent from the DIAMOND/MMseqs2 results,,,flagged,39.75,,1.0
+Zea_mays_4577,Zea,A0A804UG19,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,41.76,1064.2158,0.3644068
+Zea_mays_4577,Zea,A0A804UHJ2,Zea mays,Viridiplantae,Spermatophyta,9.0,100.0,kingdom_only,37.43,916.5441,0.17486338
+Zea_mays_4577,Zea,A0A804UHU6,Zea mays,Viridiplantae,Poaceae,16.0,40.0,family_or_genus,37.3,,0.9319728
+Zea_mays_4577,Zea,A0A804UIL1,Zea mays,Viridiplantae,Possible contamination or HGT,,25.0,flagged,32.33,25.5516,0.22515213
+Zea_mays_4577,Zea,A0A804UK34,Zea mays,Viridiplantae,cellular organisms,1.0,95.0,all_life,42.45,84.8367,0.08955224
+Zea_mays_4577,Zea,A0A804UL58,Zea mays,Viridiplantae,Andropogoneae,20.0,100.0,kingdom_only,29.69,1328.124,0.23312883
+Zea_mays_4577,Zea,B4FUY8,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,35.59,1.0,0.9885057
+Zea_mays_4577,Zea,B6UHK1,Zea mays,Viridiplantae,Panicoideae,18.0,66.0,kingdom_only,43.76,13.3333,0.5285714
+Zea_mays_4577,Zea,C0P2R7,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,27.11,6.0,0.64761907
+Zea_mays_4577,Zea,C0PK33,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,39.48,187.5593,0.984375
+Zea_mays_4577,Zea,C4IZW5,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,30.58,1.0,0.67164177
+Zea_mays_4577,Zea,C4J1A1,Zea mays,Viridiplantae,Possible contamination or HGT,,10.0,flagged,30.34,2.0,0.94482756
+Zea_mays_4577,Zea,C4J3A0,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,48.26,1011.8433,0.71601206
+Zea_mays_4577,Zea,K7V5V5,Zea mays,Viridiplantae,Panicoideae,18.0,33.0,kingdom_only,37.71,3.1281,1.0
+Zea_mays_4577,Zea,P03936,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,27.27,1.0,0.8666667
+Zea_mays_4577,Zea,P06678,Zea mays,Viridiplantae,Possible contamination or HGT,,30.0,flagged,45.54,62.6273,0.2125
+Zea_mays_4577,Zea,P0DKL2,Zea mays,Viridiplantae,Streptophyta,4.0,100.0,kingdom_only,39.54,3.2656,0.8479698
+Zea_mays_4577,Zea,P84187,Zea mays,Viridiplantae,cellular organisms,1.0,100.0,all_life,36.13,1227.0,0.036764707
+Zea_mays_4577,Zea,Q6R994,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,35.22,1.0,0.19327731
+Zea_mays_4577,Zea,Q6R9B3,Zea mays,Viridiplantae,Possible contamination or HGT,,20.0,flagged,41.58,1.0,0.9026549
+Zea_mays_4577,Zea,Q6R9B4,Zea mays,Viridiplantae,Zea mays,21.0,100.0,family_or_genus,36.83,1146.0,0.56589144

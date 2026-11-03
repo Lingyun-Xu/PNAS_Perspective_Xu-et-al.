@@ -1,0 +1,93 @@
+proteins analysed: 558,194 from 47 proteomes; AIUPred/pLDDT length mismatches: 0; missing MSA depth: 3167
+
+Disorder by superkingdom:
+               proteins  median_frac_disordered  mean_frac_disordered  frac_with_idr30
+superkingdom                                                                          
+Archaea            1773                   0.016                 0.080            0.090
+Bacteria          52255                   0.061                 0.164            0.250
+Protist           53231                   0.269                 0.357            0.712
+Fungi             77109                   0.254                 0.347            0.696
+Animalia         207844                   0.220                 0.327            0.636
+Viridiplantae    165982                   0.284                 0.396            0.698
+
+Plant pLDDT gap (medians):
+      measure  plants  non_plants  animals  gap_vs_non_plants  gap_vs_animals
+    plddt_all   74.43       79.12    77.19               4.69            2.76
+plddt_ordered   85.78       87.63    86.35               1.85            0.57
+ plddt_global   74.43       79.12    77.19               4.69            2.76
+
+Median pLDDT by MSA-depth quintile (is_plant 0/1):
+              plddt_all            plddt_ordered           
+is_plant              0          1             0          1
+msa_quintile                                               
+0             63.380001  55.700001     73.349998  57.470001
+1             76.040001  69.570000     86.720001  82.449997
+2             80.400002  76.930000     88.589996  87.080002
+3             84.010002  81.000000     89.620003  88.480003
+4             87.230003  83.400002     90.959999  89.169998
+
+Regression (aiupred disorder, all proteins); SE clustered by proteome:
+             model             term     coef  se_cluster_proteome      p      n     r2
+           M1_base          log_msa   9.1579               0.4565 0.0000 555027 0.4194
+           M1_base         is_plant  -4.8408               0.8085 0.0000 555027 0.4194
+  M2_plus_disorder          log_msa   6.1244               0.3529 0.0000 555027 0.6000
+  M2_plus_disorder         disorder -24.1481               0.8824 0.0000 555027 0.6000
+  M2_plus_disorder         is_plant  -3.0818               0.4569 0.0000 555027 0.6000
+    M3_interaction          log_msa   5.9591               0.3628 0.0000 555027 0.6005
+    M3_interaction         is_plant  -5.1344               1.6023 0.0014 555027 0.6005
+    M3_interaction log_msa:is_plant   0.6466               0.4612 0.1610 555027 0.6005
+    M3_interaction         disorder -23.9894               0.8763 0.0000 555027 0.6005
+   M4_superkingdom          log_msa   5.9277               0.3535 0.0000 555027 0.6075
+   M4_superkingdom         disorder -23.6364               0.8385 0.0000 555027 0.6075
+M5_ordered_outcome          log_msa   8.1136               0.4753 0.0000 523522 0.3820
+M5_ordered_outcome         is_plant  -3.6645               0.5996 0.0000 523522 0.3820
+
+ADOPT vs AIUPred (per-protein Spearman of AIUPred vs -Z; residue agreement at 0.5 / Z<8):
+               proteins  median_rho  median_residue_agreement  frac_dis_aiupred  frac_dis_adopt
+superkingdom                                                                                   
+Archaea            1435       0.280                     0.963             0.095           0.068
+Bacteria           3345       0.419                     0.870             0.318           0.203
+Protist            3345       0.613                     0.908             0.317           0.317
+Fungi              3345       0.611                     0.910             0.317           0.319
+Animalia           3345       0.579                     0.900             0.320           0.331
+Viridiplantae      3345       0.564                     0.883             0.325           0.382
+
+Confound test: Spearman(log MSA depth, ADOPT - AIUPred disorder) = -0.076 (all subset)
+  Archaea: rho = 0.122 (n = 1435)
+  Bacteria: rho = -0.121 (n = 3345)
+  Protist: rho = -0.037 (n = 3345)
+  Fungi: rho = -0.123 (n = 3345)
+  Animalia: rho = -0.039 (n = 3345)
+  Viridiplantae: rho = -0.157 (n = 3345)
+
+Regression (aiupred disorder, ADOPT subset); SE clustered by proteome:
+             model             term     coef  se_cluster_proteome   p     n     r2
+           M1_base          log_msa   7.2900               0.4560 0.0 18160 0.3014
+           M1_base         is_plant  -5.9942               1.1239 0.0 18160 0.3014
+  M2_plus_disorder          log_msa   6.7764               0.4364 0.0 18160 0.5348
+  M2_plus_disorder         disorder -25.6353               1.0210 0.0 18160 0.5348
+  M2_plus_disorder         is_plant  -5.2761               0.5564 0.0 18160 0.5348
+    M3_interaction          log_msa   6.3476               0.4516 0.0 18160 0.5395
+    M3_interaction         is_plant -12.9664               1.7950 0.0 18160 0.5395
+    M3_interaction log_msa:is_plant   2.4194               0.5147 0.0 18160 0.5395
+    M3_interaction         disorder -25.5671               1.0258 0.0 18160 0.5395
+   M4_superkingdom          log_msa   6.4201               0.4069 0.0 18160 0.5534
+   M4_superkingdom         disorder -24.4397               1.0334 0.0 18160 0.5534
+M5_ordered_outcome          log_msa   7.5086               0.5150 0.0 17527 0.3422
+M5_ordered_outcome         is_plant  -4.5823               0.6975 0.0 17527 0.3422
+
+Regression (adopt disorder, ADOPT subset); SE clustered by proteome:
+             model             term     coef  se_cluster_proteome      p     n     r2
+           M1_base          log_msa   7.2900               0.4560 0.0000 18160 0.3014
+           M1_base         is_plant  -5.9942               1.1239 0.0000 18160 0.3014
+  M2_plus_disorder          log_msa   4.4154               0.2498 0.0000 18160 0.6936
+  M2_plus_disorder         disorder -37.5895               0.9581 0.0000 18160 0.6936
+  M2_plus_disorder         is_plant  -1.5916               0.3039 0.0000 18160 0.6936
+    M3_interaction          log_msa   4.2986               0.2684 0.0000 18160 0.6940
+    M3_interaction         is_plant  -3.8416               1.3309 0.0039 18160 0.6940
+    M3_interaction log_msa:is_plant   0.7040               0.4180 0.0922 18160 0.6940
+    M3_interaction         disorder -37.4793               0.9824 0.0000 18160 0.6940
+   M4_superkingdom          log_msa   4.3524               0.2550 0.0000 18160 0.6976
+   M4_superkingdom         disorder -36.6679               0.9443 0.0000 18160 0.6976
+M5_ordered_outcome          log_msa   6.7001               0.4475 0.0000 17771 0.3305
+M5_ordered_outcome         is_plant  -2.4106               0.5727 0.0000 17771 0.3305

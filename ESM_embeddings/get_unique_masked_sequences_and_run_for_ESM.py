@@ -223,7 +223,7 @@ pdb_df_excluded.to_csv('sequence_finished_mask_filtered_PDB_012525_mask_unique_e
 
 
 
-output_dir="/home/lx5/LYX/redo_PDB/ESM_embedding"
+output_dir="/path/to/cluster/redo_PDB/ESM_embedding"
 def write_sequences_to_fasta(sequences, sequence_ids, output_file):
     """
     Save sequences to a FASTA file, excluding any sequence containing "(" or ")".
@@ -287,7 +287,7 @@ def remove_redundancy(input_file_path, output_file_path):
         for sequence, label in unique_sequences.items():
             output_file.write(f'>{label}\n')
             output_file.write(f'{sequence}\n')
-directory_path = '/home/lx5/LYX/redo_PDB/ESM_embedding'
+directory_path = '/path/to/cluster/redo_PDB/ESM_embedding'
 fasta_files=["sequence_finished_mask_filtered_PDB_012525_mask_unique_exclude_allseq_from2021-20250117_plants.fasta",
 "sequence_finished_mask_filtered_PDB_012525_mask_unique.fasta",
 "2021-2024_published_four_plant_species_in_PDB_012425_mask_unique.fasta"]

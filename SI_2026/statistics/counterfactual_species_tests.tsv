@@ -1,0 +1,5 @@
+comparison	test	statistic	dof	p	effect	effect_name	median_rice	median_maize	median_soybean	median_Arabidopsis
+3800	discordant pairs (real only / AI only) among species, chi-square	1835.2686723177258	3	0.0	0.18093206177798446	Cramer's V				
+3800	paired gain difference (AI - real) among species, Kruskal-Wallis	5078.418307500244	3	0.0	0.03160500303390657	epsilon^2	0.0	0.0	0.0	0.0
+690	discordant pairs (real only / AI only) among species, chi-square	1805.5872926755342	3	0.0	0.26531212279331096	Cramer's V				
+690	paired gain difference (AI - real) among species, Kruskal-Wallis	9839.012083392374	3	0.0	0.0612320584712378	epsilon^2	0.0	0.0	0.0	0.0

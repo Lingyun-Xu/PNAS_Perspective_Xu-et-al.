@@ -1,0 +1,1 @@
+AF2_48_proteomes_v6.parquet (483.5 MB, MD5 c8b8f412862ba4649f3467e0059de3d0) is too large for GitHub and is in the Zenodo record https://doi.org/10.5281/zenodo.23925266 as Dataset_S6_AFDB_v6_47_proteomes__AF2_48_proteomes_v6.parquet. Put it back in this folder under its own name.

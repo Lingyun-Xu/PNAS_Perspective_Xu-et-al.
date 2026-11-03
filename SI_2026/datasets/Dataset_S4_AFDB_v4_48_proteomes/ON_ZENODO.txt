@@ -1,0 +1,1 @@
+AF2_48_model_oganisms.parquet (257.5 MB, MD5 661c879bcae311d6fa99f61688bcd6bf) is too large for GitHub and is in the Zenodo record https://doi.org/10.5281/zenodo.23925266 as Dataset_S4_AFDB_v4_48_proteomes__AF2_48_model_oganisms.parquet. Put it back in this folder under its own name.

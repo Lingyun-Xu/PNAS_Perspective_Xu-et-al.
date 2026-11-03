@@ -1,0 +1,9 @@
+subset	name	n	spearman_rho	spearman_p	pearson_r	pearson_p	median_af2	median_esmfold
+all	all	92385	0.8513	0.0	0.845	0.0	66.03	55.26
+group	Animalia	11072	0.8606	0.0	0.8357	0.0	71.53	59.88
+group	Archaea	334	0.8251	2.5794246972161417e-84	0.724	1.765592772087509e-55	88.61	78.4
+group	Bacteria	1057	0.8924	0.0	0.8588	9.825548595684686e-309	83.14	71.31
+group	Fungi	18041	0.8994	0.0	0.8836	0.0	69.1	58.64
+group	Parasitic Worms	22917	0.8463	0.0	0.8337	0.0	68.89	57.25
+group	Protist	13210	0.83	0.0	0.8134	0.0	70.72	58.55
+group	Viridiplantae	25754	0.7486	0.0	0.7759	0.0	57.9	48.35

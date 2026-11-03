@@ -1,0 +1,27 @@
+group	organism_scientific	species-only %
+Animalia	Caenorhabditis elegans	52.45177664974619
+Animalia	Danio rerio	21.77634081399772
+Animalia	Drosophila melanogaster	49.09739246712726
+Animalia	Homo sapiens	7.115810179493484
+Animalia	Mus musculus	1.351855304866679
+Animalia	Rattus norvegicus	6.189057421451788
+Fungi	Ajellomyces capsulatus (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432)	28.20958799869551
+Fungi	Candida albicans (strain SC5314 / ATCC MYA-2876)	31.793068809643394
+Fungi	Cladophialophora carrionii	17.75290957923008
+Fungi	Fonsecaea pedrosoi CBS 271.37	13.558238068590613
+Fungi	Madurella mycetomatis	25.363455705470138
+Fungi	Paracoccidioides lutzii (strain ATCC MYA-826 / Pb01)	27.200363884466682
+Fungi	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	34.08753096614368
+Fungi	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	28.94534257120862
+Fungi	Sporothrix schenckii (strain ATCC 58251 / de Perez 2211183)	18.897364771151178
+Parasitic worms	Brugia malayi	19.303682099890633
+Parasitic worms	Dracunculus medinensis	38.268414251430684
+Parasitic worms	Onchocerca volvulus	28.598720823988703
+Parasitic worms	Schistosoma mansoni	51.22752953261428
+Parasitic worms	Strongyloides stercoralis	43.671340071731336
+Parasitic worms	Trichuris trichiura	43.595106138241135
+Parasitic worms	Wuchereria bancrofti	44.19646365422397
+Viridiplantae	Arabidopsis thaliana	22.115174074885044
+Viridiplantae	Glycine max	27.134561617320234
+Viridiplantae	Oryza sativa subsp. japonica	47.13712910986367
+Viridiplantae	Zea mays	30.808145328189273

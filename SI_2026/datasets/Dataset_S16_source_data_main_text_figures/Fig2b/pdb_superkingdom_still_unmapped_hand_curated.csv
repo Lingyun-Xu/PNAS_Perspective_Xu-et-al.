@@ -1,0 +1,202 @@
+species,keyword,exact_superkingdom,suffix_superkingdom,keyword_superkingdom,proposed_superkingdom,match_method,matched_list_entry,in_handmade_list,n_rows
+"(zebrafish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,407
+"species, euglenoids",euglenoids,,,,Others,,,FALSE,274
+"species, unclassified sequences",unclassified sequences,,,,Others,,,FALSE,178
+"(domestic silkworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,106
+"strain, diplomonads",diplomonads,,,,Others,,,FALSE,88
+"species, alveolates",alveolates,,,,Others,,,FALSE,79
+"species, diplomonads",diplomonads,,,,Others,,,FALSE,40
+"species, true bugs",true bugs,,,,Insecta,,,FALSE,39
+"(ocean pout), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,33
+"(tobacco hornworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,26
+"Error fetching page: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",RemoteDisconnected('Remote end closed connection without response')),,,,Bacteria,,,FALSE,24
+"(Asian corn borer), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,24
+"species, rust fungi & allies",rust fungi & allies,,,,Fungi,,,FALSE,24
+"species, yellow-green algae",yellow-green algae,,,,Others,,,FALSE,24
+"(Norway spruce), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,23
+"(fall armyworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,23
+"(Atlantic horseshoe crab), species, horseshoe crabs",horseshoe crabs,,,,Others,,,FALSE,20
+"(cabbage looper), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,20
+"species, plasmodial slime molds",plasmodial slime molds,,,,Others,,,FALSE,20
+"strain, heterokonts",heterokonts,,,,Others,,,FALSE,18
+"species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,16
+"(Atlantic salmon), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,15
+"(Japanese medaka), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,14
+"species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,14
+unclassified sequences,unclassified sequences,,,,Others,,,FALSE,13
+"species, heterokonts",heterokonts,,,,Others,,,FALSE,12
+"(chelicerates), subphylum, arthropods",arthropods,,,,Others,,,FALSE,12
+"(Chinese horseshoe crab), species, horseshoe crabs",horseshoe crabs,,,,Others,,,FALSE,12
+"(migratory locust), species, grasshoppers, crickets & katydids",crickets & katydids,,,,Insecta,,,FALSE,11
+"(desert locust), species, grasshoppers, crickets & katydids",crickets & katydids,,,,Insecta,,,FALSE,11
+"species, mammals",mammals,,,,Other Mammalia,,,FALSE,11
+"species, golden algae",golden algae,,,,Others,,,FALSE,11
+"(grass carp), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,10
+"(tobacco budworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,10
+"species, ferns",ferns,,,,Viridiplantae,,,FALSE,10
+"clade, diplomonads",diplomonads,,,,Others,,,FALSE,10
+"(winter flounder), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,9
+"species, tube worms",tube worms,,,,Others,,,FALSE,9
+"(black rockcod), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,9
+"(sea pansy), species, sea pens",sea pens,,,,Others,,,FALSE,9
+"(milky ribbon-worm), species, ribbon worms",ribbon worms,,,,Others,,,FALSE,9
+"(greater wax moth), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,9
+"(rainbow trout), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,9
+"forma specialis, rust fungi & allies",rust fungi & allies,,,,Fungi,,,FALSE,8
+"(Atlantic cod), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,7
+"(common carp), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,7
+"species, clubmosses",clubmosses,,,,Viridiplantae,,,FALSE,7
+"(channel catfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,7
+"(spined soldier bug), species, true bugs",true bugs,,,,Insecta,,,FALSE,7
+"Error fetching page: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",'Connection reset by peer')),,,,Viridiplantae,,,FALSE,7
+"species, peanut worms",peanut worms,,,,Others,,,FALSE,7
+"(flax rust), species, rust fungi & allies",rust fungi & allies,,,,Fungi,,,FALSE,7
+"(mammals), class, mammals",mammals,,,,Other Mammalia,,,FALSE,7
+"(diamondback moth), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,6
+"(Pacific beetle cockroach), species, cockroaches & termites",cockroaches & termites,,,,Insecta,,,FALSE,6
+"(black sea rod), species, soft corals",soft corals,,,,Others,,,FALSE,6
+"(walleye), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,6
+"isolate, heterokonts",heterokonts,,,,Others,,,FALSE,6
+"(inshore hagfish), species, hagfishes",hagfishes,,,,Other_Vertebrata,,,FALSE,6
+"(Nile tilapia), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,5
+"genus, scale insects",scale insects,,,,Insecta,,,FALSE,5
+"(eastern spruce budworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,5
+"(chum salmon), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,5
+"(electric eel), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,5
+"(Scots pine), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,5
+"(German cockroach), species, cockroaches & termites",cockroaches & termites,,,,Insecta,,,FALSE,5
+"(American cockroach), species, cockroaches & termites",cockroaches & termites,,,,Insecta,,,FALSE,5
+"(Forbes's starfish), species, starfish",starfish,,,,Others,,,FALSE,5
+"(Atlantic herring), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,4
+"(brown marmorated stink bug), species, true bugs",true bugs,,,,Insecta,,,FALSE,4
+"species, cercozoans",cercozoans,,,,Others,,,FALSE,4
+"(cotton bollworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,4
+"(gilthead seabream), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,4
+"(sea walnut), species, comb jellies",comb jellies,,,,Others,,,FALSE,4
+"(tube worm), species, tube worms",tube worms,,,,Others,,,FALSE,4
+"(human body louse), subspecies, lice",lice,,,,Insecta,,,FALSE,4
+"(field horsetail), species, ferns",ferns,,,,Viridiplantae,,,FALSE,4
+"(maidenhair tree), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,4
+"species, grasshoppers, crickets & katydids",crickets & katydids,,,,Insecta,,,FALSE,4
+"species, hornworts",hornworts,,,,Viridiplantae,,,FALSE,4
+"species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,4
+"species, millipedes",millipedes,,,,others,,,FALSE,4
+"species, soft corals",soft corals,,,,Others,,,FALSE,4
+"(whitespotted conger), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,4
+"(bed bug), species, true bugs",true bugs,,,,Insecta,,,FALSE,3
+"(dusky notothen), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,3
+"(Japanese eel), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,3
+"(Japanese cedar), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,3
+"genus, mantids",mantids,,,,Insecta,,,FALSE,3
+"genus, rust fungi & allies",rust fungi & allies,,,,Fungi,,,FALSE,3
+"species, spoonworms",spoonworms,,,,Others,,,FALSE,3
+"(goldfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,3
+"(peanut worm), species, peanut worms",peanut worms,,,,Others,,,FALSE,3
+"(large yellow croaker), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,3
+"(northern armyworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,3
+"(torafugu), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,3
+"(threeline prickleback), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,3
+"(Southeast Asian horseshoe crab), species, horseshoe crabs",horseshoe crabs,,,,Others,,,FALSE,3
+unclassifiedsequences,unclassifiedsequences,,,,Others,,,FALSE,2
+"(estuarine stonefish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(marine worm), species, peanut worms",peanut worms,,,,Others,,,FALSE,2
+"(milkweed bug), species, true bugs",true bugs,,,,Insecta,,,FALSE,2
+"(green shield bug), species, true bugs",true bugs,,,,Insecta,,,FALSE,2
+"(viviparous blenny), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(Chinese yew), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,2
+"(Baltic cod), subspecies, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(Indianmeal moth), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,2
+"(American alligator), species, crocodilians",crocodilians,,,,others,,,FALSE,2
+"(Atlantic bluefin tuna), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(corn earworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,2
+"(cabbage moth), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,2
+"(Persian sturgeon), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(Antarctic eel pout), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"species, isopods",isopods,,,,Others,,,FALSE,2
+"species, insects",insects,,,,Insecta,,,FALSE,2
+"(yellow perch), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"genus, slime nets",slime nets,,,,Others,,,FALSE,2
+"(western redcedar), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,2
+"(yellowfin tuna), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"species, coral anemones",coral anemones,,,,Others,,,FALSE,2
+"species, ribbon worms",ribbon worms,,,,Others,,,FALSE,2
+"(striped sea-bass), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(sweet potato whitefly), species, whiteflies",whiteflies,,,,Insecta,,,FALSE,2
+"(orange-spotted grouper), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(striped catfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(spotted green pufferfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(grand fir), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,2
+"(maidenhair fern), species, ferns",ferns,,,,Viridiplantae,,,FALSE,2
+"(Ozark white cedar), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,2
+"(Patagonian blennie), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(barramundi perch), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(brown planthopper), species, true bugs",true bugs,,,,Insecta,,,FALSE,2
+"(eastern newt), species, salamanders",salamanders,,,,Other_Vertebrata,,,FALSE,2
+"(Murray River rainbowfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(Madeira cockroach), species, cockroaches & termites",cockroaches & termites,,,,Insecta,,,FALSE,2
+"(Japanese yew), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,2
+"(stellate sturgeon), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,2
+"(chub mackerel), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(climbing perch), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(coho salmon), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(bat star), species, starfish",starfish,,,,Others,,,FALSE,1
+"(barred knifejaw), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(black porgy), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(beet armyworm), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,1
+"(cecropia moth), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,1
+"(Korean pine), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,1
+"(Japanese flounder), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(Japanese smelt), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(Mozambique tilapia), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(Mueller's sea pansy), species, sea pens",sea pens,,,,Others,,,FALSE,1
+"(Pacific sea gooseberry), species, comb jellies",comb jellies,,,,Others,,,FALSE,1
+"(Pacific yew), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,1
+"(Indo-Pacific horseshoe crab), species, horseshoe crabs",horseshoe crabs,,,,Others,,,FALSE,1
+"(European starfish), species, starfish",starfish,,,,Others,,,FALSE,1
+"(European eel), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(Chinese oak silkmoth), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,1
+"(Australian saltwater crocodile), species, crocodilians",crocodilians,,,,others,,,FALSE,1
+"(African migratory locust), subspecies, grasshoppers, crickets & katydids",crickets & katydids,,,,Insecta,,,FALSE,1
+"(Antarctic toothfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(Antarctic eelpout), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(axolotl), species, salamanders",salamanders,,,,Other_Vertebrata,,,FALSE,1
+"(emerald rockcod), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(finless sole), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(firebrat), species, insects",insects,,,,Insecta,,,FALSE,1
+"(loblolly pine), species, seed plants",seed plants,,,,Viridiplantae,,,FALSE,1
+"(mackerel icefish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(gypsy moth), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,1
+"(moon jelly), species, jellyfishes",jellyfishes,,,,Others,,,FALSE,1
+"(turbot), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(toothed club-moss), species, clubmosses",clubmosses,,,,Viridiplantae,,,FALSE,1
+"(tiger salamander), species, salamanders",salamanders,,,,Other_Vertebrata,,,FALSE,1
+"(soybean looper), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,1
+"(spot croaker), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(polyphemus moth), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,1
+"(oyster toadfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(ocean sunfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(red-legged salamander), species, salamanders",salamanders,,,,Other_Vertebrata,,,FALSE,1
+"(red seabream), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(rohu), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(sea raven), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(shorthorn sculpin), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(silverleaf whitefly), species, whiteflies",whiteflies,,,,Insecta,,,FALSE,1
+"(skipjack tuna), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(southern platyfish), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(guppy), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"species, comb jellies",comb jellies,,,,Others,,,FALSE,1
+mammals,mammals,,,,Other Mammalia,,,FALSE,1
+"order, bryozoans",bryozoans,,,,Others,,,FALSE,1
+"genus, peanut worms",peanut worms,,,,Others,,,FALSE,1
+"genus, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,1
+"genus, heterokonts",heterokonts,,,,Others,,,FALSE,1
+"(western European hedgehog), species, insectivores",insectivores,,,,other mammalia,,,FALSE,1
+"(whiting), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(white bass x striped sea-bass), species, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"(velvetbean caterpillar), species, moths & butterflies",moths & butterflies,,,,Insecta,,,FALSE,1
+"genus, ray-finned fishes",ray-finned fishes,,,,Other_Vertebrata,,,FALSE,1
+"species, jellyfishes",jellyfishes,,,,Others,,,FALSE,1
+"species, xenacoelomorphs",xenacoelomorphs,,,,Others,,,FALSE,1
+"subgenus, salamanders",salamanders,,,,Other_Vertebrata,,,FALSE,1
+"strain, rust fungi & allies",rust fungi & allies,,,,Fungi,,,FALSE,1
+,,,,,Others,,,,

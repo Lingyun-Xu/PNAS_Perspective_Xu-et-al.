@@ -1,0 +1,1 @@
+fetch_API_for_PDB20241231_seq_and_posi_123024.parquet (106.6 MB, MD5 643f25fb1a16caaddda160319823a395) is too large for GitHub and is in the Zenodo record https://doi.org/10.5281/zenodo.23925266 as Dataset_S9_PDB_RCSB_API_2024-12-31__fetch_API_for_PDB20241231_seq_and_posi_123024.parquet. Put it back in this folder under its own name.

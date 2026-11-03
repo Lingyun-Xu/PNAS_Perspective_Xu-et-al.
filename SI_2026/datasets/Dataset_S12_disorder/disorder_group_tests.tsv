@@ -1,0 +1,9 @@
+measure	comparison	n	statistic	effect	effect_name	p	median_Arabidopsis	median_soybean	median_rice	median_maize	median_plants	median_other	p_holm
+Disordered fraction (AIUPred)	Kruskal-Wallis across groups	554943	36254.616506645325	0.06533046067272855	epsilon^2	0.0							
+Disordered fraction (AIUPred)	Kruskal-Wallis among plant proteomes	165982	6411.185426196152	0.03862602000347119	epsilon^2	0.0	0.21299437433481216	0.21739129722118378	0.4316546618938446	0.32758620381355286			
+Disordered fraction (AIUPred)	Viridiplantae vs Archaea	167755		0.7073261866685738	Cliff's delta (plants vs other)	0.0					0.28431373834609985	0.0160857904702425	0.0
+Disordered fraction (AIUPred)	Viridiplantae vs Bacteria	218237		0.4946893088938342	Cliff's delta (plants vs other)	0.0					0.28431373834609985	0.06108597293496132	0.0
+Disordered fraction (AIUPred)	Viridiplantae vs Protist	219213		0.047432047295971946	Cliff's delta (plants vs other)	3.788426588515773e-61					0.28431373834609985	0.2689655125141144	3.788426588515773e-61
+Disordered fraction (AIUPred)	Viridiplantae vs Fungi	243091		0.06932861489009223	Cliff's delta (plants vs other)	3.40080308565768e-167					0.28431373834609985	0.2541666626930237	6.80160617131536e-167
+Disordered fraction (AIUPred)	Viridiplantae vs Animalia	289372		0.07968325537031884	Cliff's delta (plants vs other)	3.050707285150626e-295					0.28431373834609985	0.24037034809589386	9.152121855451877e-295
+Disordered fraction (AIUPred)	Viridiplantae vs Parasitic worms	247185		0.1702053986967531	Cliff's delta (plants vs other)	0.0					0.28431373834609985	0.18850575387477875	0.0

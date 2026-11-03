@@ -1,0 +1,8 @@
+comparison	n	statistic	effect	effect_name	p	note	median_Arabidopsis	median_soybean	median_rice	median_maize	median_plants	median_other	p_holm
+Kruskal-Wallis across six groups (AFDB v4)	564446	63230.163466674516	0.11202183289191067	epsilon^2	0.0	unmapped organisms assigned manually: ['Mycobacterium ulcerans str. Harvey', 'Nocardia brasiliensis ATCC 700358']							
+Kruskal-Wallis among the four plant proteomes (AFDB v4)	166181	5587.202850929135	0.03362139156895616	epsilon^2	0.0		78.82	76.65	69.39	73.17			
+Viridiplantae vs Archaea (AFDB v4)	167954		-0.7294439685908019	Cliff's delta (plants vs other)	0.0						74.8	92.64	0.0
+Viridiplantae vs Bacteria (AFDB v4)	227908		-0.6230743414027302	Cliff's delta (plants vs other)	0.0						74.8	90.6	0.0
+Viridiplantae vs Fungi (AFDB v4)	243207		-0.13893070458780032	Cliff's delta (plants vs other)	0.0						74.8	78.54	0.0
+Viridiplantae vs Animalia (AFDB v4)	370660		-0.09348874530749929	Cliff's delta (plants vs other)	0.0						74.8	77.75	0.0
+Viridiplantae vs Protist (AFDB v4)	219441		0.049373845193380284	Cliff's delta (plants vs other)	4.1082240663673187e-66						74.8	73.36	4.1082240663673187e-66

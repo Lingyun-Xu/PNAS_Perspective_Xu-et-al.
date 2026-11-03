@@ -1,0 +1,81 @@
+measure	comparison	n	statistic	effect	effect_name	p	median_Arabidopsis	median_soybean	median_rice	median_maize	median_plants	median_other	p_holm
+Global pLDDT (AFDB v6, merged set)	Kruskal-Wallis across groups	991829	366771.6037775536	0.3697935567230946	epsilon^2	0.0							
+Global pLDDT (AFDB v6, merged set)	Kruskal-Wallis among plant proteomes	165982	5880.14601640996	0.0354266212181512	epsilon^2	0.0	78.5	76.36	68.73	72.7			
+Global pLDDT (AFDB v6, merged set)	Viridiplantae vs Archaea	205057		-0.7764994825249568	Cliff's delta (plants vs other)	0.0					76.3	93.71	0.0
+Global pLDDT (AFDB v6, merged set)	Viridiplantae vs Bacteria	557622		-0.7347501607258422	Cliff's delta (plants vs other)	0.0					76.3	93.0	0.0
+Global pLDDT (AFDB v6, merged set)	Viridiplantae vs Protist	243443		0.0611659510811783	Cliff's delta (plants vs other)	5.0545072934301715e-110					76.3	74.19	1.0109014586860343e-109
+Global pLDDT (AFDB v6, merged set)	Viridiplantae vs Fungi	287339		-0.1311036551506302	Cliff's delta (plants vs other)	0.0					76.3	79.9	0.0
+Global pLDDT (AFDB v6, merged set)	Viridiplantae vs Animalia	358397		-0.1363264361978479	Cliff's delta (plants vs other)	0.0					76.3	80.0	0.0
+Global pLDDT (AFDB v6, merged set)	Viridiplantae vs Parasitic worms	266521		0.0425138072077762	Cliff's delta (plants vs other)	1.4917307357811955e-68					76.3	75.15	1.4917307357811955e-68
+log10 AFDB MSA depth	Kruskal-Wallis across groups	991829	208394.22789478017	0.2101112570877008	epsilon^2	0.0							
+log10 AFDB MSA depth	Kruskal-Wallis among plant proteomes	165982	6795.659533053314	0.0409423942080919	epsilon^2	0.0	3.646256646245722	3.634980800051229	2.976808337338066	3.417803722639881			
+log10 AFDB MSA depth	Viridiplantae vs Archaea	205057		-0.2789173640694333	Cliff's delta (plants vs other)	0.0					3.5169318088680126	4.036828433377113	0.0
+log10 AFDB MSA depth	Viridiplantae vs Bacteria	557622		-0.5181428201776068	Cliff's delta (plants vs other)	0.0					3.5169318088680126	4.201560978116737	0.0
+log10 AFDB MSA depth	Viridiplantae vs Protist	243443		0.2197714293109749	Cliff's delta (plants vs other)	0.0					3.5169318088680126	2.965201701025912	0.0
+log10 AFDB MSA depth	Viridiplantae vs Fungi	287339		-0.0212063375707456	Cliff's delta (plants vs other)	4.4281554862086165e-21					3.5169318088680126	3.4734869700645685	4.4281554862086165e-21
+log10 AFDB MSA depth	Viridiplantae vs Animalia	358397		-0.0585447855919928	Cliff's delta (plants vs other)	3.927390501769647e-202					3.5169318088680126	3.6071332043915674	7.854781003539293e-202
+log10 AFDB MSA depth	Viridiplantae vs Parasitic worms	266521		0.1365294099173937	Cliff's delta (plants vs other)	0.0					3.5169318088680126	3.2281436075977417	0.0
+log10 Neff (OpenProteinSet)	Kruskal-Wallis across groups	988021	94687.12780005144	0.0958352339021997	epsilon^2	0.0							
+log10 Neff (OpenProteinSet)	Kruskal-Wallis among plant proteomes	164029	5885.964653735801	0.0358839018566086	epsilon^2	0.0	3.0542299098633974	3.04296907339318	2.5202860574487445	2.9741392741114305			
+log10 Neff (OpenProteinSet)	Viridiplantae vs Archaea	203087		-0.274354305694922	Cliff's delta (plants vs other)	0.0					2.998113982423953	3.118264726089479	0.0
+log10 Neff (OpenProteinSet)	Viridiplantae vs Bacteria	555612		-0.3478024866857618	Cliff's delta (plants vs other)	0.0					2.998113982423953	3.159674129594604	0.0
+log10 Neff (OpenProteinSet)	Viridiplantae vs Protist	241396		0.1546422722141913	Cliff's delta (plants vs other)	0.0					2.998113982423953	2.6391334317283204	0.0
+log10 Neff (OpenProteinSet)	Viridiplantae vs Fungi	285347		-0.0883220898711488	Cliff's delta (plants vs other)	0.0					2.998113982423953	3.0434932933524497	0.0
+log10 Neff (OpenProteinSet)	Viridiplantae vs Animalia	355547		-0.0225025155614754	Cliff's delta (plants vs other)	3.475700996544336e-31					2.998113982423953	3.0083592418190275	3.475700996544336e-31
+log10 Neff (OpenProteinSet)	Viridiplantae vs Parasitic worms	263752		0.07540539534047	Cliff's delta (plants vs other)	2.2553873563902067e-209					2.998113982423953	2.840204803645804	4.5107747127804133e-209
+Neff per residue	Kruskal-Wallis across groups	988021	216741.06458871448	0.2193691064843975	epsilon^2	0.0							
+Neff per residue	Kruskal-Wallis among plant proteomes	164029	8106.747331191867	0.049422948101494	epsilon^2	0.0	2.916352	2.965166	0.833561	2.135539			
+Neff per residue	Viridiplantae vs Archaea	203087		-0.4993472438466726	Cliff's delta (plants vs other)	0.0					2.3798115	5.636842	0.0
+Neff per residue	Viridiplantae vs Bacteria	555612		-0.5157117026645902	Cliff's delta (plants vs other)	0.0					2.3798115	5.7043420000000005	0.0
+Neff per residue	Viridiplantae vs Protist	241396		0.2015932314448896	Cliff's delta (plants vs other)	0.0					2.3798115	1.043012	0.0
+Neff per residue	Viridiplantae vs Fungi	285347		-0.0038502162685852	Cliff's delta (plants vs other)	0.0877748392497851					2.3798115	2.514517	0.1755496784995703
+Neff per residue	Viridiplantae vs Animalia	355547		0.0005815852661918	Cliff's delta (plants vs other)	0.7640415261334342					2.3798115	2.428065	0.7640415261334342
+Neff per residue	Viridiplantae vs Parasitic worms	263752		0.1129845862314127	Cliff's delta (plants vs other)	0.0					2.3798115	1.5569315	0.0
+Disordered fraction (AIUPred)	Kruskal-Wallis across groups	554943	36254.616506645325	0.0653304606727285	epsilon^2	0.0							
+Disordered fraction (AIUPred)	Kruskal-Wallis among plant proteomes	165982	6411.185426196152	0.0386260200034711	epsilon^2	0.0	0.2129943743348121	0.2173912972211837	0.4316546618938446	0.3275862038135528			
+Disordered fraction (AIUPred)	Viridiplantae vs Archaea	167755		0.7073261866685738	Cliff's delta (plants vs other)	0.0					0.2843137383460998	0.0160857904702425	0.0
+Disordered fraction (AIUPred)	Viridiplantae vs Bacteria	218237		0.4946893088938342	Cliff's delta (plants vs other)	0.0					0.2843137383460998	0.0610859729349613	0.0
+Disordered fraction (AIUPred)	Viridiplantae vs Protist	219213		0.0474320472959719	Cliff's delta (plants vs other)	3.788426588515773e-61					0.2843137383460998	0.2689655125141144	3.788426588515773e-61
+Disordered fraction (AIUPred)	Viridiplantae vs Fungi	243091		0.0693286148900922	Cliff's delta (plants vs other)	3.40080308565768e-167					0.2843137383460998	0.2541666626930237	6.80160617131536e-167
+Disordered fraction (AIUPred)	Viridiplantae vs Animalia	289372		0.0796832553703188	Cliff's delta (plants vs other)	3.0507072851506262e-295					0.2843137383460998	0.2403703480958938	9.152121855451877e-295
+Disordered fraction (AIUPred)	Viridiplantae vs Parasitic worms	247185		0.1702053986967531	Cliff's delta (plants vs other)	0.0					0.2843137383460998	0.1885057538747787	0.0
+Ordered-residue pLDDT	Kruskal-Wallis across groups	523492	53083.13701295231	0.1014021960510349	epsilon^2	0.0							
+Ordered-residue pLDDT	Kruskal-Wallis among plant proteomes	151154	1972.9491299855615	0.0130526627323676	epsilon^2	0.0	87.36112976074219	85.7519416809082	84.17798614501953	85.86176300048828			
+Ordered-residue pLDDT	Viridiplantae vs Archaea	152912		-0.5102559477836217	Cliff's delta (plants vs other)	3.896717410419016e-297					85.7847900390625	93.33740234375	7.793434820838032e-297
+Ordered-residue pLDDT	Viridiplantae vs Bacteria	201783		-0.5095576534947222	Cliff's delta (plants vs other)	0.0					85.7847900390625	93.08379364013672	0.0
+Ordered-residue pLDDT	Viridiplantae vs Protist	201574		0.1072154013199953	Cliff's delta (plants vs other)	1.6619377088776487e-285					85.7847900390625	83.42823028564453	1.6619377088776487e-285
+Ordered-residue pLDDT	Viridiplantae vs Fungi	224815		-0.1777498777964268	Cliff's delta (plants vs other)	0.0					85.7847900390625	88.65737915039062	0.0
+Ordered-residue pLDDT	Viridiplantae vs Animalia	269453		-0.1569144351090123	Cliff's delta (plants vs other)	0.0					85.7847900390625	88.09251403808594	0.0
+Ordered-residue pLDDT	Viridiplantae vs Parasitic worms	228725		0.122469771567689	Cliff's delta (plants vs other)	0.0					85.7847900390625	82.9732666015625	0.0
+lDDT-Calpha vs post-2018 experimental structure	Kruskal-Wallis across groups	8181	229.73055089692429	0.0280844194250518	epsilon^2	8.740849863429175e-47							
+lDDT-Calpha vs post-2018 experimental structure	Kruskal-Wallis among plant proteomes	538	9.96374200093578	0.0185544543779064	epsilon^2	0.0188768694979688	0.9227303266525269	0.9476087987422944	0.930618166923523	0.9467814564704896			
+lDDT-Calpha vs post-2018 experimental structure	Viridiplantae vs Archaea	575		-0.2420375766100673	Cliff's delta (plants vs other)	0.0137410621353152					0.9274649024009703	0.9525429010391236	0.0274821242706304
+lDDT-Calpha vs post-2018 experimental structure	Viridiplantae vs Bacteria	2149		-0.1167600072918757	Cliff's delta (plants vs other)	4.898614955629528e-05					0.9274649024009703	0.9412416815757751	0.0002449307477814
+lDDT-Calpha vs post-2018 experimental structure	Viridiplantae vs Protist	732		-0.0130494768711915	Cliff's delta (plants vs other)	0.7875373059976981					0.9274649024009703	0.9315031170845032	0.7875373059976981
+lDDT-Calpha vs post-2018 experimental structure	Viridiplantae vs Fungi	1221		0.1834134340624948	Cliff's delta (plants vs other)	3.6143892145894134e-08					0.9274649024009703	0.9078713655471802	2.1686335287536478e-07
+lDDT-Calpha vs post-2018 experimental structure	Viridiplantae vs Animalia	5635		0.101583918815135	Cliff's delta (plants vs other)	0.00010401503237					0.9274649024009703	0.9190394878387452	0.00041606012948
+lDDT-Calpha vs post-2018 experimental structure	Viridiplantae vs Parasitic worms	559		-0.3513896264825633	Cliff's delta (plants vs other)	0.0062751584220927					0.9274649024009703	0.958277463912964	0.0188254752662782
+|mapped pLDDT/100 - lDDT-Calpha|	Kruskal-Wallis across groups	8181	180.51068948832472	0.0220673214533404	epsilon^2	2.6432642876168675e-36							
+|mapped pLDDT/100 - lDDT-Calpha|	Kruskal-Wallis among plant proteomes	538	3.4937661525359545	0.0065060822207373	epsilon^2	0.3215715303882428	0.0220624732971191	0.0174322092533111	0.0197261142730714	0.017072457075119			
+|mapped pLDDT/100 - lDDT-Calpha|	Viridiplantae vs Archaea	575		0.2525871596503566	Cliff's delta (plants vs other)	0.0101294096808993					0.0205220234394072	0.0137956261634828	0.0303882290426981
+|mapped pLDDT/100 - lDDT-Calpha|	Viridiplantae vs Bacteria	2149		0.103066972187032	Cliff's delta (plants vs other)	0.0003380837961686					0.0205220234394072	0.01691166639328	0.001690418980843
+|mapped pLDDT/100 - lDDT-Calpha|	Viridiplantae vs Protist	732		-0.0523320430766872	Cliff's delta (plants vs other)	0.279516510775894					0.0205220234394072	0.0236225748062133	0.2800672855313068
+|mapped pLDDT/100 - lDDT-Calpha|	Viridiplantae vs Fungi	1221		-0.1056676481954204	Cliff's delta (plants vs other)	0.0015054138336492					0.0205220234394072	0.0256931281089782	0.006021655334597
+|mapped pLDDT/100 - lDDT-Calpha|	Viridiplantae vs Animalia	5635		-0.1146297151250863	Cliff's delta (plants vs other)	1.1898004781010218e-05					0.0205220234394072	0.0267424440383911	7.138802868606131e-05
+|mapped pLDDT/100 - lDDT-Calpha|	Viridiplantae vs Parasitic worms	559		0.1897681005487697	Cliff's delta (plants vs other)	0.1400336427656534					0.0205220234394072	0.0129856085777281	0.2800672855313068
+ESMFold pLDDT (ESM Atlas)	Kruskal-Wallis across groups	92385	7805.669886607959	0.08449157740093478	epsilon^2	0.0							
+ESMFold pLDDT (ESM Atlas)	Kruskal-Wallis among plant proteomes	25754	3294.982691856108	0.1279455866056812	epsilon^2	0.0	55.49740493297577	54.61414456367493	42.46779382228851	49.04508590698242			
+ESMFold pLDDT (ESM Atlas)	Viridiplantae vs Archaea	26088		-0.7923929263473519	Cliff's delta (plants vs other)	4.389771912446271e-137					48.34683984518051	78.40470373630524	4.389771912446271e-137
+ESMFold pLDDT (ESM Atlas)	Viridiplantae vs Bacteria	26811		-0.5877438075954657	Cliff's delta (plants vs other)	8.19754784606779e-231					48.34683984518051	71.30981683731079	1.639509569213558e-230
+ESMFold pLDDT (ESM Atlas)	Viridiplantae vs Protist	38964		-0.3741515851634609	Cliff's delta (plants vs other)	0.0					48.34683984518051	58.54831635951996	0.0
+ESMFold pLDDT (ESM Atlas)	Viridiplantae vs Fungi	43795		-0.3236598328872682	Cliff's delta (plants vs other)	0.0					48.34683984518051	58.63664150238037	0.0
+ESMFold pLDDT (ESM Atlas)	Viridiplantae vs Animalia	36826		-0.4105219702388674	Cliff's delta (plants vs other)	0.0					48.34683984518051	59.87652242183685	0.0
+ESMFold pLDDT (ESM Atlas)	Viridiplantae vs Parasitic worms	48671		-0.32772996118100894	Cliff's delta (plants vs other)	0.0					48.34683984518051	57.24563002586365	0.0
+AF2 - ESMFold pLDDT	Kruskal-Wallis across groups	92385	937.7520099864341	0.010150588954650526	epsilon^2	2.5862877407587366e-199							
+AF2 - ESMFold pLDDT	Kruskal-Wallis among plant proteomes	25754	131.2006949986535	0.005094579078113365	epsilon^2	2.980659141447905e-28	8.034938411712645	8.582319173812863	8.727314195632928	7.711084957122797			
+AF2 - ESMFold pLDDT	Viridiplantae vs Archaea	26088		0.017378847957575605	Cliff's delta (plants vs other)	0.5846743762452715					8.199417328834528	7.558537273406984	0.5846743762452715
+AF2 - ESMFold pLDDT	Viridiplantae vs Bacteria	26811		0.02992993382038578	Cliff's delta (plants vs other)	0.09857251866519612					8.199417328834528	7.275029678344723	0.29571755599558835
+AF2 - ESMFold pLDDT	Viridiplantae vs Protist	38964		-0.11268227179691248	Cliff's delta (plants vs other)	2.626306019021578e-74					8.199417328834528	9.584890160560604	1.313153009510789e-73
+AF2 - ESMFold pLDDT	Viridiplantae vs Fungi	43795		0.007427629498816479	Cliff's delta (plants vs other)	0.18514051044503055					8.199417328834528	7.872471237182623	0.3702810208900611
+AF2 - ESMFold pLDDT	Viridiplantae vs Animalia	36826		-0.13349050862967127	Cliff's delta (plants vs other)	5.114151419533211e-92					8.199417328834528	9.71062521457672	3.0684908517199266e-91
+AF2 - ESMFold pLDDT	Viridiplantae vs Parasitic worms	48671		-0.06739095606024414	Cliff's delta (plants vs other)	8.212752095830207e-38					8.199417328834528	8.894019317626956	3.285100838332083e-37

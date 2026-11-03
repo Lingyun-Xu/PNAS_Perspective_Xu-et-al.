@@ -1,0 +1,4 @@
+test	chi2	dof	p	cramers_v
+homolog-class composition, plants vs animals vs fungi	19333.692464089356	8	0.0	0.1624114610655458
+homolog-class composition among the four plant proteomes	17097.99347169319	12	0.0	0.18530257288596663
+GenEra balanced sample: age-bin composition, plants vs all other groups	15.40636313728671	3	0.0015003425487460991	0.08232852738896469
