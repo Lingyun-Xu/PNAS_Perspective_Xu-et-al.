@@ -1,0 +1,29 @@
+species	AF2_style_Neff	proteins	share_of_species_percent	universal	eukaryote_wide	kingdom_only	family_or_genus	species_only	median	peaks
+PLANT	below 100	38842	23.7	0.4	1.5	19.8	8.8	69.5		
+PLANT	100 to 800	47349	28.9	2.3	16.6	52.2	5.5	23.5		
+PLANT	800 or more	77838	47.5	20.4	25.8	33.6	2.5	17.7		
+PLANT	class eukaryote_wide	28515	17.4						1083.0	516.5 (0.50); 1081 (1.00)
+PLANT	class family_or_genus	7980	4.9						145.4	56.06 (1.00); 981 (0.19)
+PLANT	class kingdom_only	58538	35.7						632.0	120.1 (1.00); 1045 (0.48)
+PLANT	class species_only	51892	31.6						79.8	16.02 (1.00); 1001 (0.16)
+PLANT	class universal	17104	10.4						1361.0	1353 (1.00)
+ECOLI	below 100	334	7.7	2.1	0.0	48.8	0.0	49.1		
+ECOLI	100 to 800	464	10.7	13.8	0.0	67.9	0.0	18.3		
+ECOLI	800 or more	3541	81.6	46.6	0.0	48.7	0.0	4.7		
+ECOLI	class kingdom_only	2203	50.8						1131.0	96.1 (0.32); 1101 (1.00)
+ECOLI	class species_only	416	9.6						351.3	52.05 (1.00); 1069 (0.52)
+ECOLI	class universal	1720	39.6						1350.1	1249 (1.00)
+YEAST	below 100	1349	22.3	0.2	2.1	9.9	0.0	87.8		
+YEAST	100 to 800	1767	29.2	3.8	30.0	34.9	0.0	31.4		
+YEAST	800 or more	2931	48.5	33.6	40.2	15.3	0.0	10.8		
+YEAST	class eukaryote_wide	1738	28.7						1035.0	516.5 (0.65); 1073 (1.00)
+YEAST	class kingdom_only	1197	19.8						532.1	284.3 (1.00); 961 (0.57)
+YEAST	class species_only	2056	34.0						50.2	36.04 (1.00); 1125 (0.13)
+YEAST	class universal	1056	17.5						1367.5	1209 (1.00)
+HUMAN	below 100	4527	22.3	0.5	5.0	74.4	0.0	20.1		
+HUMAN	100 to 800	6205	30.6	2.2	25.4	67.8	0.0	4.6		
+HUMAN	800 or more	9542	47.1	16.2	29.2	52.3	0.0	2.3		
+HUMAN	class eukaryote_wide	4597	22.7						988.0	472.5 (0.72); 1073 (1.00)
+HUMAN	class kingdom_only	12560	62.0						440.0	84.08 (1.00); 1109 (0.39)
+HUMAN	class species_only	1409	6.9						33.4	32.03 (1.00)
+HUMAN	class universal	1708	8.4						1363.0	1261 (1.00)

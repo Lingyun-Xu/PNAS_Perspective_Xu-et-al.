@@ -1,0 +1,4 @@
+alignment	chains	median	Q1	Q3	P90	maximum	percent_800_to_1600	percent_above_2000	percent_above_3000	peaks
+HHblits BFD + UniClust30	595	1052.0	905.0	1350.0	1678.0	2799.0	69.6	4.0	0.0	48.05 (0.22); 1009 (1.00)
+JackHMMER UniRef90	595	1502.0	413.0	3502.0	5228.0	7569.0	17.0	40.5	30.3	504.5 (1.00)
+JackHMMER MGnify	595	302.0	24.0	2113.0	2941.0	3777.0	8.6	26.9	8.9	96.1 (1.00); 2507 (0.29)

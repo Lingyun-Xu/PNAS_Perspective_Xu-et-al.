@@ -4,7 +4,7 @@ Dataset S17. Source data of the SI figures (concise PNAS SI, Figs. S1-S21)
 Each folder holds the table(s) one SI figure was drawn from. Figures drawn from another dataset of the SI point to it
 instead of duplicating it. Unless stated otherwise, pLDDT is the AFDB v6 global pLDDT, groups (tax_group7) are the seven
 taxonomic groups of Section S1.2, and distances are Euclidean distances between ESM-2 (650M) mean embeddings.
-Plotting code: scripts/analysis/si_pnas_server.py (Figs. S1, S3-S5, S9, S10), si_pnas_cluster.py (S6, S7, S15-S18),
+Plotting code: SI_2026/scripts/si_pnas_server.py (Figs. S1, S3-S5, S9, S10), si_pnas_cluster.py (S6, S7, S15-S18),
 figS11_S13_candidate_pool.py (S11-S13) and si_pnas_local.py (S2, S8 composite, S14, S20, S21). Files are tab-separated
 unless they are .parquet.
 
@@ -28,7 +28,7 @@ Fig. S4  AF2 (AFDB v6) versus ESMFold pLDDT
 
 Fig. S5  Global pLDDT versus alignment depth
   -> Dataset S10 (merged_neff.parquet): msa_raw_depth (A, AFDB MSA depth), neff (B, plotted as log10(neff + 1)),
-     neff_per_len (C), plddt_global, tax_group7.
+     AF2-style_Neff (C, plotted as log10(AF2-style_Neff + 1)), neff_per_len (D), plddt_global, tax_group7.
 
 Figs. S6 and S7  Template distance and nearest-PDB distance
   FigS06_S07/template_distances.parquet  991,829 proteins of the merged AFDB v6 set: plddt_global, tax_group7, in_pdb (the
@@ -39,14 +39,15 @@ Figs. S6 and S7  Template distance and nearest-PDB distance
      Fig. S7: d_template_min versus d_nearest_asof (A-C) or d_nearest_now (D-F), same subsets.
      Tables S16-S18: in_pdb = false; d_template_min for the 906,513 models with it defined, d_nearest_asof and
      d_nearest_now for all 951,630 (45,090 built without templates and 27 whose templates could not be mapped have
-     no d_template_min). Computed with dtemplate_stats.py (scripts/analysis; results in statistics/dtemplate_*.tsv).
+     no d_template_min). Computed with dtemplate_stats.py (SI_2026/scripts; results in SI_2026/statistics/dtemplate_*.tsv).
 
 Fig. S8  Intrinsic disorder (AIUPred)
   -> Dataset S12 (Dataset_S12_disorder): merged_per_protein.parquet (558,194 entries; B and C), D1_binned.csv (A),
      D2_per_proteome_medians.csv (D), disorder_by_superkingdom.csv.
 
 Fig. S9  Homolog class within the 47 proteomes
-  -> Dataset S13 (Dataset_S13_homolog_class): panel_strata.parquet (554,943 proteins), panel_bin_summary.csv.
+  -> Dataset S13 (Dataset_S13_homolog_class): panel_strata.parquet (554,943 proteins; C plots AF2-style_Neff),
+     panel_bin_summary.csv.
 
 Fig. S10  Published gene ages joined to AFDB v6
   -> Dataset S14 (Dataset_S14_published_gene_ages): published_gene_ages_afdb_v6.tsv (190,434 proteins), suite_bin_summary.csv.
@@ -60,7 +61,7 @@ Figs. S11-S13 share the definitions of the selection (select_plants.py):
   nearest distance   raw minimum ESM-2 distance from a candidate to the reference library
   average homolog distance   mean ESM-2 distance from a candidate to all candidates of the pool (in a selection round,
                      to those still in the pool), including the zero distance to itself
-  Figures: scripts/analysis/figS11_S13_candidate_pool.py <this dataset folder> <output folder>. Pool positions are not
+  Figures: SI_2026/scripts/figS11_S13_candidate_pool.py <this dataset folder> <output folder>. Pool positions are not
   linked to accessions, except in FigS13 (seq_id) and for the selected proteins (selected_accessions_*.tsv).
 
 Fig. S11  Candidate pool against the PDB with and without pdb3825
@@ -87,7 +88,7 @@ Fig. S13  Real versus AI-selected additions (3,800 comparison)
                                        sequences added = complete PDB; B), ai_3800 (with the 3,800 proteins selected on
                                        the baseline library added; C), the same for the 690 comparison,
                                        d_average_homolog (y of all panels)
-  FigS13/real_vs_ai_metrics.tsv        the comparison statistics by species group (Table S28)
+  FigS13/real_vs_ai_metrics.tsv        the comparison statistics by species group (Table S30)
   FigS13/summary.json                  reproduction checks and set overlaps
 
 Fig. S14  UMAP and HDBSCAN maps
@@ -100,17 +101,18 @@ Figs. S15-S18  HHsearch and Foldseek top hits before and after additions
                                               plus690 = with the selected proteins added); empty = no hit
   FigS15_S18/{search}_{set}_pairs.tsv         the proteins of each comparison: d_before, d_after, top_is_added, top_after,
                                               d_homolog (S15 hhsearch_sel3800, S16 hhsearch_pdb3825, S17 foldseek_sel3800,
-                                              S18 foldseek_pdb3825; the sel690 files back Table S29)
-  FigS15_S18/summary.tsv, new_coverage.tsv    the values of Tables S29 and S30 and the first-hit counts
+                                              S18 foldseek_pdb3825; the sel690 files back Table S31)
+  FigS15_S18/summary.tsv, new_coverage.tsv    the values of Tables S31 and S32 and the first-hit counts
 
 Fig. S19  Alignment depth of the compared sets
-  FigS19/neff_sets.tsv        14,731 set members (sel3800, sel690, full-length pdb3825, two random sets): neff, log10_neff
-                              (empty when the protein has no alignment)
-  FigS19/neff_sets_tests.tsv  the values of Table S31
+  FigS19/neff_sets.tsv        14,731 set members (sel3800, sel690, full-length pdb3825, two random sets): AF2-style_Neff and
+                              log10_AF2-style_Neff (plotted), neff and log10_neff (empty when the protein has no alignment)
+  FigS19/neff_sets_tests.tsv  the values of Table S33 (AF2-style Neff), and the same for Neff
 
 Fig. S20  Gene age of the selections
   FigS20/sel3800_genera_ages.csv, sel690_genera_ages.csv  GenEra phylostratum, rank, taxonomic representativeness,
-                                                           age_bin, plddt_global, neff, frac_disordered
+                                                           age_bin, plddt_global, neff, AF2-style_Neff (A, B),
+                                                           frac_disordered
   -> pdb3825 ages and the other set measures: Dataset S15.
 
 Fig. S21  Per-crop comparison of the sets

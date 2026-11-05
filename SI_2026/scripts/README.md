@@ -16,7 +16,13 @@ Some scripts import modules of the original pipelines that are not in this repos
 |---|---|
 | `si_pnas_server.py` | SI figures drawn on the analysis server (Figs. S1, S3-S5, S9, S10). Needs plot_merged_7groups, plot_plddt_density, plot_precise_esm and plot_published_suite (analysis server pipeline, not included) |
 | `si_pnas_cluster.py` | SI figures drawn on the cluster (Figs. S6, S7, S15-S18). Needs plot_template_distances and select_plants (cluster pipeline, not included) |
-| `si_pnas_local.py` | SI figures drawn on the workstation (Figs. S2, S8 composite, S14, S20, S21) |
+| `si_pnas_local.py` | SI figures drawn on the workstation (Figs. S2, S8 composite, S14, S20, S21, S22) |
+| `annotation_pfam_names.py` | InterPro names of the Pfam families of Fig. S22 |
+| `plot_neff_sets.py` | Fig. S19 and Table S33, alignment depth of the compared protein sets |
+| `fetch_af2style_neff.py` | AF2-style Neff of the OpenProteinSet alignments (per column, median across columns; needs torch and a GPU) |
+| `af2style_neff_stats.py` | statistics of AF2-style Neff by group and plant proteome. Needs stats_vm (not included) |
+| `two_peaks_server.py` | column coverage of the alignments, and the three OpenProteinSet alignments of the same PDB chains (used by neff_two_peaks.py) |
+| `neff_two_peaks.py` | why Neff and AF2-style Neff have two peaks (SI Section S4.1); tables in `statistics/neff_two_peaks/` |
 | `figS11_S13_candidate_pool.py` | Figs. S11-S13 from Dataset S17 |
 | `redraw_hdbscan_maps.py` | HDBSCAN-on-UMAP maps of Fig. S14 from the saved cluster tables (used by si_pnas_local.py) |
 | `nolabel_hook.py` | re-exports the figures of a plotting script as label-free panels |
@@ -42,6 +48,8 @@ Some scripts import modules of the original pipelines that are not in this repos
 |---|---|
 | `build_si_datasets.py` | Datasets S1-S3 (Excel) from the result tables |
 | `build_s16.py` | Dataset S16, source data of the main-text figures (reads PyTorch tensors; needs torch) |
+| `add_af2style_neff.py` | adds AF2-style Neff to Dataset S10 |
+| `add_af2style_neff_other_datasets.py` | adds AF2-style Neff to Datasets S2, S3, S13, S14 and S17 (FigS20) |
 | `s17_prepare.py` | Dataset S17: Fig. S12 round arrays to TSV, and a summary of every table |
 | `s11_s13_source_data.py` | Dataset S17 folders FigS11-FigS13 |
 | `si_datasets_server.py` | per-protein tables behind Figs. S4 and S10 (analysis server). Needs plot_precise_esm and plot_published_suite |

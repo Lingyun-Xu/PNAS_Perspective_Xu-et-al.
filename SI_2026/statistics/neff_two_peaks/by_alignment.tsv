@@ -1,0 +1,9 @@
+proteins	measure	alignments	peaks
+plants, four proteomes	AF2-style_Neff	81682	24.02 (1.00); 1021 (0.27)
+plants, four proteomes	neff	81682	42.04 (1.00); 1153 (0.22)
+human	AF2-style_Neff	16885	72.07 (1.00); 1089 (0.43)
+human	neff	16885	108.1 (1.00); 1279 (0.33)
+E. coli	AF2-style_Neff	3974	60.06 (0.33); 1129 (1.00)
+E. coli	neff	3974	96.1 (0.46); 1255 (1.00)
+all 988,021 proteins	AF2-style_Neff	341470	20.02 (1.00); 1033 (0.33)
+all 988,021 proteins	neff	341470	30.03 (1.00); 1129 (0.26)

@@ -60,6 +60,9 @@ def selection_table(tag):
                               "phylostratum": "genera_phylostratum", "neff": "neff_uniclust30",
                               "frac_disordered": "aiupred_disordered_fraction"})
         sel = sel.merge(g.drop_duplicates("uniprot_accession"), on="uniprot_accession", how="left")
+        s10 = pd.read_parquet(OUT / "Dataset_S10_alignment_depth" / "merged_neff.parquet", columns=["db_accession", "AF2-style_Neff"])
+        sel.insert(sel.columns.get_loc("neff_uniclust30") + 1, "AF2-style_Neff",
+                   sel.uniprot_accession.map(s10.set_index("db_accession")["AF2-style_Neff"]))
     return sel
 
 
@@ -90,7 +93,7 @@ def main():
             "Score per round: (L2-normalized nearest-library distance x 100) / (L2-normalized mean distance to the remaining pool x pLDDT).",
             "Columns: AFDB v6 sequence id, UniProt accession, selection round, organism, genus, species, AFDB v6 global pLDDT, AFDB id;",
             "UniProt annotation (protein name, uncharacterized / poorly characterized flags, InterPro, function comment, reviewed, annotation score; Oct 2026);",
-            "GenEra phylostratum, taxonomic representativeness and age bin (all_life / eukaryotes / kingdom_only / family_or_genus / flagged); Neff (OpenProteinSet UniClust30); AIUPred disordered fraction.",
+            "GenEra phylostratum, taxonomic representativeness and age bin (all_life / eukaryotes / kingdom_only / family_or_genus / flagged); Neff and AF2-style Neff (OpenProteinSet UniClust30 alignments; Section S4.1); AIUPred disordered fraction.",
         ])
         print(tag, "rows", len(t), "cols", list(t.columns))
     acc850 = set(s850.uniprot_accession)

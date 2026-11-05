@@ -5,8 +5,9 @@ Figures are drawn at the size they are printed (width in inches as placed in the
   s1   Fig. S1  pLDDT density, 47 proteomes + Swiss-Prot, 7 groups (afdb_v6/plot_merged_7groups.py data)
   s3   Fig. S3  mapped pLDDT versus lDDT-Ca (sifts_accuracy/09_analyze.py data)
   s4   Fig. S4  AFDB v6 global pLDDT versus ESMFold pLDDT (esm_atlas/plot_precise_esm.py data)
-  s5   Fig. S5  global pLDDT versus AFDB MSA depth (A) and log10(Neff + 1) (B) (plot_scatter_paper_style / plot_neff)
-  s9   Fig. S9  homolog class within the 47 proteomes (conservation/plot_panel_bins.py data)
+  s5   Fig. S5  global pLDDT versus AFDB MSA depth (A), log10(Neff + 1) (B), log10(AF2-style Neff + 1) (C) and Neff per
+                residue (D), 2 x 2 (plot_scatter_paper_style / plot_neff; AF2-style Neff from fetch_af2style_neff.py)
+  s9   Fig. S9  homolog class within the 47 proteomes (conservation/plot_panel_bins.py data; C, AF2-style Neff)
   s10  Fig. S10 published GenEra ages joined to AFDB v6 (conservation/plot_published_suite.plot_bins data)
 
 Output: /path/to/server_data/si_pnas/out/*.png (600 dpi for line art, 400 dpi for scatters). Original figures are not touched.
@@ -189,7 +190,7 @@ def scatter_fit(ax, df, xcol, xlabel, xlim, xticks, title):
     frame(ax, 1.0, 2.5, 7)
     ax.set_xlabel(xlabel, fontsize=8)
     ax.set_ylabel("Global pLDDT (AFDB v6)", fontsize=8)
-    ax.set_title(f"{title}\nSpearman ρ = {rho:.3f}\nPearson r = {r:.3f}", fontsize=7.5)
+    ax.set_title(f"{title}\nSpearman ρ = {rho:.3f}, Pearson r = {r:.3f}", fontsize=7.5)
     print(title, "n", len(x), "rho", round(rho, 4), "r", round(r, 4), "slope", res.slope,
           df.tax_group7.value_counts().to_dict(), flush=True)
 
@@ -201,19 +202,25 @@ def s5():
     depth = depth[depth.msa_raw_depth.notna()].copy()
     neff = pd.read_parquet("/path/to/server_data/neff_v6/merged_neff.parquet")
     neff = neff[neff.neff_per_len.notna()].copy()
+    af2 = pd.read_csv("/path/to/server_data/neff_v6_af2style/af2style_neff_by_cluster.tsv", sep="\t", usecols=["rep_id", "af2style_neff"])
+    neff["af2style_neff"] = neff.rep_id.astype("int64").map(af2.set_index("rep_id").af2style_neff)
     neff["log10_neff"] = np.log10(neff.neff + 1)
-    fig, axes = plt.subplots(1, 3, figsize=(6.0, 2.45))
+    neff["log10_af2style"] = np.log10(neff.af2style_neff + 1)
+    xmax = float(neff.log10_neff.max()) + 0.1                       # B and C on the same axis
+    fig, axes = plt.subplots(2, 2, figsize=(6.0, 4.4))
+    axes = axes.ravel()
     scatter_fit(axes[0], depth, "msa_raw_depth", "MSA depth (sequences)", (0, 20000),
-                [0, 10000, 20000], "AFDB MSA depth")
-    scatter_fit(axes[1], neff, "log10_neff", "log10(Neff + 1)", (0, float(neff.log10_neff.max()) + 0.1),
-                [0, 1, 2, 3, 4], "Neff (OpenProteinSet)")
-    scatter_fit(axes[2], neff, "neff_per_len", "Neff / length", (0, 60), [0, 20, 40, 60],
+                [0, 5000, 10000, 15000, 20000], "AFDB MSA depth")
+    scatter_fit(axes[1], neff, "log10_neff", "log10(Neff + 1)", (0, xmax), [0, 1, 2, 3], "Neff (OpenProteinSet)")
+    scatter_fit(axes[2], neff, "log10_af2style", "log10(AF2-style Neff + 1)", (0, xmax), [0, 1, 2, 3],
+                "AF2-style Neff (OpenProteinSet)")
+    scatter_fit(axes[3], neff, "neff_per_len", "Neff / length", (0, 60), [0, 20, 40, 60],
                 "Neff per residue")
-    for a, t in zip(axes, "ABC"):
-        letter(a, t, x=-0.2, y=1.04, size=9)
+    for a, t in zip(axes, "ABCD"):
+        letter(a, t, x=-0.17, y=1.03, size=9)
     bottom_legend(fig, PAL, GROUP7, 7, 7)
-    fig.tight_layout(rect=(0, 0.08, 1, 1), w_pad=1.0)
-    fig.savefig(OUT / "figS5_msa_AB.png", dpi=500)
+    fig.tight_layout(rect=(0, 0.04, 1, 1), w_pad=1.0, h_pad=0.8)
+    fig.savefig(OUT / "figS5_msa_ABCD.png", dpi=500)
     plt.close(fig)
 
 
@@ -231,7 +238,13 @@ P_BIN_COLOR = {"universal": "#1b4f72", "eukaryote_wide": "#2e86ab", "kingdom_onl
 def s9():
     df = pd.read_parquet("/path/to/server_data/conservation/panel_strata.parquet")
     df = df[df.tax_group7.isin(P_GROUPS)].copy()
-    df["log10_neff"] = np.log10(df.neff.clip(lower=0) + 1)
+    neff = pd.read_parquet("/path/to/server_data/neff_v6/merged_neff.parquet", columns=["db_accession", "neff", "rep_id"])
+    neff = neff[neff.neff.notna()].drop_duplicates("db_accession")
+    af2 = pd.read_csv("/path/to/server_data/neff_v6_af2style/af2style_neff_by_cluster.tsv", sep="\t", usecols=["rep_id", "af2style_neff"])
+    neff["af2style_neff"] = neff.rep_id.astype("int64").map(af2.set_index("rep_id").af2style_neff)
+    df["af2style_neff"] = df.db_accession.map(neff.set_index("db_accession").af2style_neff)
+    assert df.af2style_neff.notna().sum() == df.neff.notna().sum()
+    df["log10_af2style"] = np.log10(df.af2style_neff.clip(lower=0) + 1)
     fig, axes = plt.subplots(1, 3, figsize=(6.5, 3.0), gridspec_kw={"width_ratios": [1.05, 1.3, 1.3]})
     ax = axes[0]
     bottom = np.zeros(len(P_GROUPS))
@@ -245,7 +258,7 @@ def s9():
     ax.set_ylabel("Fraction of proteins", fontsize=7.5)
     frame(ax, 1.0, 2.5, 7)
     for ax, col, ylabel, ylim in ((axes[1], "plddt_global", "Global pLDDT", (20, 100)),
-                                  (axes[2], "log10_neff", "log10(Neff + 1)", (0, 4.2))):
+                                  (axes[2], "log10_af2style", "log10(AF2-style Neff + 1)", (0, 4.2))):
         width = 0.24
         for gi, g in enumerate(P_GROUPS):
             data, pos = [], []
@@ -281,7 +294,7 @@ def s9():
         s = df[df.tax_group7 == g]
         print(g, len(s), s.panel_bin.value_counts(normalize=True).round(3).to_dict(),
               s.groupby("panel_bin").plddt_global.median().round(1).to_dict(),
-              s.groupby("panel_bin").neff.median().round(0).to_dict(), flush=True)
+              s.groupby("panel_bin").af2style_neff.median().round(0).to_dict(), flush=True)
 
 
 # ---------------------------------------------------------------- Fig. S10

@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """Local figures for the PNAS-formatted concise SI (data already on B:).
 
-  ages      2 x 2: A sel3800 and B sel690 global pLDDT versus log10(Neff + 1) by GenEra age bin; C age composition
+  ages      2 x 2: A sel3800 and B sel690 global pLDDT versus log10(AF2-style Neff + 1) by GenEra age bin; C age composition
             and D global pLDDT by age bin (median, interquartile range) for sel690, sel3800 and the plant proteins
             solved in 2021-2026 (pdb3825, full-length). One age-bin legend for all panels, across the top.
   crops     5 x 2: continuous measures for Arabidopsis, rice, maize and soybean (compare_sets.plot_panels data),
             panels A-J with x and y axis labels
   msa       1 x 2: the two existing MSA-depth scatters (AFDB MSA depth; Neff) side by side, panels A-B
   disorder  2 x 1 stack of the two existing disorder figures (D1 over D2), panels A-D
+  annotation  A UniProt annotation score, B annotation indicators, C Pfam families per protein and D the most
+            frequent best Pfam families of sel3800, sel690 and the full-length pdb3825 proteins (needs
+            parts/annotation_pfam_names.tsv, the InterPro names of the Pfam families shown, written by
+            annotation_pfam_names.py)
 
-Usage: python si_pnas_local.py [ages crops msa disorder]   -> SI_2026/pnas_figures/parts/*.png
+Usage: python si_pnas_local.py [ages crops msa disorder annotation]   -> SI_2026/pnas_figures/parts/*.png
 """
 import sys
 from pathlib import Path
@@ -25,6 +29,7 @@ B = Path(r"/path/to/project")
 OUT = B / "SI_2026" / "pnas_figures" / "parts"
 OUT.mkdir(parents=True, exist_ok=True)
 FIG = B / "template_esm" / "campaign" / "figures"
+FIGS20 = B / "SI_2026" / "datasets" / "Dataset_S17_source_data_SI_figures" / "FigS20"
 PC = B / "SI_2026" / "pdb3825_vs_selections" / "per_protein_comparison.tsv"
 IMG = Path("/path/to/scratch/docx_build/img_cache")
 
@@ -48,26 +53,26 @@ def letter(ax, text, x=-0.12, y=1.03, size=18):
 
 # ---------------------------------------------------------------- 2 x 2 gene age
 def ages():
-    s3800 = pd.read_csv(FIG / "genera_ages_3800" / "sel3800_genera_ages.csv")
-    s690 = pd.read_csv(FIG / "genera_ages_690" / "sel690_genera_ages.csv")
+    s3800 = pd.read_csv(FIGS20 / "sel3800_genera_ages.csv")
+    s690 = pd.read_csv(FIGS20 / "sel690_genera_ages.csv")
     pc = pd.read_csv(PC, sep="\t", low_memory=False)
     pdb = pc[pc.set.eq("pdb3825_full")].rename(columns={"plddt": "plddt_global"})
     plt.rcParams.update({"font.size": 12, "axes.labelsize": 13, "xtick.labelsize": 11.5, "ytick.labelsize": 11.5})
     fig, axes = plt.subplots(2, 2, figsize=(14.4, 11.6))
     counts = {}
     for ax, (tag, df) in zip(axes[0], (("sel3800", s3800), ("sel690", s690))):
-        use = df[df.age_bin.isin(BINS) & df.neff.notna() & df.plddt_global.notna()].copy()
-        use["log10_neff"] = np.log10(use.neff.clip(lower=0) + 1)
+        use = df[df.age_bin.isin(BINS) & df["AF2-style_Neff"].notna() & df.plddt_global.notna()].copy()
+        use["log10_neff"] = np.log10(use["AF2-style_Neff"].clip(lower=0) + 1)
         counts[tag] = {b: int(use.age_bin.eq(b).sum()) for b in BINS}
         for b in BINS:
             piece = use[use.age_bin.eq(b)]
             if len(piece) < 8:
                 continue
             ax.scatter(piece.log10_neff, piece.plddt_global, s=22, alpha=0.7, c=BIN_COLOR[b], linewidths=0)
-        ax.set_xlabel("log10(Neff + 1)")
+        ax.set_xlabel("log10(AF2-style Neff + 1)")
         ax.set_ylabel("Global pLDDT")
         ax.set_ylim(20, 100)
-        ax.set_title(f"AI {tag}: GenEra age and Neff (n = {len(use):,})", fontsize=13)
+        ax.set_title(f"AI {tag}: GenEra age and AF2-style Neff (n = {len(use):,})", fontsize=13)
         style(ax)
     print("A/B counts", counts, flush=True)
 
@@ -255,6 +260,162 @@ def umap():
     plt.close(fig)
 
 
+# ---------------------------------------------------------------- annotation and characterization of the three sets
+ANN_SETS = ["sel3800", "sel690", "pdb3825_full"]
+ANN_SHORT = {"sel3800": "AI\nsel3800", "sel690": "AI\nsel690", "pdb3825_full": "PDB\n2021–26"}
+ANN_LABEL = {"sel3800": "AI sel3800", "sel690": "AI sel690", "pdb3825_full": "PDB 2021–26"}
+SCORE_COLOR = ["#c6dbef", "#9ecae1", "#6baed6", "#3182bd", "#08519c"]            # UniProt annotation score 1-5
+NPF_CATS, NPF_COLOR = ["0", "1", "2", "≥ 3"], ["#d9d9d9", "#c7e9c0", "#74c476", "#238b45"]
+INDICATORS = [("is_reviewed", "Swiss-Prot reviewed"), ("has_function_cc", "Function comment"),
+              ("has_interpro", "InterPro entry"), ("has_pfam", "≥ 1 Pfam domain"), ("has_duf", "DUF domain"),
+              ("uncharacterized", "Uncharacterized"), ("poorly_characterized", "Poorly characterized")]
+N_TOP = 15                       # panel D: up to 15 most frequent best Pfam families per set, never splitting a tie
+
+
+def top_families(counts, max_n=N_TOP):
+    """the most frequent families (value_counts, descending), up to max_n, cut where no tie is split"""
+    n = max_n
+    while 0 < n < len(counts) and counts.iloc[n - 1] == counts.iloc[n]:
+        n -= 1
+    return counts.iloc[:n]
+
+
+def dark(color, alpha=1.0):
+    """True when white text reads better than black on this colour (alpha-blended on white)"""
+    r, g, b = (alpha * int(color[i:i + 2], 16) / 255 + 1 - alpha for i in (1, 3, 5))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b < 0.5
+
+
+def wrap(text, limit=40):
+    """break a long label once, at the space or slash nearest its middle"""
+    if len(text) <= limit:
+        return text
+    i = min((i for i, ch in enumerate(text) if ch in " /"), key=lambda i: abs(i - len(text) / 2))
+    return text[:i + 1] + "\n" + text[i + 1:] if text[i] == "/" else text[:i] + "\n" + text[i + 1:]
+
+
+def annotation():
+    """row 1: A UniProt annotation score, B Pfam families per protein, C annotation features (with the set legend);
+    row 2: D the most frequent best Pfam families of each set; for sel3800, sel690 and the full-length pdb3825
+    proteins (drawn at print size: the 6.0 in text width of the PNAS SI, and short enough to share the page with its
+    legend)"""
+    pc = pd.read_csv(PC, sep="\t", low_memory=False)
+    pf_name = pd.read_csv(OUT / "annotation_pfam_names.tsv", sep="\t").set_index("pfam_name").interpro_name
+    d = {s: pc[pc.set.eq(s)] for s in ANN_SETS}
+    n = {s: len(g) for s, g in d.items()}
+    W, H = 6.0, 5.9
+    plt.rcParams.update({"font.size": 6.5, "axes.labelsize": 7, "xtick.labelsize": 6.5, "ytick.labelsize": 6.5})
+    fig = plt.figure(figsize=(W, H))
+
+    def box(x, y, w, h):                                           # axes position in inches
+        return fig.add_axes([x / W, y / H, w / W, h / H])
+
+    def heading(letter, x, y, title, dx=0.18):                    # bold panel letter, title right after it
+        fig.text(x / W, y / H, letter, fontsize=10, fontweight="bold", ha="left", va="baseline")
+        fig.text((x + dx) / W, y / H, title, fontsize=7, ha="left", va="baseline")
+
+    values = []                                                    # everything plotted -> annotation_ABCD_values.tsv
+    ax_y, ax_h, head_y = 3.65, 1.8, 5.75                           # row-1 axes bottom and height; row-1 headings
+
+    def stacked(ax, shares, cats, colors, panel, title):
+        x = np.arange(len(ANN_SETS))
+        bottom = np.zeros(len(ANN_SETS))
+        for k, (cat, col) in enumerate(zip(cats, colors)):
+            v = np.array([shares[s][k] for s in ANN_SETS])
+            ax.bar(x, v, 0.64, bottom=bottom, color=col, edgecolor="white", linewidth=0.5, label=cat)
+            for i in range(len(x)):
+                if v[i] >= 5:
+                    ax.text(x[i], bottom[i] + v[i] / 2, f"{v[i]:.0f}%", ha="center", va="center", fontsize=5.8,
+                            color="white" if dark(col) else "black")
+            values.extend({"panel": panel, "measure": f"{title}: {cat}", "set": s, "percent": round(vi, 3)}
+                          for s, vi in zip(ANN_SETS, v))
+            bottom += v
+        ax.set_xticks(x, [ANN_SHORT[s] for s in ANN_SETS])
+        ax.tick_params(axis="x", labelsize=6.2)
+        ax.set_xlim(-0.55, len(x) - 0.45)
+        ax.set_ylim(0, 100)
+        ax.set_yticks(range(0, 101, 25))
+        ax.set_ylabel("Proteins (%)")
+        ax.legend(loc="lower left", bbox_to_anchor=(0, 1.02), ncol=len(cats), frameon=False, fontsize=6.0,
+                  handlelength=0.8, handleheight=0.8, handletextpad=0.3, columnspacing=0.6, borderaxespad=0)
+        style(ax, lw=0.8)
+
+    # A, UniProt annotation score (1-5)
+    score = {s: [(g.annotation_score_num == k).mean() * 100 for k in range(1, 6)] for s, g in d.items()}
+    stacked(box(0.47, ax_y, 1.15, ax_h), score, ["1", "2", "3", "4", "5"], SCORE_COLOR, "A",
+            "UniProt annotation score")
+    heading("A", 0.02, head_y, "UniProt annotation score")
+
+    # B, distinct Pfam families per protein
+    v = {s: g.pfam_unique_families for s, g in d.items()}
+    npf = {s: [(x == 0).mean() * 100, (x == 1).mean() * 100, (x == 2).mean() * 100, (x >= 3).mean() * 100]
+           for s, x in v.items()}
+    stacked(box(2.07, ax_y, 1.15, ax_h), npf, NPF_CATS, NPF_COLOR, "B", "Pfam families per protein")
+    heading("B", 1.66, head_y, "Pfam families per protein")
+
+    # C, annotation features (% of proteins), with the set legend under its heading
+    c = box(4.35, ax_y, 1.57, ax_h)
+    off = {"sel3800": 0.28, "sel690": 0.0, "pdb3825_full": -0.28}
+    for gi, (col, lab) in enumerate(INDICATORS):
+        for s in ANN_SETS:
+            v = d[s][col].astype(float).mean() * 100
+            c.barh(-gi + off[s], v, 0.26, color=COLOR[s], edgecolor="none")
+            c.text(v + 1.5, -gi + off[s], f"{v:.1f}", va="center", ha="left", fontsize=5.5)
+            values.append({"panel": "C", "measure": lab, "set": s, "percent": round(v, 3)})
+    c.set_yticks([-i for i in range(len(INDICATORS))], [lab for _, lab in INDICATORS])
+    c.set_ylim(-len(INDICATORS) + 0.5, 0.5)
+    c.axhline(-3.5, color="#bbbbbb", lw=0.6, ls=(0, (3, 2)))          # presence of annotation | lack of it
+    c.set_xlim(0, 118)
+    c.set_xticks(range(0, 101, 25))
+    c.set_xlabel("Proteins (%)")
+    style(c, lw=0.8)
+    c.tick_params(axis="y", length=0)
+    heading("C", 3.3, head_y, "Annotation features")
+    fig.legend([plt.Rectangle((0, 0), 1, 1, color=COLOR[s]) for s in ANN_SETS],
+               [f"{ANN_LABEL[s]} ({n[s]:,} proteins)" for s in ANN_SETS], loc="upper left",
+               bbox_to_anchor=(3.3 / W, (head_y - 0.06) / H), ncol=2, frameon=False, fontsize=5.5, handlelength=0.9,
+               handleheight=0.7, columnspacing=0.8, borderaxespad=0, handletextpad=0.35, labelspacing=0.25)
+
+    # D, the most frequent best Pfam families of each set: a ranked list per set, names on light bars scaled to the
+    # most frequent family of the set, protein counts on the right
+    top = {s: top_families(g.pfam_best_family.dropna().value_counts()) for s, g in d.items()}
+    dx = box(0, 0, W, 3.25)                                        # data coordinates = inches
+    dx.set_xlim(0, W)
+    dx.set_ylim(0, 3.25)
+    dx.set_axis_off()
+    heading("D", 0.02, 3.08, "Most frequent Pfam families of each set (family of the best-scoring domain of each "
+            "protein)")
+    rh, y0, cw, bw = 0.18, 2.78, 1.9, 1.6                           # row height, top of the rows, column, bar width
+    for j, s in enumerate(ANN_SETS):
+        x0 = 0.05 + j * 2.0
+        dx.add_patch(plt.Rectangle((x0, 2.835), 0.09, 0.09, color=COLOR[s], lw=0))
+        dx.text(x0 + 0.14, 2.88, ANN_LABEL[s], fontsize=6.5, fontweight="bold", ha="left", va="center")
+        dx.text(x0 + cw, 2.88, "Proteins", fontsize=5.8, color="#444444", ha="right", va="center")
+        kmax = top[s].max()
+        for i, (fam, k) in enumerate(top[s].items()):
+            yc = y0 - (i + 0.5) * rh
+            dx.add_patch(plt.Rectangle((x0, yc - 0.39 * rh), bw * k / kmax, 0.78 * rh, color=COLOR[s], alpha=0.32,
+                                       lw=0))
+            dx.text(x0 + 0.03, yc, wrap(pf_name[fam], 40), fontsize=5.6, ha="left", va="center", linespacing=0.9)
+            dx.text(x0 + cw, yc, f"{k}", fontsize=5.6, ha="right", va="center")
+            values.append({"panel": "D", "measure": f"best Pfam family {fam} ({pf_name[fam]})", "set": s,
+                           "percent": round(k / n[s] * 100, 3), "proteins": int(k), "rank": i + 1})
+
+    fig.savefig(OUT / "annotation_ABCD.png", dpi=300)
+    fig.savefig(OUT / "annotation_ABCD.pdf")
+    plt.close(fig)
+    pd.DataFrame(values).to_csv(OUT / "annotation_ABCD_values.tsv", sep="\t", index=False)
+
+    # numbers for the caption
+    for s, g in d.items():
+        withpf = g.pfam_best_family.notna()
+        print(f"{s}: n={n[s]:,}  score 1 {score[s][0]:.1f}%  median score {g.annotation_score_num.median():.0f}  "
+              f">= 2 families {npf[s][2] + npf[s][3]:.1f}%  with Pfam {withpf.sum():,}  distinct best families "
+              f"{g.pfam_best_family.nunique():,}  shown {len(top[s])} (>= {top[s].min()} proteins), "
+              f"{top[s].sum() / withpf.sum() * 100:.1f}% of those with Pfam", flush=True)
+        print("   ", list(top[s].index), flush=True)
+
+
 # ---------------------------------------------------------------- image composites
 FONT = ImageFont.truetype("arialbd.ttf", 40)     # half the earlier 80 px (Fig. S8 letters)
 
@@ -297,4 +458,5 @@ def disorder():
 
 if __name__ == "__main__":
     for job in sys.argv[1:] or ["ages", "crops", "msa", "disorder"]:
-        {"ages": ages, "crops": crops, "msa": msa, "disorder": disorder, "v4v6": v4v6, "umap": umap}[job]()
+        {"ages": ages, "crops": crops, "msa": msa, "disorder": disorder, "v4v6": v4v6, "umap": umap,
+         "annotation": annotation}[job]()

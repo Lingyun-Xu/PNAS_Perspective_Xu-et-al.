@@ -1,0 +1,13 @@
+species	rows_of	n	median_Neff	median_Neff_per_len	median_total_sequences	peaks_Neff_per_len	peaks_Neff
+PLANT	all rows	1656	2491.3	10.59	6401.5	4.484 (1.00)	1426 (1.00)
+PLANT	PDB chain, three pooled	1198	4147.8	15.42	13227.0	12.65 (1.00)	2002 (1.00); 7558 (0.56)
+PLANT	UniClust30, single	458	819.7	2.21	1480.5	0.4805 (1.00); 4.965 (0.51)	150.2 (1.00); 1251 (0.55)
+ECOLI	all rows	3678	6920.4	23.54	16741.0	14.57 (1.00)	9159 (1.00)
+ECOLI	PDB chain, three pooled	3677	6920.5	23.55	16742.0	14.57 (1.00)	9159 (1.00)
+ECOLI	UniClust30, single	1	1045.0	2.69	1249.0	n < 30	n < 30
+YEAST	all rows	1835	2699.0	11.58	7052.0	8.008 (1.00); 72.71 (0.06)	1577 (1.00)
+YEAST	PDB chain, three pooled	1819	2719.6	11.69	7288.0	8.168 (1.00); 72.71 (0.06)	1602 (1.00)
+YEAST	UniClust30, single	16	712.3	1.66	1216.5	n < 30	n < 30
+HUMAN	all rows	27752	2696.2	15.88	11749.0	9.61 (1.00); 20.34 (0.89)	150.2 (0.46); 2052 (1.00); 7958 (0.23)
+HUMAN	PDB chain, three pooled	27743	2696.6	15.89	11749.0	9.77 (1.00); 20.34 (0.89)	150.2 (0.46); 2052 (1.00); 7958 (0.23)
+HUMAN	UniClust30, single	9	1276.0	4.95	1674.0	n < 30	n < 30
