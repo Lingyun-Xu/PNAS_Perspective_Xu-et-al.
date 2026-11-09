@@ -1,0 +1,11 @@
+entry	group	organism	source
+HA2	Viruses	Influenza A virus	hemagglutinin HA2 subunit peptide
+arc	Viruses	Salmonella phage P22	Arc repressor
+pin1	Homo	Homo sapiens	Pin1 WW domain
+p53tetS	Homo	Homo sapiens	p53 tetramerization domain
+p53tetS-gabeshortened	Homo	Homo sapiens	p53 tetramerization domain (shortened)
+hYAP65	Homo	Homo sapiens	YAP65 WW domain
+BBL	Bacteria	Escherichia coli	BBL peripheral subunit-binding domain of 2-oxoglutarate dehydrogenase E2
+GCN4	Fungi	Saccharomyces cerevisiae	GCN4 leucine zipper
+GCN4-VNVV	Fungi	Saccharomyces cerevisiae	GCN4 leucine zipper variant
+villin	Other Vertebrata	Gallus gallus	villin headpiece subdomain

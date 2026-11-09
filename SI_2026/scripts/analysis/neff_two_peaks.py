@@ -27,7 +27,7 @@ import pandas as pd
 from scipy.signal import find_peaks
 from scipy.stats import gaussian_kde, spearmanr
 
-D, analysis server, OUT = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3])
+D, SERVER, OUT = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3])
 OUT.mkdir(parents=True, exist_ok=True)
 COL = "AF2-style_Neff"
 SPECIES = {"UP000006548_3702_ARATH": "PLANT", "UP000007305_4577_MAIZE": "PLANT", "UP000008827_3847_SOYBN": "PLANT",
@@ -165,7 +165,7 @@ for col, xmax in MEASURES:
 pd.DataFrame(rows).to_csv(OUT / "same_proteins.tsv", sep="\t", index=False)
 
 # ---------------------------------------------------------------- same chains
-d = pd.read_csv(analysis server / "pdb_af2style.tsv", sep="\t")
+d = pd.read_csv(SERVER / "pdb_af2style.tsv", sep="\t")
 q = d.pivot(index="chain", columns="alignment", values="af2style_neff").dropna()
 print("chains with all three alignments:", len(q), flush=True)
 LAB = {"bfd_uniclust_hits": "HHblits BFD + UniClust30", "uniref90_hits": "JackHMMER UniRef90", "mgnify_hits": "JackHMMER MGnify"}
@@ -179,12 +179,12 @@ pd.DataFrame(rows).to_csv(OUT / "same_chains.tsv", sep="\t", index=False)
 top = q[q.bfd_uniclust_hits >= 800]
 print(f"chains with HHblits AF2-style Neff >= 800: {len(top)}; HHblits IQR {top.bfd_uniclust_hits.quantile(.25):.0f}-{top.bfd_uniclust_hits.quantile(.75):.0f}; "
       f"UniRef90 IQR {top.uniref90_hits.quantile(.25):.0f}-{top.uniref90_hits.quantile(.75):.0f}; Spearman {spearmanr(top.bfd_uniclust_hits, top.uniref90_hits).correlation:.3f}", flush=True)
-cr = pd.read_csv(analysis server / "pdb_rows.tsv", sep="\t")
+cr = pd.read_csv(SERVER / "pdb_rows.tsv", sep="\t")
 edges = [0, 100, 500, 800, 900, 1000, 1100, 1200, 1500, 2000, 3000, 4999, 5000, 5001, 9999, 10000, 10001, 10 ** 9]
 tab = pd.DataFrame({LAB[k]: pd.cut(cr[k][cr[k] >= 0], edges, right=False).value_counts(sort=False) for k in LAB}).rename_axis("rows").reset_index()
 tab.to_csv(OUT / "same_chains_rows.tsv", sep="\t", index=False)
 print(tab.to_string(index=False), flush=True)
-cov = pd.read_csv(analysis server / "uniclust_sample_coverage.tsv", sep="\t")
+cov = pd.read_csv(SERVER / "uniclust_sample_coverage.tsv", sep="\t")
 deep = cov[cov.rows >= 1000]
 print(f"coverage sample {len(cov):,}: alignments with >= 1,000 rows {len(deep):,}; median column with >= 1,000 rows in {(deep.cov_median >= 1000).mean() * 100:.1f}% of them; "
       f"alignments with < 1,000 rows: {(cov[cov.rows < 1000].cov_median >= 1000).sum()}", flush=True)

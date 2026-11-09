@@ -77,6 +77,10 @@ Dataset_S14_published_gene_ages/published_gene_ages_afdb_v6.tsv (+ suite_bin_sum
 Dataset_S15_compared_protein_sets/per_protein_comparison.tsv (+ comparison_statistics.tsv)
     18,556 rows, one per protein of each compared set (sel3800 3,800; sel690 690; pdb3825 full-length 2,644 and
     constructs 3,825; random pool 3,800; random with the sel3800 species mix 3,797), with every measure of Section S7.
+    Embedding measures against the 182,286 unique plant sequences of the AFDB v6 set: d_nearest_plant (pairwise distance
+    to the nearest other plant sequence; Fig. S21I and Table S36), d_mean_plant (mean distance to all other plant
+    sequences; Fig. S21J), both with identical sequences not counted; and, from earlier versions, d_homolog_mean (the
+    same mean including the identical sequence) and n_within_1.0 / 1.5 / 2.0 (plant sequences within these distances).
 
 Dataset_S16_source_data_main_text_figures/   Source data of main-text Figs. 1-3 (Fig. 4a reuses Fig. 3; Fig. 4b is a
     schematic), one folder per figure, located in the original notebooks (README.txt inside lists the files, columns,

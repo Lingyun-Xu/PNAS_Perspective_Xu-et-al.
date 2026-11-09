@@ -1,0 +1,7 @@
+comparison	n plants	n other	median plants	median other	Cliff's delta	p (Mann-Whitney)	p Holm	magnitude
+Viridiplantae vs Animalia	185310	173087	76.3	80.0	-0.1363264361978479	0.0	0.0	negligible
+Viridiplantae vs Fungi	185310	102029	76.3	79.9	-0.13110365515063027	0.0	0.0	negligible
+Viridiplantae vs Bacteria	185310	372312	76.3	93.0	-0.7347501607258422	0.0	0.0	large
+Viridiplantae vs Archaea	185310	19747	76.3	93.71	-0.7764994825249568	0.0	0.0	large
+Viridiplantae vs Protist	185310	58133	76.3	74.19	0.061165951081178394	5.054507293430171e-110	1.0109014586860342e-109	negligible
+Viridiplantae vs Parasitic Worms	185310	81211	76.3	75.15	0.0425138072077762	1.4917307357811955e-68	1.4917307357811955e-68	negligible

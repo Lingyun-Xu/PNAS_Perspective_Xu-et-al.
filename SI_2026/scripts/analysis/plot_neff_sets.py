@@ -23,8 +23,8 @@ OUT, NEFF, PC = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3])
 OUT.mkdir(parents=True, exist_ok=True)
 COL = "AF2-style_Neff"
 SETS = [("sel3800", "AI sel3800", "#d95f02"), ("sel690", "AI sel690", "#e7298a"),
-        ("pdb3825_full", "PDB 2021–26", "#1b9e77"), ("random_matched", "Random, sel3800\nspecies mix", "#7570b3"),
-        ("random_pool", "Random plant\n(no structure)", "#666666")]
+        ("pdb3825_full", "PDB 2021–26", "#1b9e77"), ("random_matched", "Random candidates,\nsel3800 species mix", "#7570b3"),
+        ("random_pool", "Random\ncandidates", "#666666")]
 
 
 def style(ax):  # as in plot_sel690_ages.py

@@ -5,7 +5,7 @@
             and D global pLDDT by age bin (median, interquartile range) for sel690, sel3800 and the plant proteins
             solved in 2021-2026 (pdb3825, full-length). One age-bin legend for all panels, across the top.
   crops     5 x 2: continuous measures for Arabidopsis, rice, maize and soybean (compare_sets.plot_panels data),
-            panels A-J with x and y axis labels
+            panels A-J with titles (the definition of each panel) and y axis units
   msa       1 x 2: the two existing MSA-depth scatters (AFDB MSA depth; Neff) side by side, panels A-B
   disorder  2 x 1 stack of the two existing disorder figures (D1 over D2), panels A-D
   annotation  A UniProt annotation score, B annotation indicators, C Pfam families per protein and D the most
@@ -133,23 +133,27 @@ SHORT = {"sel3800": "AI\nsel3800", "sel690": "AI\nsel690", "pdb3825_full": "PDB 
          "pdb3825_construct": "PDB\nconstruct", "random_matched": "Random,\nmatched", "random_pool": "Random,\nall"}
 COLOR = {"sel3800": "#d95f02", "sel690": "#e6ab02", "pdb3825_full": "#1b9e77", "pdb3825_construct": "#66a61e",
          "random_matched": "#7570b3", "random_pool": "#999999"}
-CONT = [("frac_disordered", "Disordered fraction\n(AIUPred > 0.5)"), ("mean_disorder", "Mean AIUPred score"),
-        ("longest_idr", "Longest disordered\nregion (residues)"), ("length", "Length (residues)"),
-        ("n_plant_homologs", "log10(plant homologs + 1)\nboth ≥ 50% covered"),
-        ("n_plant_homologs_qcov", "log10(plant homologs + 1)\nquery ≥ 50% covered"),
-        ("n_plant_homologs_id40", "log10(plant homologs + 1)\n≥ 40% identity"),
-        ("n_crop4_homologs", "log10(homologs + 1) in\nthe four crop proteomes"),
-        ("n_within_1.5", "log10(plant proteins + 1)\nwithin ESM-2 distance 1.5"),
-        ("d_homolog_mean", "Average homolog distance")]
+CONT = [("frac_disordered", "Disordered fraction (AIUPred > 0.5)", "Fraction"),
+        ("mean_disorder", "Mean AIUPred score", "Score"),
+        ("longest_idr", "Longest disordered region", "Residues"),
+        ("length", "Length", "Residues"),
+        ("n_plant_homologs", "Plant homologs, \u2265 50% coverage of both", "log10(n + 1)"),
+        ("n_plant_homologs_qcov", "Plant homologs, \u2265 50% coverage of the query", "log10(n + 1)"),
+        ("n_plant_homologs_id40", "Plant homologs as in E, \u2265 40% identity", "log10(n + 1)"),
+        ("n_crop4_homologs", "Homologs as in E, in the four plant proteomes", "log10(n + 1)"),
+        ("d_nearest_plant", "Distance to the nearest other plant sequence", "Pairwise distance"),
+        ("d_mean_plant", "Mean distance to all other plant sequences", "Distance")]   # identical sequences excluded
 
 
 def crops():
+    """the six sets, all proteins of each set (since 6 Nov 2026; before, restricted to the four crop species); panel
+    definitions as titles (homologs and embedding measures are counted against the 182,286 unique plant sequences of the
+    AFDB v6 set; Section S7.5). Writes sets_AJ.png"""
     df = pd.read_csv(PC, sep="\t", low_memory=False)
-    df = df[df.crop.notna()]
-    plt.rcParams.update({"font.size": 11.8, "axes.labelsize": 12.3, "xtick.labelsize": 11.2, "ytick.labelsize": 11.2})
-    fig, axes = plt.subplots(5, 2, figsize=(10.8, 13.2))
+    plt.rcParams.update({"font.size": 11.5, "axes.labelsize": 11.5, "xtick.labelsize": 11, "ytick.labelsize": 11})
+    fig, axes = plt.subplots(5, 2, figsize=(10.8, 11.0))      # prints at 6.0 in wide under the caption
     rows = []
-    for k, (ax, (c, ylabel)) in enumerate(zip(axes.flat, CONT)):
+    for k, (ax, (c, title, ylabel)) in enumerate(zip(axes.flat, CONT)):
         sets = [s for s in SETS if s in set(df.set)]
         data = [df.loc[df.set.eq(s), c].dropna().to_numpy(float) for s in sets]
         log = c.startswith("n_")
@@ -161,17 +165,17 @@ def crops():
             patch.set_facecolor(COLOR[sets[i]])
             patch.set_alpha(0.8)
         ax.set_xticks(range(1, len(keep) + 1))
-        ax.set_xticklabels([SHORT[sets[i]] for i in keep], fontsize=10.2)
-        ax.set_xlabel("Protein set")
+        ax.set_xticklabels([SHORT[sets[i]] for i in keep], fontsize=10)
         ax.set_ylabel(ylabel)
+        ax.set_title(title, fontsize=12, loc="left", pad=16)
         top = ax.get_ylim()[1]
         for j, i in enumerate(keep):
-            ax.text(j + 1, top, f"{len(data[i]):,}", ha="center", va="bottom", fontsize=9.1)
+            ax.text(j + 1, top, f"{len(data[i]):,}", ha="center", va="bottom", fontsize=10)
         style(ax)
-        letter(ax, "ABCDEFGHIJ"[k], x=-0.24, y=1.07, size=17)
+        letter(ax, "ABCDEFGHIJ"[k], x=-0.2, y=1.07, size=16)
         rows.append({"panel": "ABCDEFGHIJ"[k], "measure": c, **{SHORT[sets[i]].replace("\n", " "): len(data[i]) for i in keep}})
-    fig.tight_layout(h_pad=1.6, w_pad=2.5)
-    fig.savefig(OUT / "crops_AJ.png", dpi=300)
+    fig.tight_layout(h_pad=1.0, w_pad=2.0)
+    fig.savefig(OUT / "sets_AJ.png", dpi=300)
     plt.close(fig)
     print(pd.DataFrame(rows).to_string(index=False), flush=True)
 

@@ -11,7 +11,7 @@ datasets/     Datasets S1-S17, numbered as in the SI; datasets/README.txt descri
               Dataset_S16_* and Dataset_S17_* have their own README.txt (source data of the main-text and SI figures)
 scripts/      analysis/ (figures and statistics), datasets/ (building the datasets), checks/ (verifications);
               scripts/README.md lists every script
-statistics/   statistics tables behind the SI (tab-separated)
+statistics/   statistics tables behind the SI (tab-separated); main_text_fig1/ holds those of main-text Fig. 1
 ```
 
 ## Large files

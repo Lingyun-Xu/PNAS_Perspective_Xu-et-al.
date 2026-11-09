@@ -1,0 +1,53 @@
+{
+ "retrieved": "2026-11-01T23:02:33",
+ "counts": {
+  "all": 150006383,
+  "Archaea": 1783916,
+  "Bacteria": 74156248,
+  "Eukaryota": 72868924,
+  "Viruses": 1109731,
+  "Fungi": 17542589,
+  "Homo": 210801,
+  "Insecta": 4717526,
+  "Nematoda": 2408710,
+  "Mammalia": 5845239,
+  "Vertebrata": 20805457,
+  "Viridiplantae": 17434591,
+  "Viridiplantae (Swiss-Prot)": 42106,
+  "all (Swiss-Prot)": 575748
+ },
+ "queries": {
+  "all": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=%2A",
+  "Archaea": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A2157",
+  "Bacteria": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A2",
+  "Eukaryota": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A2759",
+  "Viruses": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A10239",
+  "Fungi": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A4751",
+  "Homo": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A9605",
+  "Insecta": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A50557",
+  "Nematoda": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A6231",
+  "Mammalia": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A40674",
+  "Vertebrata": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A7742",
+  "Viridiplantae": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A33090",
+  "Viridiplantae (Swiss-Prot)": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=taxonomy_id%3A33090%20AND%20reviewed%3Atrue",
+  "all (Swiss-Prot)": "https://rest.uniprot.org/uniprotkb/search?size=1&fields=accession&query=reviewed%3Atrue"
+ },
+ "release": "2026_03",
+ "release_date": "02-September-2026",
+ "figure": {
+  "Bacteria": 74156248,
+  "Archaea": 1783916,
+  "Viruses": 1109731,
+  "Fungi": 17542589,
+  "Viridiplantae": 17434591,
+  "Insecta": 4717526,
+  "Mammalia": 5845239,
+  "Other Vertebrata": 14960218,
+  "Other": 12456325
+ },
+ "figure_total": 150006383,
+ "checks": {
+  "sum of categories == all": true,
+  "outside the four superkingdoms": 87564
+ }
+}

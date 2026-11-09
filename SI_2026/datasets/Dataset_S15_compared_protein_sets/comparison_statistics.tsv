@@ -8,6 +8,8 @@ all proteins	Plant homologs (MMseqs2, query >= 50% covered)	sel3800	pdb3825_full
 all proteins	Plant homologs >= 40% identity	sel3800	pdb3825_full	3800	2644	0.0	12.0	-0.744183553626881	0.0	
 all proteins	Homologs in Arabidopsis/rice/maize/soybean	sel3800	pdb3825_full	3800	2644	0.0	11.0	-0.7102526076916952	0.0	
 all proteins	Plant proteins within ESM-2 distance 1.5	sel3800	pdb3825_full	3800	1117	1.0	32.0	-0.734006031192574	0.0	
+all proteins	Distance to the nearest other plant sequence	sel3800	pdb3825_full	3800	1117	1.463832974433899	0.4308666288852691	0.8672902040239363	0.0	
+all proteins	Mean distance to all other plant sequences	sel3800	pdb3825_full	3800	1117	4.157694339752197	3.7397074699401855	0.4239909532111388	3.117131274274198e-103	
 all proteins	Average homolog distance	sel3800	pdb3825_full	3800	1117	4.157671213150024	3.739686965942383	0.4239907176176789	3.1179393060130844e-103	
 all proteins	UniProt annotation score	sel3800	pdb3825_full	3800	2644	1.0	2.0	-0.6752909268253842	0.0	
 all proteins	AFDB v6 global pLDDT	sel3800	pdb3825_full	3800	1117	43.93499946594238	85.44000244140625	-0.983838759836027	0.0	
@@ -31,6 +33,8 @@ all proteins	Plant homologs (MMseqs2, query >= 50% covered)	sel3800	pdb3825_cons
 all proteins	Plant homologs >= 40% identity	sel3800	pdb3825_construct	3800	3825	0.0	11.0	-0.6630691434468524	0.0	
 all proteins	Homologs in Arabidopsis/rice/maize/soybean	sel3800	pdb3825_construct	3800	3825	0.0	10.0	-0.6199767457860337	0.0	
 all proteins	Plant proteins within ESM-2 distance 1.5	sel3800	pdb3825_construct	3800	3825	1.0	15.0	-0.4969797729618163	0.0	
+all proteins	Distance to the nearest other plant sequence	sel3800	pdb3825_construct	3800	3825	1.463832974433899	0.7119709849357605	0.5585365669074647	0.0	
+all proteins	Mean distance to all other plant sequences	sel3800	pdb3825_construct	3800	3825	4.157694339752197	3.84907579421997	0.28079834881320953	4.720280532736875e-100	
 all proteins	Average homolog distance	sel3800	pdb3825_construct	3800	3825	4.157671213150024	3.8490757942199703	0.28078011695906424	4.860808344438883e-100	
 all proteins	AFDB v6 global pLDDT	sel3800	pdb3825_construct	3800	1660	43.93499946594238	84.9800033569336	-0.9856689917564997	0.0	
 all proteins	Has >= 1 Pfam domain	sel3800	pdb3825_construct	3800	3825	30.710526315789473	89.43790849673202		0.0	-58.727382180942556
@@ -42,6 +46,8 @@ all proteins	Plant homologs (MMseqs2, query >= 50% covered)	sel3800	random_match
 all proteins	Plant homologs >= 40% identity	sel3800	random_matched	3800	3797	0.0	5.0	-0.5621745006445531	0.0	
 all proteins	Homologs in Arabidopsis/rice/maize/soybean	sel3800	random_matched	3800	3797	0.0	9.0	-0.5802027916776402	0.0	
 all proteins	Plant proteins within ESM-2 distance 1.5	sel3800	random_matched	3800	3797	1.0	32.0	-0.6652222668866002	0.0	
+all proteins	Distance to the nearest other plant sequence	sel3800	random_matched	3800	3797	1.463832974433899	0.6851294040679932	0.6885480226771827	0.0	
+all proteins	Mean distance to all other plant sequences	sel3800	random_matched	3800	3797	4.157694339752197	3.772481203079224	0.3178117073035498	3.716209205860416e-127	
 all proteins	Average homolog distance	sel3800	random_matched	3800	3797	4.157671213150024	3.772459983825684	0.31781184591713685	3.715275080242138e-127	
 all proteins	AFDB v6 global pLDDT	sel3800	random_matched	3800	3797	43.93499946594238	73.37000274658203	-0.8424475001039602	0.0	
 all proteins	Length (residues)	sel3800	random_pool	3800	3800	176.0	304.0	-0.3022159972299169	3.2263831770480537e-115	
@@ -50,6 +56,8 @@ all proteins	Plant homologs (MMseqs2, query >= 50% covered)	sel3800	random_pool	
 all proteins	Plant homologs >= 40% identity	sel3800	random_pool	3800	3800	0.0	7.0	-0.6283913434903048	0.0	
 all proteins	Homologs in Arabidopsis/rice/maize/soybean	sel3800	random_pool	3800	3800	0.0	11.0	-0.6378643351800555	0.0	
 all proteins	Plant proteins within ESM-2 distance 1.5	sel3800	random_pool	3800	3800	1.0	37.0	-0.6789037396121884	0.0	
+all proteins	Distance to the nearest other plant sequence	sel3800	random_pool	3800	3800	1.463832974433899	0.6096926033496857	0.7185845567867035	0.0	
+all proteins	Mean distance to all other plant sequences	sel3800	random_pool	3800	3800	4.157694339752197	3.7417186498641968	0.361953808864266	2.134415909863948e-164	
 all proteins	Average homolog distance	sel3800	random_pool	3800	3800	4.157671213150024	3.741698145866394	0.36195408587257627	2.1331949805764904e-164	
 all proteins	AFDB v6 global pLDDT	sel3800	random_pool	3800	3800	43.93499946594238	76.53499984741211	-0.888217867036011	0.0	
 all proteins	Disordered fraction (AIUPred > 0.5)	sel690	pdb3825_full	675	2644	0.6756757	0.21802945657694256	0.5163327169832466	1.5444809969718792e-95	
@@ -61,6 +69,8 @@ all proteins	Plant homologs (MMseqs2, query >= 50% covered)	sel690	pdb3825_full	
 all proteins	Plant homologs >= 40% identity	sel690	pdb3825_full	690	2644	0.0	12.0	-0.8017819947817317	1.4770349319011246e-235	
 all proteins	Homologs in Arabidopsis/rice/maize/soybean	sel690	pdb3825_full	690	2644	0.0	11.0	-0.7922027450722445	2.1200535425820612e-229	
 all proteins	Plant proteins within ESM-2 distance 1.5	sel690	pdb3825_full	690	1117	0.0	32.0	-0.8158239591037069	4.634379247911198e-189	
+all proteins	Distance to the nearest other plant sequence	sel690	pdb3825_full	690	1117	1.5327091217041016	0.4308666288852691	0.9017126620217197	3.9622583089188605e-228	
+all proteins	Mean distance to all other plant sequences	sel690	pdb3825_full	690	1117	4.501941204071045	3.7397074699401855	0.633129630350447	1.6936746923514924e-113	
 all proteins	Average homolog distance	sel690	pdb3825_full	690	1117	4.5019166469573975	3.739686965942383	0.633129630350447	1.693675134663532e-113	
 all proteins	UniProt annotation score	sel690	pdb3825_full	690	2644	1.0	2.0	-0.6964974018285864	4.770325752148207e-193	
 all proteins	AFDB v6 global pLDDT	sel690	pdb3825_full	690	1117	35.22999954223633	85.44000244140625	-0.9981407237294513	4.7758306135264615e-279	
@@ -84,6 +94,8 @@ all proteins	Plant homologs (MMseqs2, query >= 50% covered)	sel690	pdb3825_const
 all proteins	Plant homologs >= 40% identity	sel690	pdb3825_construct	690	3825	0.0	11.0	-0.7232217486028227	6.257745240848615e-206	
 all proteins	Homologs in Arabidopsis/rice/maize/soybean	sel690	pdb3825_construct	690	3825	0.0	10.0	-0.7026147579804869	2.7131156573535935e-194	
 all proteins	Plant proteins within ESM-2 distance 1.5	sel690	pdb3825_construct	690	3825	0.0	15.0	-0.5874358245713744	5.0102504370044815e-135	
+all proteins	Distance to the nearest other plant sequence	sel690	pdb3825_construct	690	3825	1.5327091217041016	0.7119709849357605	0.6268292128445581	7.817848273100759e-152	
+all proteins	Mean distance to all other plant sequences	sel690	pdb3825_construct	690	3825	4.501941204071045	3.84907579421997	0.5118976982097188	6.416021252109307e-102	
 all proteins	Average homolog distance	sel690	pdb3825_construct	690	3825	4.5019166469573975	3.8490757942199703	0.5118844368665341	6.4930069667468326e-102	
 all proteins	AFDB v6 global pLDDT	sel690	pdb3825_construct	690	1660	35.22999954223633	84.9800033569336	-0.9986703335079449	0.0	
 all proteins	Has >= 1 Pfam domain	sel690	pdb3825_construct	690	3825	15.942028985507244	89.43790849673202		0.0	-73.49587951122479
@@ -95,6 +107,8 @@ all proteins	Plant homologs (MMseqs2, query >= 50% covered)	sel690	random_matche
 all proteins	Plant homologs >= 40% identity	sel690	random_matched	690	3797	0.0	5.0	-0.6522174256564106	5.012626546372928e-169	
 all proteins	Homologs in Arabidopsis/rice/maize/soybean	sel690	random_matched	690	3797	0.0	9.0	-0.6702495868210219	3.6391803113804467e-177	
 all proteins	Plant proteins within ESM-2 distance 1.5	sel690	random_matched	690	3797	0.0	32.0	-0.7435656677850171	3.464500012433476e-213	
+all proteins	Distance to the nearest other plant sequence	sel690	random_matched	690	3797	1.5327091217041016	0.6851294040679932	0.7604455080860939	3.070066225534433e-222	
+all proteins	Mean distance to all other plant sequences	sel690	random_matched	690	3797	4.501941204071045	3.772481203079224	0.5087780971247324	1.359776930922211e-100	
 all proteins	Average homolog distance	sel690	random_matched	690	3797	4.5019166469573975	3.772459983825684	0.5087784788143195	1.3593135652355266e-100	
 all proteins	AFDB v6 global pLDDT	sel690	random_matched	690	3797	35.22999954223633	73.37000274658203	-0.9610688071818713	0.0	
 all proteins	Length (residues)	sel690	random_pool	690	3800	178.0	304.0	-0.3046994660564455	3.0393470033284894e-37	
@@ -103,6 +117,8 @@ all proteins	Plant homologs (MMseqs2, query >= 50% covered)	sel690	random_pool	6
 all proteins	Plant homologs >= 40% identity	sel690	random_pool	690	3800	0.0	7.0	-0.7099549961861175	4.265391528319001e-198	
 all proteins	Homologs in Arabidopsis/rice/maize/soybean	sel690	random_pool	690	3800	0.0	11.0	-0.7229847444698703	2.1980332101481474e-204	
 all proteins	Plant proteins within ESM-2 distance 1.5	sel690	random_pool	690	3800	0.0	37.0	-0.7556300533943554	4.668381546292221e-220	
+all proteins	Distance to the nearest other plant sequence	sel690	random_pool	690	3800	1.5327091217041016	0.6096926033496857	0.7826926010678872	2.4597920179516643e-235	
+all proteins	Mean distance to all other plant sequences	sel690	random_pool	690	3800	4.501941204071045	3.7417186498641968	0.5563264683447751	6.625358660759919e-120	
 all proteins	Average homolog distance	sel690	random_pool	690	3800	4.5019166469573975	3.741698145866394	0.5563272311212815	6.620427352745767e-120	
 all proteins	AFDB v6 global pLDDT	sel690	random_pool	690	3800	35.22999954223633	76.53499984741211	-0.9738966437833715	0.0	
 Arabidopsis/rice/maize/soybean	Disordered fraction (AIUPred > 0.5)	sel3800	pdb3825_full	3740	876	0.5958904	0.18394199785177226	0.529894330085708	3.117081008435857e-132	
@@ -114,6 +130,8 @@ Arabidopsis/rice/maize/soybean	Plant homologs (MMseqs2, query >= 50% covered)	se
 Arabidopsis/rice/maize/soybean	Plant homologs >= 40% identity	sel3800	pdb3825_full	3742	876	0.0	13.0	-0.8868856299832336	0.0	
 Arabidopsis/rice/maize/soybean	Homologs in Arabidopsis/rice/maize/soybean	sel3800	pdb3825_full	3742	876	0.0	13.0	-0.8492592416332926	0.0	
 Arabidopsis/rice/maize/soybean	Plant proteins within ESM-2 distance 1.5	sel3800	pdb3825_full	3742	820	1.0	27.0	-0.7394493618907327	3.16472426791996e-256	
+Arabidopsis/rice/maize/soybean	Distance to the nearest other plant sequence	sel3800	pdb3825_full	3742	820	1.4636361598968506	0.42661346495151514	0.9035861871178841	0.0	
+Arabidopsis/rice/maize/soybean	Mean distance to all other plant sequences	sel3800	pdb3825_full	3742	820	4.157694339752197	3.711285948753357	0.44653243993690594	1.784809537886332e-89	
 Arabidopsis/rice/maize/soybean	Average homolog distance	sel3800	pdb3825_full	3742	820	4.157671213150024	3.7112656831741333	0.446532114038404	1.7853348692710523e-89	
 Arabidopsis/rice/maize/soybean	UniProt annotation score	sel3800	pdb3825_full	3742	876	1.0	4.0	-0.8810720099377912	0.0	
 Arabidopsis/rice/maize/soybean	AFDB v6 global pLDDT	sel3800	pdb3825_full	3742	820	43.900001525878906	84.13000106811523	-0.9806771519078098	0.0	
@@ -137,6 +155,8 @@ Arabidopsis/rice/maize/soybean	Plant homologs (MMseqs2, query >= 50% covered)	se
 Arabidopsis/rice/maize/soybean	Plant homologs >= 40% identity	sel3800	pdb3825_construct	3742	1277	0.0	11.0	-0.7566002460168746	0.0	
 Arabidopsis/rice/maize/soybean	Homologs in Arabidopsis/rice/maize/soybean	sel3800	pdb3825_construct	3742	1277	0.0	13.0	-0.7305255126363023	0.0	
 Arabidopsis/rice/maize/soybean	Plant proteins within ESM-2 distance 1.5	sel3800	pdb3825_construct	3742	1277	1.0	15.0	-0.5272060426900802	4.5178509511209796e-185	
+Arabidopsis/rice/maize/soybean	Distance to the nearest other plant sequence	sel3800	pdb3825_construct	3742	1277	1.4636361598968506	0.5444211363792419	0.6201284745488889	8.193959510674454e-241	
+Arabidopsis/rice/maize/soybean	Mean distance to all other plant sequences	sel3800	pdb3825_construct	3742	1277	4.157694339752197	3.761950731277466	0.332469958359614	1.278651042526099e-70	
 Arabidopsis/rice/maize/soybean	Average homolog distance	sel3800	pdb3825_construct	3742	1277	4.157671213150024	3.761950731277466	0.3324548909770235	1.2971321889555328e-70	
 Arabidopsis/rice/maize/soybean	AFDB v6 global pLDDT	sel3800	pdb3825_construct	3742	1187	43.900001525878906	83.0199966430664	-0.9819587037012856	0.0	
 Arabidopsis/rice/maize/soybean	Has >= 1 Pfam domain	sel3800	pdb3825_construct	3742	1277	30.22447888829503	93.65700861393891		0.0	-63.43252972564388
@@ -148,6 +168,8 @@ Arabidopsis/rice/maize/soybean	Plant homologs (MMseqs2, query >= 50% covered)	se
 Arabidopsis/rice/maize/soybean	Plant homologs >= 40% identity	sel3800	random_matched	3742	3742	0.0	5.0	-0.5614466036363055	0.0	
 Arabidopsis/rice/maize/soybean	Homologs in Arabidopsis/rice/maize/soybean	sel3800	random_matched	3742	3742	0.0	9.0	-0.579938788353333	0.0	
 Arabidopsis/rice/maize/soybean	Plant proteins within ESM-2 distance 1.5	sel3800	random_matched	3742	3742	1.0	32.0	-0.6656003143424305	0.0	
+Arabidopsis/rice/maize/soybean	Distance to the nearest other plant sequence	sel3800	random_matched	3742	3742	1.4636361598968506	0.6886794567108154	0.6908199812548617	0.0	
+Arabidopsis/rice/maize/soybean	Mean distance to all other plant sequences	sel3800	random_matched	3742	3742	4.157694339752197	3.7695966958999634	0.31874391004390334	5.101479093349559e-126	
 Arabidopsis/rice/maize/soybean	Average homolog distance	sel3800	random_matched	3742	3742	4.157671213150024	3.769575834274292	0.3187440528748877	5.100173544001576e-126	
 Arabidopsis/rice/maize/soybean	AFDB v6 global pLDDT	sel3800	random_matched	3742	3742	43.900001525878906	73.23999786376953	-0.8419847964986984	0.0	
 Arabidopsis/rice/maize/soybean	Length (residues)	sel3800	random_pool	3742	3453	175.0	306.0	-0.3170118455620663	9.551004619977958e-120	
@@ -156,6 +178,8 @@ Arabidopsis/rice/maize/soybean	Plant homologs (MMseqs2, query >= 50% covered)	se
 Arabidopsis/rice/maize/soybean	Plant homologs >= 40% identity	sel3800	random_pool	3742	3453	0.0	5.0	-0.603280085651978	0.0	
 Arabidopsis/rice/maize/soybean	Homologs in Arabidopsis/rice/maize/soybean	sel3800	random_pool	3742	3453	0.0	11.0	-0.6284684477188753	0.0	
 Arabidopsis/rice/maize/soybean	Plant proteins within ESM-2 distance 1.5	sel3800	random_pool	3742	3453	1.0	32.0	-0.6649153487087736	0.0	
+Arabidopsis/rice/maize/soybean	Distance to the nearest other plant sequence	sel3800	random_pool	3742	3453	1.4636361598968506	0.6411339044570923	0.7060759255810987	0.0	
+Arabidopsis/rice/maize/soybean	Mean distance to all other plant sequences	sel3800	random_pool	3742	3453	4.157694339752197	3.7202811241149902	0.3748378430796202	1.2918062845420746e-166	
 Arabidopsis/rice/maize/soybean	Average homolog distance	sel3800	random_pool	3742	3453	4.157671213150024	3.720259666442871	0.37483815265016385	1.290998002761183e-166	
 Arabidopsis/rice/maize/soybean	AFDB v6 global pLDDT	sel3800	random_pool	3742	3453	43.900001525878906	75.2699966430664	-0.8815047543070162	0.0	
 Arabidopsis/rice/maize/soybean	Disordered fraction (AIUPred > 0.5)	sel690	pdb3825_full	675	876	0.6756757	0.18394199785177226	0.563267376966007	6.534668045991534e-81	
@@ -167,6 +191,8 @@ Arabidopsis/rice/maize/soybean	Plant homologs (MMseqs2, query >= 50% covered)	se
 Arabidopsis/rice/maize/soybean	Plant homologs >= 40% identity	sel690	pdb3825_full	677	876	0.0	13.0	-0.9451818727531481	3.7192852664280286e-233	
 Arabidopsis/rice/maize/soybean	Homologs in Arabidopsis/rice/maize/soybean	sel690	pdb3825_full	677	876	0.0	13.0	-0.9264145471223434	7.89010424823585e-223	
 Arabidopsis/rice/maize/soybean	Plant proteins within ESM-2 distance 1.5	sel690	pdb3825_full	677	820	0.0	27.0	-0.8244010519868862	7.615233396268862e-169	
+Arabidopsis/rice/maize/soybean	Distance to the nearest other plant sequence	sel690	pdb3825_full	677	820	1.5315364599227903	0.42661346495151514	0.9359657023453543	8.314348065784632e-214	
+Arabidopsis/rice/maize/soybean	Mean distance to all other plant sequences	sel690	pdb3825_full	677	820	4.511834621429443	3.711285948753357	0.6425874554166517	7.68072166340579e-102	
 Arabidopsis/rice/maize/soybean	Average homolog distance	sel690	pdb3825_full	677	820	4.511810302734375	3.7112656831741333	0.6425874554166517	7.68072166340579e-102	
 Arabidopsis/rice/maize/soybean	UniProt annotation score	sel690	pdb3825_full	677	876	1.0	4.0	-0.8898511429014656	1.062041212364783e-226	
 Arabidopsis/rice/maize/soybean	AFDB v6 global pLDDT	sel690	pdb3825_full	677	820	35.18000030517578	84.13000106811523	-0.9977339049609107	1.140454805367658e-242	
@@ -190,6 +216,8 @@ Arabidopsis/rice/maize/soybean	Plant homologs (MMseqs2, query >= 50% covered)	se
 Arabidopsis/rice/maize/soybean	Plant homologs >= 40% identity	sel690	pdb3825_construct	677	1277	0.0	11.0	-0.81559323053362	9.452845962549871e-202	
 Arabidopsis/rice/maize/soybean	Homologs in Arabidopsis/rice/maize/soybean	sel690	pdb3825_construct	677	1277	0.0	13.0	-0.8066669828311138	4.03912105759504e-196	
 Arabidopsis/rice/maize/soybean	Plant proteins within ESM-2 distance 1.5	sel690	pdb3825_construct	677	1277	0.0	15.0	-0.6151441999053819	1.0862204325052204e-113	
+Arabidopsis/rice/maize/soybean	Distance to the nearest other plant sequence	sel690	pdb3825_construct	677	1277	1.5315364599227903	0.5444211363792419	0.6766239189200132	4.193982917877898e-134	
+Arabidopsis/rice/maize/soybean	Mean distance to all other plant sequences	sel690	pdb3825_construct	677	1277	4.511834621429443	3.761950731277466	0.5338710442333341	3.2001310687637044e-84	
 Arabidopsis/rice/maize/soybean	Average homolog distance	sel690	pdb3825_construct	677	1277	4.511810302734375	3.761950731277466	0.5338490669485929	3.2504640246017264e-84	
 Arabidopsis/rice/maize/soybean	AFDB v6 global pLDDT	sel690	pdb3825_construct	677	1187	35.18000030517578	83.0199966430664	-0.9983225464441843	3.9061220230463636e-282	
 Arabidopsis/rice/maize/soybean	Has >= 1 Pfam domain	sel690	pdb3825_construct	677	1277	15.214180206794683	93.65700861393891		1.5379648049571306e-286	-78.44282840714423
@@ -201,6 +229,8 @@ Arabidopsis/rice/maize/soybean	Plant homologs (MMseqs2, query >= 50% covered)	se
 Arabidopsis/rice/maize/soybean	Plant homologs >= 40% identity	sel690	random_matched	677	3742	0.0	5.0	-0.6519539073805507	6.304312340510785e-166	
 Arabidopsis/rice/maize/soybean	Homologs in Arabidopsis/rice/maize/soybean	sel690	random_matched	677	3742	0.0	9.0	-0.6681041662883773	7.543147966610455e-173	
 Arabidopsis/rice/maize/soybean	Plant proteins within ESM-2 distance 1.5	sel690	random_matched	677	3742	0.0	32.0	-0.7431428307518866	4.2301762836917757e-209	
+Arabidopsis/rice/maize/soybean	Distance to the nearest other plant sequence	sel690	random_matched	677	3742	1.5315364599227903	0.6886794567108154	0.7656092722080863	3.492961314667547e-221	
+Arabidopsis/rice/maize/soybean	Mean distance to all other plant sequences	sel690	random_matched	677	3742	4.511834621429443	3.7695966958999634	0.5096134185227845	4.058866128047479e-99	
 Arabidopsis/rice/maize/soybean	Average homolog distance	sel690	random_matched	677	3742	4.511810302734375	3.769575834274292	0.5096138132595229	4.057459315321684e-99	
 Arabidopsis/rice/maize/soybean	AFDB v6 global pLDDT	sel690	random_matched	677	3742	35.18000030517578	73.23999786376953	-0.9612044838935568	0.0	
 Arabidopsis/rice/maize/soybean	Length (residues)	sel690	random_pool	677	3453	177.0	306.0	-0.3204038532203496	8.598752817129651e-40	
@@ -209,5 +239,7 @@ Arabidopsis/rice/maize/soybean	Plant homologs (MMseqs2, query >= 50% covered)	se
 Arabidopsis/rice/maize/soybean	Plant homologs >= 40% identity	sel690	random_pool	677	3453	0.0	5.0	-0.6902956391398142	1.6633587670432143e-182	
 Arabidopsis/rice/maize/soybean	Homologs in Arabidopsis/rice/maize/soybean	sel690	random_pool	677	3453	0.0	11.0	-0.712228486264807	8.99937071377224e-193	
 Arabidopsis/rice/maize/soybean	Plant proteins within ESM-2 distance 1.5	sel690	random_pool	677	3453	0.0	32.0	-0.7428147809731096	2.388412445386051e-206	
+Arabidopsis/rice/maize/soybean	Distance to the nearest other plant sequence	sel690	random_pool	677	3453	1.5315364599227903	0.6411339044570923	0.7762252420240401	1.9062582970486282e-224	
+Arabidopsis/rice/maize/soybean	Mean distance to all other plant sequences	sel690	random_pool	677	3453	4.511834621429443	3.7202811241149902	0.564646331129012	1.004468634251078e-119	
 Arabidopsis/rice/maize/soybean	Average homolog distance	sel690	random_pool	677	3453	4.511810302734375	3.720259666442871	0.5646471866777374	1.0036437043396784e-119	
 Arabidopsis/rice/maize/soybean	AFDB v6 global pLDDT	sel690	random_pool	677	3453	35.18000030517578	75.2699966430664	-0.9725959187759151	0.0	
