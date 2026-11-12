@@ -68,8 +68,15 @@ Dataset_S13_homolog_class/panel_strata.parquet (+ panel_bin_summary.csv)
     554,943 proteins of the 47 proteomes: panel_bin (homolog class), best_outgroup_evalue (MMseqs2), plddt_global, neff,
     AF2-style_Neff, frac_disordered, tax_group7, proteome, family_flag, polyploid_proteome.
 Dataset_S14_published_gene_ages/published_gene_ages_afdb_v6.tsv (+ suite_bin_summary.csv)
-    190,434 proteins of 8 species: published GenEra gene ages joined to AFDB v6 by UniProt accession: phylostratum, rank,
-    taxonomic_representativeness, age_bin, plddt_global, neff, AF2-style_Neff, frac_disordered.
+    210,457 proteins of 9 species: published gene ages joined to AFDB v6 by UniProt accession: phylostratum, rank,
+    taxonomic_representativeness, age_bin, plddt_global, neff, AF2-style_Neff, frac_disordered. The GenEra maps of
+    eight species (Barrera-Redondo et al. 2023; 190,434 proteins) and, as source 'Lotharukpong 2023', the human map
+    of the phylomapr R package (Homo_sapiens.PhyloMap; GenEra, DIAMOND sensitive mode; numbered phylostrata only;
+    20,023 proteins): rank k is named after the k-th of the 28 GenEra phylostrata of the human NCBI lineage
+    (cellular organisms ... Homo sapiens; Craniata, Teleostomi and the genus omitted, as GenEra does; the same in
+    all six NCBI Taxonomy releases checked, January 2019 to October 2026) and binned with the same code as the
+    other species (Fig. S8; scripts figS8_published_ages_9species.py and table_s19_human.py). The human map has no
+    taxonomic representativeness values (column empty).
     genera_balanced_sample_ages.csv (+ genera_balanced_sample_summary.csv): our GenEra ages (v1.4.3; NCBI nr of
     1 October 2026) of the balanced sample of 50 random proteins per proteome (seed 20261009), 2,306 proteins with a
     GenEra result: proteome, gene, organism, group, phylostratum, rank, taxonomic representativeness, age bin, pLDDT,

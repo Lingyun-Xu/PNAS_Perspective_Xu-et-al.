@@ -13,8 +13,11 @@ Current main text (rebuttal, November 2026) -> source data (Table S36 of SI_PNAS
   Fig. 2d, 2e       Fig2d/, Fig2e/
   Fig. 3            Dataset S17 FigS13/evaluation_distances.parquet (base_3800, real_3800, ai_3800, d_average_homolog),
                     no folder here
-  Fig. 4            Fig3/    Fig3f-j_thermostability.tsv.gz (a-e), Fig3k-o_MaveDB.tsv.gz (f-j), Fig3p-t_mdCATH.tsv.gz
-                    (k-o): the thermostability, MaveDB and mdCATH rows of the first version of Fig. 3
+  Fig. 4 (AFDB v6)  Fig4_AFDB_v6/  Fig4_v6_source_data.tsv.gz (a-o), Fig4_v6_selected_candidates.tsv.gz,
+                    Fig4_v6_summary.tsv (November 2026; candidate pool of main-text Fig. 3)
+  Fig. 4 (first version, AFDB v4 plant sequences)  Fig3/  Fig3f-j_thermostability.tsv.gz (a-e),
+                    Fig3k-o_MaveDB.tsv.gz (f-j), Fig3p-t_mdCATH.tsv.gz (k-o): the thermostability, MaveDB and
+                    mdCATH rows of the first version of Fig. 3
   Fig. 5            schematic, no data
 The folders Fig1a, Fig1b_Fig1h-k, Fig1c and Fig1d-g, the panel a and b counts of Fig2/Fig2_plotted_counts.tsv,
 Fig2b/unique_protein_sequences.json.gz and Fig3/Fig3a-e*, Fig3b* hold the source data of the first version of the
@@ -127,3 +130,28 @@ Fig3/   free-energy maps of the plant proteins (nearest-reference distance versu
   The round-17 and round-0 tensors of panels a and c are identical to the earlier copies of these files.
 
 Fig. 4  a reuses the maps of Fig. 3a-e (source data above); b is a schematic without data.
+
+Fig4_AFDB_v6/   main-text Fig. 4 recomputed on the AFDB v6 candidate pool of main-text Fig. 3 (179,596 unique sequences of
+                the AFDB v6 Viridiplantae proteins without a SIFTS-mapped PDB chain; SI Section S3). Selection as in the
+                first version: score = nearest template distance / average homolog distance (no pLDDT term); per round
+                the top 500 (thermostability, mdCATH) or 50 (MaveDB) candidates move into the template pool; panels show
+                rounds 0, 1 and 20 (40 for MaveDB). Distances: Euclidean between ESM-2 (650M) mean embeddings (layer
+                33, sequences truncated at 1,022 residues). Template pools:
+                  thermostability  1,778,010 unique sequences: FireProtDB wild types (242), every protein sequence of
+                                   the 1,841,285 rows of mega-scale Dataset 1 (DNA translated, SAGG linker padding
+                                   removed; 1,734,297) with the 3,138 sequences found only in Datasets 2 and 3, and the
+                                   Meltome Atlas proteins (40,381)
+                  thermostability (Datasets 2 and 3 only)  the pool of the first version: FireProtDB, mega-scale
+                                   Datasets 2 and 3 (740,697) and Meltome Atlas, 781,273 unique sequences (comparison)
+                  MaveDB           1,170 unique target sequences (export of 14 November 2024)
+                  mdCATH           5,398 domains (ATOM-record sequences of the CATH v4.2.0 S20 non-redundant set)
+  Fig4_v6_source_data.tsv.gz  row, round (0, 1, last), candidate_slot (position in candidates of the run), seq_id,
+                              nearest_template_distance (x), average_homolog_distance (y; mean distance to the other
+                              candidates still in the pool, own zero distance excluded), for every candidate still in
+                              the pool in that round
+  Fig4_v6_selected_candidates.tsv.gz  the selected candidates: row, round, rank_in_round, seq_id,
+                              representative_accession, organism_scientific, plddt (AFDB v6 global), score, d_min,
+                              d_avg (at selection)
+  Fig4_v6_summary.tsv         per panel: candidates, median and mean nearest template distance, shares within 1.9 and
+                              1.0, median homolog distance, points outside the plotted range, share brought closer
+                              than in round 0
