@@ -57,8 +57,8 @@ Fig. S4  AF2 (AFDB v6) versus ESMFold pLDDT
      esmfold_plddt, tax_group7; 92,385 proteins.
 
 Fig. S5  Global pLDDT versus alignment depth
-  -> Dataset S10 (merged_neff.parquet): msa_raw_depth (A, AFDB MSA depth), neff (B, plotted as log10(neff + 1)),
-     AF2-style_Neff (C, plotted as log10(AF2-style_Neff + 1)), neff_per_len (D), plddt_global, tax_group7.
+  -> Dataset S10 (merged_neff.parquet): msa_raw_depth (A, number of sequences in the AFDB MSA), AF2-style_Neff (B,
+     plotted as log10(AF2-style_Neff + 1)), AF2-style_Neff / query_length (C, Neff/length), plddt_global, tax_group7.
 
 Figs. S6 and S7  Template distance and nearest-PDB distance
   FigS06_S07/template_distances.parquet  991,829 proteins of the merged AFDB v6 set: plddt_global, tax_group7, in_pdb (the
@@ -164,12 +164,12 @@ Figs. S15-S18  HHsearch and Foldseek top hits before and after additions
 
 Fig. S19  Alignment depth of the compared sets
   FigS19/neff_sets.tsv        14,731 set members (sel3800, sel690, full-length pdb3825, two random sets): AF2-style_Neff and
-                              log10_AF2-style_Neff (plotted), neff and log10_neff (empty when the protein has no alignment)
-  FigS19/neff_sets_tests.tsv  the values of Table S33 (AF2-style Neff), and the same for Neff
+                              log10_AF2-style_Neff (plotted; empty when the protein has no alignment)
+  FigS19/neff_sets_tests.tsv  the values of Table S33 (AF2-style Neff)
 
 Fig. S20  Gene age of the selections
   FigS20/sel3800_genera_ages.csv, sel690_genera_ages.csv  GenEra phylostratum, rank, taxonomic representativeness,
-                                                           age_bin, plddt_global, neff, AF2-style_Neff (A, B),
+                                                           age_bin, plddt_global, AF2-style_Neff (A, B),
                                                            frac_disordered
   -> pdb3825 ages and the other set measures: Dataset S15.
 

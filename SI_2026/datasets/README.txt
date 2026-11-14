@@ -4,10 +4,17 @@ Datasets of the Supporting Information (PNAS manuscript 2026-25352)
 One file or folder per dataset, numbered as in the SI (Datasets S1-S17). All tables are copies of the files of the original analysis;
 files copied between machines were checked by MD5 after transfer. Tab-separated unless .parquet, .csv or .xlsx.
 
+Alignment depth: the SI reports Neff as defined in the AlphaFold2 paper (column AF2-style_Neff) and Neff/length
+(AF2-style_Neff / query_length). The whole-alignment Neff (columns neff, neff_per_len, neff_uniclust30, log10_neff and
+their summaries) was removed from all datasets on 13 November 2026 (scripts/drop_wholealignment_neff.py; the earlier
+files are in the repository history). The source data of the first version of main-text Fig. 1 (Dataset S16,
+Fig1b_Fig1h-k) keep their original columns. msa_raw_depth is the number of sequences in the AFDB MSA as given by AFDB
+(msa_depths.csv): a row count of the alignment, not the MSA depth (Neff) of the AlphaFold2 paper.
+
 Dataset_S1_original_selection_850.xlsx   Original AI-guided selection (main-text Fig. 3): 850 proteins, with the 50 of
                                           round 18 (900 rows; sheet README explains the columns).
   Dataset_S1_extras/original_selection_900_replayed.tsv   the same 900 rows as a TSV.
-Dataset_S2_sel3800.xlsx                   sel3800, with annotation, Pfam domains, disorder, Neff, AF2-style Neff and gene age.
+Dataset_S2_sel3800.xlsx                   sel3800, with annotation, Pfam domains, disorder, AF2-style Neff and gene age.
 Dataset_S3_sel690.xlsx                    sel690, same columns.
 
 Dataset_S4_AFDB_v4_48_proteomes/AF2_48_model_oganisms.parquet
@@ -41,8 +48,8 @@ Dataset_S9_PDB_RCSB_API_2024-12-31/fetch_API_for_PDB20241231_seq_and_posi_123024
 
 Dataset_S10_alignment_depth/merged_neff.parquet
     991,829 proteins of the merged AFDB v6 set (47 proteomes + Swiss-Prot): db_accession, afdb_entry_id, length,
-    tax_group7, source, plddt_global, msa_raw_depth (AFDB MSA depth), neff and neff_per_len (OpenProteinSet UniClust30
-    alignments; 80% identity), AF2-style_Neff (the same alignments, as defined in the AlphaFold2 paper: 80% identity
+    tax_group7, source, plddt_global, msa_raw_depth (number of sequences in the AFDB MSA), AF2-style_Neff (Neff of the
+    OpenProteinSet UniClust30 alignments, as defined in the AlphaFold2 paper: 80% identity
     over the region non-gap in either row, effective count per column, median over columns;
     scripts/fetch_af2style_neff.py), n_sequences, query_length, representative / rep_id / how / pident / qcov (how
     each protein received its alignment), has_msa.
@@ -65,11 +72,11 @@ Dataset_S12_disorder/merged_per_protein.parquet (+ D1_binned.csv, D2_per_proteom
     adopt_subset_merged.csv (ADOPT disorder for a stratified subset of 18,160 proteins) and the ADOPT part of
     summary.txt; kept for a possible further check with a second predictor.
 Dataset_S13_homolog_class/panel_strata.parquet (+ panel_bin_summary.csv)
-    554,943 proteins of the 47 proteomes: panel_bin (homolog class), best_outgroup_evalue (MMseqs2), plddt_global, neff,
+    554,943 proteins of the 47 proteomes: panel_bin (homolog class), best_outgroup_evalue (MMseqs2), plddt_global,
     AF2-style_Neff, frac_disordered, tax_group7, proteome, family_flag, polyploid_proteome.
 Dataset_S14_published_gene_ages/published_gene_ages_afdb_v6.tsv (+ suite_bin_summary.csv)
     210,457 proteins of 9 species: published gene ages joined to AFDB v6 by UniProt accession: phylostratum, rank,
-    taxonomic_representativeness, age_bin, plddt_global, neff, AF2-style_Neff, frac_disordered. The GenEra maps of
+    taxonomic_representativeness, age_bin, plddt_global, AF2-style_Neff, frac_disordered. The GenEra maps of
     eight species (Barrera-Redondo et al. 2023; 190,434 proteins) and, as source 'Lotharukpong 2023', the human map
     of the phylomapr R package (Homo_sapiens.PhyloMap; GenEra, DIAMOND sensitive mode; numbered phylostrata only;
     20,023 proteins): rank k is named after the k-th of the 28 GenEra phylostrata of the human NCBI lineage
@@ -80,7 +87,7 @@ Dataset_S14_published_gene_ages/published_gene_ages_afdb_v6.tsv (+ suite_bin_sum
     genera_balanced_sample_ages.csv (+ genera_balanced_sample_summary.csv): our GenEra ages (v1.4.3; NCBI nr of
     1 October 2026) of the balanced sample of 50 random proteins per proteome (seed 20261009), 2,306 proteins with a
     GenEra result: proteome, gene, organism, group, phylostratum, rank, taxonomic representativeness, age bin, pLDDT,
-    Neff, AF2-style Neff, disordered fraction.
+    AF2-style Neff, disordered fraction.
 Dataset_S15_compared_protein_sets/per_protein_comparison.tsv (+ comparison_statistics.tsv)
     18,556 rows, one per protein of each compared set (sel3800 3,800; sel690 690; pdb3825 full-length 2,644 and
     constructs 3,825; random pool 3,800; random with the sel3800 species mix 3,797), with every measure of Section S7.

@@ -1,0 +1,9 @@
+measure	comparison	n	statistic	effect	effect_name	p	median_Arabidopsis	median_soybean	median_rice	median_maize	median_plants	median_other	p_holm
+Neff/length (AF2-style Neff / query length)	Kruskal-Wallis across groups	988021	261186.0113798652	0.26435295983873325	epsilon^2	0.0							
+Neff/length (AF2-style Neff / query length)	Kruskal-Wallis among plant proteomes	164029	8711.46768430106	0.053109637892927185	epsilon^2	0.0	2.085136627906977	2.11917322515213	0.7241379310344828	1.5431530494821635			
+Neff/length (AF2-style Neff / query length)	Viridiplantae vs Archaea	203087		-0.570303335409095	Cliff's delta (plants vs other)	0.0					1.7836289587812633	4.6168581609195405	0.0
+Neff/length (AF2-style Neff / query length)	Viridiplantae vs Bacteria	555612		-0.5737366272578983	Cliff's delta (plants vs other)	0.0					1.7836289587812633	4.527851458885942	0.0
+Neff/length (AF2-style Neff / query length)	Viridiplantae vs Protist	241396		0.21490382315241718	Cliff's delta (plants vs other)	0.0					1.7836289587812633	0.7464393089139398	0.0
+Neff/length (AF2-style Neff / query length)	Viridiplantae vs Fungi	285347		0.00016283156559815382	Cliff's delta (plants vs other)	0.9424408536857574					1.7836289587812633	1.8170180722891567	1.0
+Neff/length (AF2-style Neff / query length)	Viridiplantae vs Animalia	355547		0.0007669650739061673	Cliff's delta (plants vs other)	0.6922088692802704					1.7836289587812633	1.6892099999999999	1.0
+Neff/length (AF2-style Neff / query length)	Viridiplantae vs Parasitic worms	263752		0.1263216675698331	Cliff's delta (plants vs other)	0.0					1.7836289587812633	1.153590429920956	0.0

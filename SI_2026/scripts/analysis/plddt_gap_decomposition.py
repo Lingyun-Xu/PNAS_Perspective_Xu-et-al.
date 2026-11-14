@@ -14,7 +14,10 @@ Proteins: AFDB v6 entries of the 47 proteomes without their own PDB structure, w
 (plants: Arabidopsis, rice, soybean; animals: mouse, fly, C. elegans; fungi: budding and fission yeast).
 Uncertainty: 200 bootstrap samples of proteins (main runs). Checks (point estimates): coefficients from plants only or
 from G only; no length in the model.
-Usage: python plddt_gap_decomposition.py <out_dir>"""
+Alignment depth (second argument): neff (default since 13 Nov 2026, author request) = log10(AF2-style Neff + 1) of the
+OpenProteinSet alignment assigned to the protein (Dataset S10), proteins without an assigned alignment left out;
+count = log10 of the number of sequences in the AFDB MSA (msa_depths.csv; the version of Table S24 until 13 Nov 2026).
+Usage: python plddt_gap_decomposition.py <out_dir> [neff|count] [bootstrap samples, default 200]"""
 import sys
 from pathlib import Path
 
@@ -26,7 +29,9 @@ D = Path("/path/to/project/SI_2026/datasets")
 out = Path(sys.argv[1])
 out.mkdir(parents=True, exist_ok=True)
 rng = np.random.default_rng(20261102)
-B = 200
+DEPTH = sys.argv[2] if len(sys.argv) > 2 else "neff"
+assert DEPTH in ("neff", "count"), DEPTH
+B = int(sys.argv[3]) if len(sys.argv) > 3 else 200
 AGES = ["all_life", "eukaryotes", "kingdom_only", "family", "species"]
 FACTORS = [("template distance", "d_template_min"), ("alignment depth", "log_depth"), ("disorder", "frac_disordered"),
            ("length", "log_len")]
@@ -39,9 +44,16 @@ td = pd.read_parquet(D / "Dataset_S17_source_data_SI_figures/FigS06_S07/template
                      columns=["db_accession", "in_pdb", "d_template_min", "tax_group7"])
 df = dis.merge(td, on="db_accession", how="inner")
 df["group"] = df.tax_group7.replace({"Parasitic Worms": "Parasitic worms"})
-df = df[~df.in_pdb.astype(bool) & np.isfinite(df.d_template_min) & df.msa_raw_depth.notna()
-        & df.frac_disordered.notna()].copy()
-df["log_depth"] = np.log10(df.msa_raw_depth.clip(lower=1))
+if DEPTH == "neff":
+    nf = pd.read_parquet(D / "Dataset_S10_alignment_depth/merged_neff.parquet", columns=["db_accession", "AF2-style_Neff"])
+    nf = nf[nf["AF2-style_Neff"].notna()].drop_duplicates("db_accession")
+    df = df.merge(nf, on="db_accession", how="left")
+    has_depth = df["AF2-style_Neff"].notna()
+else:
+    has_depth = df.msa_raw_depth.notna()
+df = df[~df.in_pdb.astype(bool) & np.isfinite(df.d_template_min) & has_depth & df.frac_disordered.notna()].copy()
+df["log_depth"] = (np.log10(df["AF2-style_Neff"] + 1) if DEPTH == "neff" else np.log10(df.msa_raw_depth.clip(lower=1)))
+print(f"alignment depth: {DEPTH}; proteins: {len(df):,}", flush=True)
 df["log_len"] = np.log10(df.length)
 age = pd.read_csv(D / "Dataset_S14_published_gene_ages/published_gene_ages_afdb_v6.tsv", sep="\t",
                   usecols=["db_accession", "proteome", "age_bin"]).drop_duplicates("db_accession")
@@ -95,7 +107,7 @@ def run(run_id, label, protein_set, d, outcome, with_age, boot=True):
          "mean plants": float(d.loc[d.group == "Viridiplantae", outcome].mean()),
          "mean other": float(d.loc[d.group != "Viridiplantae", outcome].mean())}
     r.update(est)
-    if boot:
+    if boot and B > 0:
         bt = []
         for _ in range(B):
             i = rng.integers(0, len(d), len(d))
@@ -114,7 +126,8 @@ def run(run_id, label, protein_set, d, outcome, with_age, boot=True):
     for g, part in d.groupby("group"):
         medians.append({"run": run_id, "group": g, "n": len(part), "median pLDDT": part[outcome].median(),
                         "median template distance": part.d_template_min.median(),
-                        "median MSA depth": part.msa_raw_depth.median(),
+                        **({"median Neff": part["AF2-style_Neff"].median()} if DEPTH == "neff"
+                           else {"median MSA depth": part.msa_raw_depth.median()}),
                         "median disordered fraction": part.frac_disordered.median(),
                         "median length": part.length.median()})
     print(run_id, label, {k: round(v, 2) for k, v in est.items()}, flush=True)

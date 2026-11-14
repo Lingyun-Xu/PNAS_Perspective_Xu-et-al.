@@ -1,0 +1,19 @@
+measure	subset	n	rho	ci_low	ci_high	p	statistic	p_holm
+pLDDT vs Neff/length (AF2-style)	Archaea	19743.0	0.07031398464925367	0.05558557115755088	0.08501180436432212	4.535433805977569e-23		
+pLDDT vs Neff/length (AF2-style)	Bacteria	372268.0	0.08012194506625361	0.07673774752188801	0.08350429652061904	0.0		
+pLDDT vs Neff/length (AF2-style)	Protist	58052.0	0.702770656102011	0.6983798784928295	0.7071085386643449	0.0		
+pLDDT vs Neff/length (AF2-style)	Fungi	102003.0	0.6833827057195259	0.6799000689961839	0.6868345154255722	0.0		
+pLDDT vs Neff/length (AF2-style)	Animalia	172203.0	0.6097973809491667	0.6066428771008004	0.6129326820017335	0.0		
+pLDDT vs Neff/length (AF2-style)	Parasitic worms	80408.0	0.6097329516109956	0.6051094303646647	0.6143153465874082	0.0		
+pLDDT vs Neff/length (AF2-style)	Viridiplantae	183344.0	0.5694629024504686	0.5661752036955331	0.572732482888852	0.0		
+pLDDT vs Neff/length (AF2-style)	plant: Arabidopsis	27401.0	0.5672079868520837	0.558633889792449	0.5756608680041171	0.0		
+pLDDT vs Neff/length (AF2-style)	plant: soybean	55794.0	0.5282234390747585	0.5218523401630046	0.5345356105453255	0.0		
+pLDDT vs Neff/length (AF2-style)	plant: rice	43641.0	0.6941806982766018	0.6889921185166608	0.6992981274886355	0.0		
+pLDDT vs Neff/length (AF2-style)	plant: maize	37193.0	0.5274852785430382	0.5196654117216667	0.5352167741481617	0.0		
+pLDDT vs Neff/length (AF2-style)	Viridiplantae vs Archaea (Fisher z)					0.0	72.57875789777302	0.0
+pLDDT vs Neff/length (AF2-style)	Viridiplantae vs Bacteria (Fisher z)					0.0	187.2904156632873	0.0
+pLDDT vs Neff/length (AF2-style)	Viridiplantae vs Protist (Fisher z)					0.0	-44.77346962327576	0.0
+pLDDT vs Neff/length (AF2-style)	Viridiplantae vs Fungi (Fisher z)					0.0	-45.57504601745538	0.0
+pLDDT vs Neff/length (AF2-style)	Viridiplantae vs Animalia (Fisher z)					9.263668074556827e-68	-17.39336239093304	1.8527336149113653e-67
+pLDDT vs Neff/length (AF2-style)	Viridiplantae vs Parasitic worms (Fisher z)					3.528230165181605e-43	-13.776531024691039	3.528230165181605e-43
+pLDDT vs Neff/length (AF2-style)	heterogeneity among plant proteomes (Cochran Q)					0.0	1926.5118636762961	

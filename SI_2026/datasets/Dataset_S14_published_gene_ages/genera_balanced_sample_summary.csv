@@ -1,29 +1,29 @@
-group,bin,n,fraction,plddt_median,neff_median,af2style_median
-Viridiplantae,all_life,106,0.5408,82.61,1371.9,1096.6
-Viridiplantae,eukaryotes,21,0.1071,65.57,482.7,385.8
-Viridiplantae,kingdom_only,52,0.2653,66.83,181.9,168.9
-Viridiplantae,family_or_genus,17,0.0867,59.84,2.2,2.0
-Animalia,all_life,176,0.5906,82.53,1328.0,1083.7
-Animalia,eukaryotes,26,0.0872,67.37,149.0,138.6
-Animalia,kingdom_only,82,0.2752,68.68,312.2,238.4
-Animalia,family_or_genus,14,0.047,72.45,74.2,82.2
-Parasitic Worms,all_life,162,0.485,82.08,1401.1,1092.0
-Parasitic Worms,eukaryotes,32,0.0958,73.82,622.1,563.6
-Parasitic Worms,kingdom_only,95,0.2844,66.46,151.5,112.3
-Parasitic Worms,family_or_genus,45,0.1347,55.26,4.0,3.0
-Fungi,all_life,283,0.7128,81.88,1431.0,1054.8
-Fungi,eukaryotes,27,0.068,70.5,487.2,484.6
-Fungi,kingdom_only,48,0.1209,75.06,948.5,778.1
-Fungi,family_or_genus,39,0.0982,53.42,1.0,1.0
-Protist,all_life,112,0.448,80.28,1379.8,1126.5
-Protist,eukaryotes,27,0.108,71.51,361.6,265.5
-Protist,kingdom_only,32,0.128,60.26,26.4,17.3
-Protist,family_or_genus,79,0.316,57.34,9.3,8.0
-Bacteria,all_life,573,0.766,92.67,1629.0,1279.0
-Bacteria,eukaryotes,0,0.0,,,
-Bacteria,kingdom_only,162,0.2166,84.85,420.9,378.1
-Bacteria,family_or_genus,13,0.0174,72.42,14.6,15.0
-Archaea,all_life,45,0.9,91.4,1399.0,1187.5
-Archaea,eukaryotes,0,0.0,,,
-Archaea,kingdom_only,3,0.06,81.41,385.0,110.2
-Archaea,family_or_genus,2,0.04,72.19,819.0,650.8
+group,bin,n,fraction,plddt_median,af2style_median
+Viridiplantae,all_life,106,0.5408,82.61,1096.6
+Viridiplantae,eukaryotes,21,0.1071,65.57,385.8
+Viridiplantae,kingdom_only,52,0.2653,66.83,168.9
+Viridiplantae,family_or_genus,17,0.0867,59.84,2.0
+Animalia,all_life,176,0.5906,82.53,1083.7
+Animalia,eukaryotes,26,0.0872,67.37,138.6
+Animalia,kingdom_only,82,0.2752,68.68,238.4
+Animalia,family_or_genus,14,0.047,72.45,82.2
+Parasitic Worms,all_life,162,0.485,82.08,1092.0
+Parasitic Worms,eukaryotes,32,0.0958,73.82,563.6
+Parasitic Worms,kingdom_only,95,0.2844,66.46,112.3
+Parasitic Worms,family_or_genus,45,0.1347,55.26,3.0
+Fungi,all_life,283,0.7128,81.88,1054.8
+Fungi,eukaryotes,27,0.068,70.5,484.6
+Fungi,kingdom_only,48,0.1209,75.06,778.1
+Fungi,family_or_genus,39,0.0982,53.42,1.0
+Protist,all_life,112,0.448,80.28,1126.5
+Protist,eukaryotes,27,0.108,71.51,265.5
+Protist,kingdom_only,32,0.128,60.26,17.3
+Protist,family_or_genus,79,0.316,57.34,8.0
+Bacteria,all_life,573,0.766,92.67,1279.0
+Bacteria,eukaryotes,0,0.0,,
+Bacteria,kingdom_only,162,0.2166,84.85,378.1
+Bacteria,family_or_genus,13,0.0174,72.42,15.0
+Archaea,all_life,45,0.9,91.4,1187.5
+Archaea,eukaryotes,0,0.0,,
+Archaea,kingdom_only,3,0.06,81.41,110.2
+Archaea,family_or_genus,2,0.04,72.19,650.8
